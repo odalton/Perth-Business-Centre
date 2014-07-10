@@ -109,6 +109,11 @@ $tabs-border: #bbb;
 // Partials to be shared with all .scss files.
 // =============================================================================
 
+// Add the bourbon libs and grid frameworks.
+@import "bourbon/bourbon";
+@import "neat/neat";
+@import "base/base"; //bitters folder
+
 // Add Compass' IE and vendor prefix support variables.
 @import "compass/support";
 // Better than Drupal's clearfix.
