@@ -1,0 +1,4 @@
+name = HBC Hero Banner
+description = Hero banner block for hbc website
+core = 7.x
+package = "Hedland Business Centre"

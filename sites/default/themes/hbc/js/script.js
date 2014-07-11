@@ -13,14 +13,47 @@
 (function ($, Drupal, window, document, undefined) {
 
 
-// To understand behaviors, see https://drupal.org/node/756722#behaviors
-Drupal.behaviors.my_custom_behavior = {
-  attach: function(context, settings) {
+  // Mobile menu functionality
+  Drupal.behaviors.hbc_mobile_menu = {
+    attach: function(context, settings) {
 
-    // Place your code here.
+      var $menu = $('#block-menu-block-1', context); // Mobile menu block
+      var $menu_btn = $('.block-title', $menu); // Title / toggle button
+      var $menu_items = $('.menu-block-wrapper',$menu); // Menu item wrapper
+      var $expanded = $('.menu-block-wrapper>.menu>.expanded>a',$menu); // Menu item
 
-  }
-};
+
+
+      $expanded.click(function(e){
+        // If this menu item is not expanded.
+        if(!$(this).hasClass('menu-item-open')){
+          // Close any expanded menu items
+          $('.menu-item-open').next('.menu').slideUp();
+          // Remove class from closed menu items
+          $expanded.removeClass('menu-item-open');
+          // Stop default behaviour if item not expanded
+          e.preventDefault();
+          // Slide Menu item open and add class
+          $(this).next('.menu').slideToggle();
+          $(this).addClass('menu-item-open');
+        }
+
+      });
+
+      // Menu button click.
+      $menu_btn.click(function(){
+        // Close all open menu items when closing menu
+        $('.menu-item-open',context).next('.menu').slideUp();
+        // Remove class on menu items after closing them
+        $expanded.removeClass('menu-item-open');
+        // Open and close menu
+        $menu_items.stop(false,false).slideToggle();
+        // Add or remove class on menu
+        $menu.toggleClass('menu-open');
+      });
+
+    }
+  };
 
 
 })(jQuery, Drupal, this, this.document);

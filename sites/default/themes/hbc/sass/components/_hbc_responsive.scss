@@ -1,0 +1,83 @@
+
+
+@include media($tiny-mobile-width) {
+  @include responsive-bar(red, 'hello');
+  #block-tb-megamenu-main-menu {
+    display: none;
+  }
+
+}
+
+@include media($small-mobile-width) {
+  @include responsive-bar(orange, 'hello');
+  #block-menu-block-1 {
+    display: block;
+  }
+
+  #block-tb-megamenu-main-menu {
+    display: none;
+  }
+
+}
+
+@include media($medium-mobile-width) {
+  @include responsive-bar(yellow, 'hello');
+  #block-menu-block-1 {
+    display: block;
+  }
+
+  #block-tb-megamenu-main-menu {
+    display: none;
+  }
+
+}
+
+@include media($large-mobile-width) {
+  @include responsive-bar(green, 'hello');
+  #block-menu-block-1 {
+    display: block;
+  }
+//  @include responsive-bar('green');
+  #block-tb-megamenu-main-menu {
+    display: none;
+  }
+}
+
+@include media($tablet-width) {
+  @include responsive-bar(blue, 'hello');
+  #block-menu-block-1 {
+    display: block;
+  }
+  #block-tb-megamenu-main-menu {
+    display: none;
+  }
+}
+
+@include media($main-menu-break) {
+  @include responsive-bar(violet, 'hello');
+  #block-menu-block-1 {
+    display: none;
+  }
+  #block-tb-megamenu-main-menu {
+    display: block;
+  }
+
+}
+
+@include media($desktop-width) {
+  @include responsive-bar(purple, 'hello');
+}
+
+@include media($monitor-width) {
+  @include responsive-bar(pink, 'hello');
+}
+
+
+//$small-mobile-width: 320px;
+//$medium-mobile-width: 480px;
+//$large-mobile-width: 595px;
+//$tablet-width: 768px;
+//$main-menu-break: 980px;
+//$desktop-width: 1024px;
+//$monitor-width: 1920px;
+//$monitor-width: 1920px;

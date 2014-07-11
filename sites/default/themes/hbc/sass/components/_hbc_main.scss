@@ -1,0 +1,51 @@
+// Body Styles.
+body {
+  margin:0px;
+}
+
+body.front {
+  #page-title {
+    position: absolute;
+    left:-9999px;
+  }
+}
+
+//Header Mobile.
+.header-mobile {
+  @include outer-container;
+  border: solid 1px #000;
+  height: 50px;
+}
+
+// Header Styles.
+.header {
+  @include outer-container;
+  border: solid 1px #000;
+  padding:0px !important;
+}
+
+// Navigation Styles.
+#navigation {
+  @include outer-container;
+  border: solid 1px #000;
+  padding:0px;
+//  margin:0px;
+}
+
+// Main Styles.
+#main {
+  @include outer-container;
+  border: solid 1px #000;
+}
+
+// Content Styles.
+#content {
+  @include outer-container;
+  border: solid 1px #000;
+}
+
+// Footer Styles.
+#footer {
+  @include outer-container;
+  border: solid 1px #000;
+}

@@ -13,7 +13,7 @@
 
 screenshot  = screenshot.png
 name        = Hedland Business Centre Theme.
-description = A theme for the perth business centre.
+description = ( Please Do Not Delete or Disable This Theme. ) A theme for the Hedland Business Centre.
 
 
 
@@ -66,7 +66,7 @@ stylesheets[all][] = css/styles.css
 
 ; Optionally add some JavaScripts to your theme.
 
-;scripts[] = js/script.js
+scripts[] = js/script.js
 
 
 
@@ -85,6 +85,7 @@ stylesheets[all][] = css/styles.css
 ; And you'll use this variable in maintenance-page.tpl.php:
 ;   <?php print $header_top; ?>
 
+regions[header_mobile]  = Header Mobile
 regions[header]         = Header
 regions[navigation]     = Navigation bar
 regions[highlighted]    = Highlighted

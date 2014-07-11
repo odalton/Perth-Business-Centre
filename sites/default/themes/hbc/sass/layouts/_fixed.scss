@@ -36,9 +36,9 @@ $zen-auto-include-item-base: false;
  */
 #page,
 .region-bottom {
-  margin-left: auto;
-  margin-right: auto;
-  width: $zen-grid-width;
+//  margin-left: auto;
+//  margin-right: auto;
+//  width: $zen-grid-width;
 }
 
 /* Apply the shared properties of grid items in a single, efficient ruleset. */
@@ -49,21 +49,21 @@ $zen-auto-include-item-base: false;
 .region-sidebar-second,
 #footer {
   // See the note about $zen-auto-include-item-base above.
-  @include zen-grid-item-base();
+//  @include zen-grid-item-base();
 }
 
 /* Containers for grid items and flow items. */
 #header,
 #main,
 #footer {
-  @include zen-grid-container();
+//  @include zen-grid-container();
 }
 
 /* Navigation bar */
 #main {
   /* Move all the children of #main down to make room. */
-  padding-top: $nav-height;
-  position: relative;
+//  padding-top: $nav-height;
+//  position: relative;
 }
 #navigation {
   /* Move the navbar up inside #main's padding. */

@@ -1,0 +1,114 @@
+<?php
+
+/**
+ * Implements hook_block_info().
+ */
+function biante_hero_banner_block_info() {
+  // Hero banner carousel block.
+  $blocks['biante_hero_banner'] = array(
+    'info' => t('Biante Hero Banner'),
+    'cache' => DRUPAL_NO_CACHE
+  );
+  return $blocks;
+}
+/**
+ * Implements hook_block_view().
+ */
+function biante_hero_banner_block_view($delta = '') {
+  // This example is adapted from node.module.
+  $block = array();
+
+  switch ($delta) {
+    // Hero banner carousel block.
+    case 'biante_hero_banner':
+      // Path the module.
+      $base_path = drupal_get_path('module', 'biante_hero_banner');
+      // Add Owl Carousel plugin js and css.
+      drupal_add_js('sites/all/libraries/owl-carousel/owl-carousel/owl.carousel.min.js');
+      drupal_add_css('sites/all/libraries/owl-carousel/owl-carousel/owl.carousel.css');
+      // Add custom js.
+      drupal_add_js($base_path . '/js/biante_hero_banner.js');
+
+      $block['subject'] = '';
+      $block['content'] = array(
+        '#theme' => 'biante_hero_banner',
+        '#slides' => biante_hero_banner_nodes(),
+      );
+      break;
+
+  }
+  return $block;
+}
+
+
+/**
+ * Implements hook_custom_theme().
+ */
+function biante_hero_banner_theme() {
+
+  return array(
+    // Hero banner block theme.
+    'biante_hero_banner' => array(
+      'template' => 'templates/biante_hero_banner',
+      'variables' => array(
+        'slides' => null,
+      ),
+    ),
+
+  );
+}
+
+
+// Custom function to return all the hero banner nodes.
+function biante_hero_banner_nodes(){
+
+  // Empty array to return later.
+  $out = array();
+  $items = array();
+
+  $query = new EntityFieldQuery();
+  $query->entityCondition('entity_type', 'node') // Query nodes.
+    ->entityCondition('bundle', 'hero_banner') // Hero banner content type.
+    ->addMetaData('account', user_load(1)); // Run the query as user 1.
+  $result = $query->execute(); // Execute that funky function.
+
+  if (isset($result['node'])) {
+    // Returned node IDs.
+    $nids = array_keys($result['node']);
+    // Load the nodes with provided nids.
+    $items = entity_load('node', $nids);
+  }
+  // If there are nodes.
+  if (!empty($items)) {
+    foreach ($items as $k => $v) {
+
+      $out[$k]['title'] =  $v->title; // Node title.
+      // Weather or not to show the title.
+      $out[$k]['show_title'] = $v->field_show_title['und'][0]['value'];
+      // Node body.
+      $out[$k]['body'] = (isset($v->body['und'][0]['safe_value'])
+        ? $v->body['und'][0]['safe_value']
+        : '');
+      // The hero image.
+      $out[$k]['image'] = $v->field_image['und'][0]['uri'];
+      // CTA title.
+      $out[$k]['cta']['title'] = (
+      isset($v->field_call_to_action['und'][0]['title'])
+        ? $v->field_call_to_action['und'][0]['title']
+        : '');
+      // CTA link.
+      $out[$k]['cta']['url'] = (
+      isset($v->field_call_to_action['und'][0]['url'])
+        ? $v->field_call_to_action['und'][0]['url']
+        : '');
+      // What pages to display the hero image on.
+      // Has not been implemented yet as im not sure
+      // if the hero banner is on multiple pages.
+      $out[$k]['display'] = (
+      isset($v ->field_page_display['und'][0]['value'])
+        ? $v->field_page_display['und'][0]['value']
+        : '');
+    }
+  }
+  return $out;
+}
