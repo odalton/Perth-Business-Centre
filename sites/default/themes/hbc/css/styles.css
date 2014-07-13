@@ -1465,12 +1465,33 @@ body.front #page-title {
   max-width: 68em;
   margin-left: auto;
   margin-right: auto;
-  margin-top: 15px;
   margin-bottom: 15px;
   padding: 0px !important;
 }
+/* line 39, ../sass/components/_hbc_main.scss */
+.header #block-hbc-header-hbc-header-logo {
+  float: left;
+  display: block;
+  margin-right: 2.35765%;
+  width: 48.82117%;
+}
+/* line 38, ../sass/neat/grid/_span-columns.scss */
+.header #block-hbc-header-hbc-header-logo:last-child {
+  margin-right: 0;
+}
+/* line 43, ../sass/components/_hbc_main.scss */
+.header #block-hbc-header-hbc-header-contact {
+  float: left;
+  display: block;
+  margin-right: 2.35765%;
+  width: 48.82117%;
+}
+/* line 38, ../sass/neat/grid/_span-columns.scss */
+.header #block-hbc-header-hbc-header-contact:last-child {
+  margin-right: 0;
+}
 
-/* line 42, ../sass/components/_hbc_main.scss */
+/* line 49, ../sass/components/_hbc_main.scss */
 #navigation {
   overflow: hidden;
   *zoom: 1;
@@ -1478,10 +1499,11 @@ body.front #page-title {
   margin-left: auto;
   margin-right: auto;
   overflow: inherit;
+  margin-top: 30px;
   padding: 0px;
 }
 
-/* line 49, ../sass/components/_hbc_main.scss */
+/* line 57, ../sass/components/_hbc_main.scss */
 #main {
   overflow: hidden;
   *zoom: 1;
@@ -1490,7 +1512,7 @@ body.front #page-title {
   margin-right: auto;
 }
 
-/* line 54, ../sass/components/_hbc_main.scss */
+/* line 62, ../sass/components/_hbc_main.scss */
 #content {
   overflow: hidden;
   *zoom: 1;
@@ -1498,7 +1520,7 @@ body.front #page-title {
   margin-left: auto;
   margin-right: auto;
 }
-/* line 56, ../sass/components/_hbc_main.scss */
+/* line 64, ../sass/components/_hbc_main.scss */
 #content .node {
   float: left;
   display: block;
@@ -1509,7 +1531,7 @@ body.front #page-title {
 #content .node:last-child {
   margin-right: 0;
 }
-/* line 59, ../sass/components/_hbc_main.scss */
+/* line 67, ../sass/components/_hbc_main.scss */
 #content #block-webform-client-block-1 {
   float: left;
   display: block;
@@ -1521,7 +1543,7 @@ body.front #page-title {
   margin-right: 0;
 }
 
-/* line 65, ../sass/components/_hbc_main.scss */
+/* line 73, ../sass/components/_hbc_main.scss */
 #footer {
   overflow: hidden;
   *zoom: 1;
@@ -2101,12 +2123,12 @@ body.front #page-title {
     color: #000;
   }
 
-  /* line 113, ../sass/components/_hbc_responsive.scss */
+  /* line 112, ../sass/components/_hbc_responsive.scss */
   #block-menu-block-1 {
     display: none;
   }
 
-  /* line 116, ../sass/components/_hbc_responsive.scss */
+  /* line 115, ../sass/components/_hbc_responsive.scss */
   #block-tb-megamenu-main-menu {
     display: block;
   }

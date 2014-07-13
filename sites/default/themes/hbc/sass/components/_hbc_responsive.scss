@@ -104,7 +104,6 @@
   #block-tb-megamenu-main-menu {
     display: none;
   }
-
   @include add-carousel-copy();
 }
 
@@ -124,6 +123,7 @@
 @include media($desktop-width) {
   @include responsive-bar(purple, 'hello');
   @include add-carousel-copy();
+
 }
 
 @include media($monitor-width) {

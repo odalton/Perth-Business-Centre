@@ -1,0 +1,4 @@
+name = HBC Header.
+description = Adds contact information to the Header Region into a Block.
+core = 7.x
+package = "Hedland Business Centre"

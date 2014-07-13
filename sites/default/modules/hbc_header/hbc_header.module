@@ -1,0 +1,72 @@
+<?php
+
+/**
+ * Implements hook_block_info().
+ */
+function hbc_header_block_info() {
+  // Hero banner carousel block.
+  $blocks['hbc_header_contact'] = array(
+    'info' => t('HBC Contact Header Block.'),
+    'cache' => DRUPAL_NO_CACHE
+  );
+
+  $blocks['hbc_header_logo'] = array(
+    'info' => t('HBC Logo Header Block.'),
+    'cache' => DRUPAL_NO_CACHE
+  );
+  return $blocks;
+}
+
+/**
+ * Implements hook_block_view().
+ */
+function hbc_header_block_view($delta = '') {
+  // This example is adapted from node.module.
+  $block = array();
+
+  switch ($delta) {
+
+    case 'hbc_header_logo':
+      $base_path = drupal_get_path('module', 'hbc_header');
+
+      // Path the module.
+      $block['subject'] = '';
+      $block['content'] = array(
+        '#theme' => 'hbc_header_logo',
+        '#logo'  => 'logo.png',
+      );
+      break;
+
+    case 'hbc_header_contact':
+      // Path the module.
+      $block['subject'] = '';
+      $block['content'] = array(
+        '#theme' => 'hbc_header_contact'
+      );
+      break;
+
+  }
+  return $block;
+}
+
+/**
+ * Implements hook_custom_theme().
+ */
+function hbc_header_theme() {
+
+  return array(
+    'hbc_header_logo' => array(
+      'template' => 'templates/hbc_header_logo',
+      'variables' => array(
+        'logo' => null,
+      ),
+    ),
+
+    'hbc_header_contact' => array(
+      'template' => 'templates/hbc_header_contact',
+      'variables' => array(
+      ),
+    ),
+
+  );
+}

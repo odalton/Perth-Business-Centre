@@ -33,15 +33,23 @@ body.front {
 // Header Styles.
 .header {
   @include outer-container;
-  margin-top:15px;
   margin-bottom: 15px;
   padding:0px !important;
+
+  #block-hbc-header-hbc-header-logo {
+    @include span-columns(6);
+  }
+
+  #block-hbc-header-hbc-header-contact {
+    @include span-columns(6);
+  }
 }
 
 // Navigation Styles.
 #navigation {
   @include outer-container;
   overflow: inherit;
+  margin-top:30px;
   padding:0px;
 }
 
