@@ -1,19 +1,19 @@
 <div id="hero-banner-carousel" class="owl-carousel">
-
 <?php
 // For each slide.
 foreach ($slides as $slide):
-    // Banner image image style.
-    $img_style = image_style_url('banner_image', $slide['image']);
-    // Renderable image.
+//    // Banner image image style.
+    $img_style = image_style_url('hbc_hero_banner', $slide['image']);
+//    // Renderable image.
     $img = theme('image', array( 'path' => $img_style, ));
     print '<div class="slide">';
     print $img;
-    // If show title is checked, show that title.
-    if ($slide['show_title'] == 1) {
-        print '<div class="slide-title"><p>'.t($slide['title']).'</p></div>';
-    }
+//    // If show title is checked, show that title.
+//    if ($slide['show_title'] == 1) {
+    print '<div class="slide-title"><p>'.t($slide['title']).'</p></div>';
+//    }
     print '<div class="slide-body">'.$slide['body'].'</div>';
+    print '<div class="slide-cta-wrapper">';
     print l(
         $slide['cta']['title'], $slide['cta']['url'], array(
             'attributes' => array(
@@ -21,9 +21,10 @@ foreach ($slides as $slide):
             )
         )
     );
-
+    print "</div>";
+//
     print '</div>';
-
+//
 endforeach;
 ?>
 </div>

@@ -1,6 +1,16 @@
 // Body Styles.
 body {
+  font-family: $latoregular;
+  background-image: image-url('bg.png');
   margin:0px;
+
+  #page {
+    border-top:5px solid red;
+    max-width: 1160px;
+    margin:0 auto;
+    background-color: #fff;
+  }
+
 }
 
 body.front {
@@ -13,39 +23,45 @@ body.front {
 //Header Mobile.
 .header-mobile {
   @include outer-container;
-  border: solid 1px #000;
+  z-index: 1;
   height: 50px;
+  .region-header-mobile {
+    z-index: 1;
+  }
 }
 
 // Header Styles.
 .header {
   @include outer-container;
-  border: solid 1px #000;
+  margin-top:15px;
+  margin-bottom: 15px;
   padding:0px !important;
 }
 
 // Navigation Styles.
 #navigation {
   @include outer-container;
-  border: solid 1px #000;
+  overflow: inherit;
   padding:0px;
-//  margin:0px;
 }
 
 // Main Styles.
 #main {
   @include outer-container;
-  border: solid 1px #000;
 }
 
 // Content Styles.
 #content {
   @include outer-container;
-  border: solid 1px #000;
+  .node {
+    @include span-columns(8);
+  }
+  #block-webform-client-block-1 {
+    @include span-columns(4);
+  }
 }
 
 // Footer Styles.
 #footer {
   @include outer-container;
-  border: solid 1px #000;
 }

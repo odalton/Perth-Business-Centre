@@ -13,7 +13,7 @@
 (function ($, Drupal, window, document, undefined) {
 
 // To understand behaviors, see https://drupal.org/node/756722#behaviors
-  Drupal.behaviors.biante_hero_banner = {
+  Drupal.behaviors.hbc_hero_banner = {
     attach: function(context, settings) {
       // Hero banner block.
       var owl = $('#hero-banner-carousel', context);

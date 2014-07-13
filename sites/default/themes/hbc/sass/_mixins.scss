@@ -40,11 +40,31 @@
   .responsive-bar {
     z-index: 1;
     width:100%;
-    height: 30px;
+    height: 10px;
     position: fixed;
     bottom: 0px;
     background-color: $bg;
     content: $content;
     color:#000;
+  }
+}
+
+@mixin remove-carousel-copy() {
+  #block-hbc-hero-banner-hbc-hero-banner {
+    .slide-title,
+    .slide-body,
+    .slide-cta-wrapper {
+      display: none;
+    }
+  }
+}
+
+@mixin add-carousel-copy() {
+  #block-hbc-hero-banner-hbc-hero-banner {
+    .slide-title,
+    .slide-body,
+    .slide-cta-wrapper {
+      display: block;
+    }
   }
 }

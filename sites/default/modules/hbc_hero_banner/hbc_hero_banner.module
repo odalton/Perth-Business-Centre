@@ -3,10 +3,10 @@
 /**
  * Implements hook_block_info().
  */
-function biante_hero_banner_block_info() {
+function hbc_hero_banner_block_info() {
   // Hero banner carousel block.
-  $blocks['biante_hero_banner'] = array(
-    'info' => t('Biante Hero Banner'),
+  $blocks['hbc_hero_banner'] = array(
+    'info' => t('HBC Hero Banner'),
     'cache' => DRUPAL_NO_CACHE
   );
   return $blocks;
@@ -14,25 +14,25 @@ function biante_hero_banner_block_info() {
 /**
  * Implements hook_block_view().
  */
-function biante_hero_banner_block_view($delta = '') {
+function hbc_hero_banner_block_view($delta = '') {
   // This example is adapted from node.module.
   $block = array();
 
   switch ($delta) {
     // Hero banner carousel block.
-    case 'biante_hero_banner':
+    case 'hbc_hero_banner':
       // Path the module.
-      $base_path = drupal_get_path('module', 'biante_hero_banner');
+      $base_path = drupal_get_path('module', 'hbc_hero_banner');
       // Add Owl Carousel plugin js and css.
       drupal_add_js('sites/all/libraries/owl-carousel/owl-carousel/owl.carousel.min.js');
       drupal_add_css('sites/all/libraries/owl-carousel/owl-carousel/owl.carousel.css');
       // Add custom js.
-      drupal_add_js($base_path . '/js/biante_hero_banner.js');
+      drupal_add_js($base_path . '/js/hbc_hero_banner.js');
 
       $block['subject'] = '';
       $block['content'] = array(
-        '#theme' => 'biante_hero_banner',
-        '#slides' => biante_hero_banner_nodes(),
+        '#theme' => 'hbc_hero_banner',
+        '#slides' => hbc_hero_banner_nodes(),
       );
       break;
 
@@ -44,12 +44,12 @@ function biante_hero_banner_block_view($delta = '') {
 /**
  * Implements hook_custom_theme().
  */
-function biante_hero_banner_theme() {
+function hbc_hero_banner_theme() {
 
   return array(
     // Hero banner block theme.
-    'biante_hero_banner' => array(
-      'template' => 'templates/biante_hero_banner',
+    'hbc_hero_banner' => array(
+      'template' => 'templates/hbc_hero_banner',
       'variables' => array(
         'slides' => null,
       ),
@@ -60,7 +60,7 @@ function biante_hero_banner_theme() {
 
 
 // Custom function to return all the hero banner nodes.
-function biante_hero_banner_nodes(){
+function hbc_hero_banner_nodes(){
 
   // Empty array to return later.
   $out = array();
@@ -83,31 +83,31 @@ function biante_hero_banner_nodes(){
     foreach ($items as $k => $v) {
 
       $out[$k]['title'] =  $v->title; // Node title.
-      // Weather or not to show the title.
-      $out[$k]['show_title'] = $v->field_show_title['und'][0]['value'];
-      // Node body.
+//      // Weather or not to show the title.
+//      $out[$k]['show_title'] = $v->field_show_title['und'][0]['value'];
+//      // Node body.
       $out[$k]['body'] = (isset($v->body['und'][0]['safe_value'])
         ? $v->body['und'][0]['safe_value']
         : '');
-      // The hero image.
+//      // The hero image.
       $out[$k]['image'] = $v->field_image['und'][0]['uri'];
-      // CTA title.
+//      // CTA title.
       $out[$k]['cta']['title'] = (
-      isset($v->field_call_to_action['und'][0]['title'])
-        ? $v->field_call_to_action['und'][0]['title']
+      isset($v->field_call_to_action_title['und'][0]['value'])
+        ? $v->field_call_to_action_title['und'][0]['value']
         : '');
       // CTA link.
       $out[$k]['cta']['url'] = (
-      isset($v->field_call_to_action['und'][0]['url'])
-        ? $v->field_call_to_action['und'][0]['url']
+      isset($v->field_call_to_action_url['und'][0]['value'])
+        ? $v->field_call_to_action_url['und'][0]['value']
         : '');
-      // What pages to display the hero image on.
-      // Has not been implemented yet as im not sure
-      // if the hero banner is on multiple pages.
-      $out[$k]['display'] = (
-      isset($v ->field_page_display['und'][0]['value'])
-        ? $v->field_page_display['und'][0]['value']
-        : '');
+//      // What pages to display the hero image on.
+//      // Has not been implemented yet as im not sure
+//      // if the hero banner is on multiple pages.
+//      $out[$k]['display'] = (
+//      isset($v ->field_page_display['und'][0]['value'])
+//        ? $v->field_page_display['und'][0]['value']
+//        : '');
     }
   }
   return $out;

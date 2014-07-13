@@ -1,0 +1,32 @@
+#block-webform-client-block-1 {
+  margin-bottom: 0px;
+
+  .block-title {
+    position: absolute;
+    left:-9999px;
+  }
+  // Booking Webform.
+  #webform-client-form-1 {
+
+
+    .description {
+      position: absolute;
+      left:-9999px;
+    }
+
+    .form-item {
+      margin:0px 0px;
+      font-family: $latoregular;
+      font-size: 15px;
+      input {
+        margin-bottom: 5px;
+      }
+      label {
+        margin-bottom: 0px;
+        font-size: 14px;
+
+      }
+    }
+
+  }
+}

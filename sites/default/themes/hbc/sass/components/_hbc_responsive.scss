@@ -6,6 +6,19 @@
     display: none;
   }
 
+  @include remove-carousel-copy();
+
+  // Content Styles.
+  #content {
+    @include outer-container;
+    .node {
+      @include span-columns(12);
+    }
+    #block-webform-client-block-1 {
+      @include span-columns(12);
+    }
+  }
+
 }
 
 @include media($small-mobile-width) {
@@ -16,6 +29,19 @@
 
   #block-tb-megamenu-main-menu {
     display: none;
+  }
+
+  @include remove-carousel-copy();
+
+  // Content Styles.
+  #content {
+    @include outer-container;
+    .node {
+      @include span-columns(12);
+    }
+    #block-webform-client-block-1 {
+      @include span-columns(12);
+    }
   }
 
 }
@@ -30,6 +56,19 @@
     display: none;
   }
 
+  @include remove-carousel-copy();
+
+  // Content Styles.
+  #content {
+    @include outer-container;
+    .node {
+      @include span-columns(12);
+    }
+    #block-webform-client-block-1 {
+      @include span-columns(12);
+    }
+  }
+
 }
 
 @include media($large-mobile-width) {
@@ -37,10 +76,24 @@
   #block-menu-block-1 {
     display: block;
   }
-//  @include responsive-bar('green');
+
   #block-tb-megamenu-main-menu {
     display: none;
   }
+
+  @include remove-carousel-copy();
+
+  // Content Styles.
+  #content {
+    @include outer-container;
+    .node {
+      @include span-columns(8);
+    }
+    #block-webform-client-block-1 {
+      @include span-columns(4);
+    }
+  }
+
 }
 
 @include media($tablet-width) {
@@ -51,6 +104,8 @@
   #block-tb-megamenu-main-menu {
     display: none;
   }
+
+  @include add-carousel-copy();
 }
 
 @include media($main-menu-break) {
@@ -62,22 +117,16 @@
     display: block;
   }
 
+  @include add-carousel-copy();
+
 }
 
 @include media($desktop-width) {
   @include responsive-bar(purple, 'hello');
+  @include add-carousel-copy();
 }
 
 @include media($monitor-width) {
   @include responsive-bar(pink, 'hello');
+  @include add-carousel-copy();
 }
-
-
-//$small-mobile-width: 320px;
-//$medium-mobile-width: 480px;
-//$large-mobile-width: 595px;
-//$tablet-width: 768px;
-//$main-menu-break: 980px;
-//$desktop-width: 1024px;
-//$monitor-width: 1920px;
-//$monitor-width: 1920px;

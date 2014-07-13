@@ -11,16 +11,16 @@
 
 #block-menu-block-1 {
   margin-bottom:0px;
+  height: 40px;
 
   h2 {
 
     position: relative;
     display: block;
     width: 30px;
-    font-size: 16px;
+    font-size: 25px;
     text-indent: 26px;
-    height: 29px;
-//    color:transparent;
+    height: 37px;
     padding-top: 4px;
     color: #fff;
 
@@ -29,13 +29,13 @@
       content: "";
       position: absolute;
       left: 5px;
-      top: 12px;
+      top: 19px;
       width: 18px;
       height: 3px;
       background: #fff;
       box-shadow:
-        0 5px 0 #fff,
-        0 -5px 0 #fff;
+        0 7px 0 #fff,
+        0 -7px 0 #fff;
 
     }
   }
@@ -52,24 +52,64 @@
         box-shadow: 0 1px 0 #d65548 inset, 0 -1px 0 #962d22 inset;
         text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.3);
         padding: 10px;
+        &.expanded {
+          a {
+            display: block;
+            color:#ffffff;
+            &:before {
+              position: absolute;
+              display: block;
+              content: '\25BC';
+              font-size: 0.7em;
+              color: #fff;
+              top: 13px;
+              right: 10px;
+            }
+        }
         a {
           display: block;
-          color:#ffffff;
-          &:before {
-            position: absolute;
-            display: block;
-            content: '\25BC';
-            font-size: 0.7em;
-            color: #fff;
-            top: 13px;
-            right: 10px;
-          }
+          color: #000000;
+        }
 
         }
         //li hover
         &:hover {
           background: #cd3d2e;
         }
+
+        ul {
+          position: relative;
+          display: none;
+          margin-left: -10px;
+          margin-right: -10px;
+          margin-top: 10px;
+          li {
+            position: relative;
+            list-style: none;
+            background-color: #c0392b;
+            box-shadow: 0 1px 0 #d65548 inset, 0 -1px 0 #962d22 inset;
+            text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.3);
+            padding: 0px;
+            a {
+              display: block;
+              color:#000;
+              background: #eeeeee;
+              -webkit-box-shadow: 0 1px 0 white inset, 0 -1px 0 #d4d4d4 inset;
+              -moz-box-shadow: 0 1px 0 white inset, 0 -1px 0 #d4d4d4 inset;
+              box-shadow: 0 1px 0 white inset, 0 -1px 0 #d4d4d4 inset;
+              text-shadow: 0 -1px 0 rgba(255, 255, 255, 0.3);
+              padding: 10px 10px;
+              &:hover {
+                background-color: #f6f6f6;
+              }
+              &:before {
+                content: "" !important;
+                color: transparent;
+              }
+            }
+          }
+        }
+
       }
     }
   }

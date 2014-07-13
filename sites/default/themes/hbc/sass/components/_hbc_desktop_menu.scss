@@ -1,9 +1,30 @@
 #block-tb-megamenu-main-menu {
+  height: 100%;
   ul.tb-megamenu-nav {
     li.tb-megamenu-item {
+
       a {
-        background-color: pink;
+        background-image: image-url('nav-bg.jpg');
+        background-size: 1px 53px;
+        background-color: transparent;
+        border-right: solid 1px #000;
       }
+
+      .tb-megamenu-submenu {
+        border-bottom:0px;
+
+        ul {
+          li {
+            a {
+              background-image: none;
+              border-right: 0px;
+              color: #000;
+            }
+          }
+        }
+
+      }
+
     }
   }
 }

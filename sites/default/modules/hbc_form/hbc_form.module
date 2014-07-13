@@ -1,0 +1,22 @@
+<?php
+
+
+/**
+* Implements hook_form_BASE_FORM_ID_alter().
+*
+*/
+function hbc_form_form_webform_client_form_1_alter(&$form, &$form_state, $form_id) {
+
+  if(isset($form_id) && $form_id == "webform_client_form_1") {
+  // Update form action of submit.
+  $form['#action'] = "/hbc/";
+
+  // Add for placeholders to the form inputs.
+  $form['submitted']['firstname']['#attributes']['placeholder']          = "Firstname.";
+  $form['submitted']['lastname']['#attributes']['placeholder']           = "Lastname.";
+  $form['submitted']['phone_number']['#attributes']['placeholder']       = "Phone Number.";
+  $form['submitted']['email']['#attributes']['placeholder']              = "Email.";
+  $form['submitted']['message']['#attributes']['placeholder']            = "Message.";
+
+  }
+}

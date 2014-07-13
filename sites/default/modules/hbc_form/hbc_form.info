@@ -1,0 +1,4 @@
+name = HBC Form Preprocess.
+description = Preprocesses webforms on the site.
+core = 7.x
+package = "Hedland Business Centre"
