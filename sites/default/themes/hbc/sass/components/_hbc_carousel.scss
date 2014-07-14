@@ -6,12 +6,14 @@
     font-family: latobold;
     font-size: 30px;
     top:30px;
-    right: 65px;
-    background-color: rgba(255,255,255, 0.7);
+    left:65px;
+//    background-color: rgba(255,255,255, 0.7);
+    color: #ffffff;
     max-height: 45px;
     max-width: 400px;
     overflow: hidden;
     height: auto;
+    font-style: italic;
     p {
       margin:0px;
     }
@@ -21,13 +23,14 @@
     position: absolute;
     font-family: $latoregular;
     font-size: 20px;
-    right:65px;
-    top: 75px;
-
-    background-color: rgba(255,255,255, 0.7);
+    left:65px;
+    top: 80px;
+//    background-color: rgba(255,255,255, 0.7);
+    color: #ffffff;
     max-height: 200px;
     max-width: 400px;
     overflow: hidden;
+    font-style: italic;
     p {
       margin:0px;
     }
@@ -40,7 +43,8 @@
     width: 400px;
     text-align: center;
     .slide-cta {
-      @include button;
+      @include button(simple, $macro-purple);
+      //$style: simple, $base-color: #4294f0, $text-size: inherit, $padding: 7px 18px)
       font-size: 30px;
 
     }
@@ -54,7 +58,6 @@
   margin:auto;
   width:38px;
   height:220px;
-//  background-image: image-url('arrows.png');
   font-size: 1px;
   color: transparent;
   top:0;
@@ -71,7 +74,7 @@
       font-family: FontAwesome;
       content: "\f104";
       font-size: 110px;
-      color: $arrow-color;
+      color: $macro-purple;
     }
   }
   &.banner-next{
@@ -80,7 +83,7 @@
       font-family: FontAwesome;
       content: "\f105";
       font-size: 110px;
-      color: $arrow-color;
+      color: $macro-purple;
     }
   }
 }

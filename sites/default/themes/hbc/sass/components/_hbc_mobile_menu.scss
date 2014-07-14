@@ -4,7 +4,7 @@
     position: fixed;
     top:0px;
     left:0px;
-    background-color: #c0392b;
+    background-color: $macro-purple;
     width: 100%;
   }
 }
@@ -48,14 +48,17 @@
       position: relative;
       li {
         position: relative;
-        background-color: #c0392b;
-        box-shadow: 0 1px 0 #d65548 inset, 0 -1px 0 #962d22 inset;
+        background-color: $macro-purple;
+        box-shadow: 0 1px 0 $macro-purple-light inset, 0 -1px 0 $macro-purple-dark inset;
         text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.3);
         padding: 10px;
+
         &.expanded {
           a {
             display: block;
-            color:#ffffff;
+            color: #fff;
+            text-transform: uppercase;
+            font-family: $latoregular;
             &:before {
               position: absolute;
               display: block;
@@ -65,16 +68,25 @@
               top: 13px;
               right: 10px;
             }
+          }
+          ul {
+            li {
+              a {
+                color:#000;
+              }
+            }
+          }
+
         }
         a {
           display: block;
-          color: #000000;
-        }
-
+          color: #fff;
+          text-transform: uppercase;
+          font-family: $latoregular;
         }
         //li hover
         &:hover {
-          background: #cd3d2e;
+          background: $macro-purple;
         }
 
         ul {
@@ -86,13 +98,15 @@
           li {
             position: relative;
             list-style: none;
-            background-color: #c0392b;
-            box-shadow: 0 1px 0 #d65548 inset, 0 -1px 0 #962d22 inset;
+            background-color: $macro-purple;
+            box-shadow: 0 1px 0 $macro-purple-light inset, 0 -1px 0 $macro-purple-dark inset;
             text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.3);
             padding: 0px;
             a {
               display: block;
               color:#000;
+              text-transform: uppercase;
+              font-family: $latoregular;
               background: #eeeeee;
               -webkit-box-shadow: 0 1px 0 white inset, 0 -1px 0 #d4d4d4 inset;
               -moz-box-shadow: 0 1px 0 white inset, 0 -1px 0 #d4d4d4 inset;

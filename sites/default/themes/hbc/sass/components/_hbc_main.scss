@@ -5,26 +5,22 @@ body {
   margin:0px;
 
   #page {
-    border-top:5px solid red;
-    max-width: 1160px;
+
+    max-width: 1110px;
     margin:0 auto;
-    background-color: #fff;
+
   }
 
 }
 
-body.front {
-  #page-title {
-    position: absolute;
-    left:-9999px;
-  }
-}
 
 //Header Mobile.
 .header-mobile {
   @include outer-container;
   z-index: 1;
   height: 50px;
+  background-color: #fff;
+  border-top:5px solid $macro-purple;
   .region-header-mobile {
     z-index: 1;
   }
@@ -33,8 +29,9 @@ body.front {
 // Header Styles.
 .header {
   @include outer-container;
-  margin-bottom: 15px;
+
   padding:0px !important;
+  background-color: #fff;
 
   #block-hbc-header-hbc-header-logo {
     @include span-columns(6);
@@ -42,6 +39,11 @@ body.front {
 
   #block-hbc-header-hbc-header-contact {
     @include span-columns(6);
+    .icon-phone,
+    .icon-envelope,
+    .icon-map-marker {
+      color:$macro-purple;
+    }
   }
 }
 
@@ -49,18 +51,29 @@ body.front {
 #navigation {
   @include outer-container;
   overflow: inherit;
-  margin-top:30px;
+
   padding:0px;
+  background-color: #fff;
 }
 
 // Main Styles.
 #main {
   @include outer-container;
+  background-color: #fff;
 }
 
 // Content Styles.
 #content {
   @include outer-container;
+
+  #page-title {
+//    @include span-columns(8);
+    font-family: $latoregular;
+    color: $macro-purple;
+    margin: 10px 0px;
+  }
+
+  margin-bottom: 50px;
   .node {
     @include span-columns(8);
   }
@@ -72,4 +85,6 @@ body.front {
 // Footer Styles.
 #footer {
   @include outer-container;
+  background-color: $macro-purple;
+  height: 100px;
 }

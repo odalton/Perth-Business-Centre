@@ -2,8 +2,7 @@
   margin-bottom: 0px;
 
   .block-title {
-    position: absolute;
-    left:-9999px;
+    color: $macro-purple;
   }
   // Booking Webform.
   #webform-client-form-1 {
@@ -15,7 +14,7 @@
     }
 
     .form-item {
-      margin:0px 0px;
+      margin:5px 0px;
       font-family: $latoregular;
       font-size: 15px;
       input {
@@ -24,8 +23,12 @@
       label {
         margin-bottom: 0px;
         font-size: 14px;
-
       }
+    }
+
+    input[type="submit"] {
+      background-color: $macro-purple;
+      width:100%;
     }
 
   }
