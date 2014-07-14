@@ -5,7 +5,28 @@
   #block-tb-megamenu-main-menu {
     display: none;
   }
+  .banner-btn {
+    height: 165px;
+    .banner-prev{
+      left:20px;
+      &:before {
+        font-family: FontAwesome;
+        font-family: FontAwesome;
+        content: "\f104";
 
+        color: $macro-purple;
+      }
+    }
+    .banner-next{
+      right:20px;
+      &:before {
+        font-family: FontAwesome;
+        content: "\f105";
+
+        color: $macro-purple;
+      }
+    }
+  }
   @include remove-carousel-copy();
 
   // Content Styles.
@@ -30,7 +51,28 @@
   #block-tb-megamenu-main-menu {
     display: none;
   }
+  .banner-btn {
+    height: 165px;
+    .banner-prev{
+      left:20px;
+      &:before {
+        font-family: FontAwesome;
+        font-family: FontAwesome;
+        content: "\f104";
 
+        color: $macro-purple;
+      }
+    }
+    .banner-next{
+      right:20px;
+      &:before {
+        font-family: FontAwesome;
+        content: "\f105";
+
+        color: $macro-purple;
+      }
+    }
+  }
   @include remove-carousel-copy();
 
   // Content Styles.
@@ -54,6 +96,29 @@
 
   #block-tb-megamenu-main-menu {
     display: none;
+  }
+
+  .banner-btn {
+    height: 165px;
+    .banner-prev{
+      left:20px;
+      &:before {
+        font-family: FontAwesome;
+        font-family: FontAwesome;
+        content: "\f104";
+        font-size: 90px;
+        color: $macro-purple;
+      }
+    }
+    .banner-next{
+      right:20px;
+      &:before {
+        font-family: FontAwesome;
+        content: "\f105";
+        font-size: 90px;
+        color: $macro-purple;
+      }
+    }
   }
 
   @include remove-carousel-copy();
@@ -80,6 +145,31 @@
   #block-tb-megamenu-main-menu {
     display: none;
   }
+
+  .banner-btn {
+    height: 165px;
+    .banner-prev{
+      left:20px;
+      &:before {
+        font-family: FontAwesome;
+        font-family: FontAwesome;
+        content: "\f104";
+        font-size: 110px;
+        color: $macro-purple;
+      }
+    }
+    .banner-next{
+      right:20px;
+      &:before {
+        font-family: FontAwesome;
+        content: "\f105";
+        font-size: 110px;
+        color: $macro-purple;
+      }
+    }
+  }
+
+
 
   @include remove-carousel-copy();
 

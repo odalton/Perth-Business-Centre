@@ -1561,17 +1561,18 @@ body #page {
 /* line 19, ../sass/components/_hbc_desktop_menu.scss */
 #block-tb-megamenu-main-menu .tb-megamenu ul.tb-megamenu-nav li.tb-megamenu-item a:hover {
   background-image: linear-gradient(#710255, #460034);
+  color: #fff;
 }
-/* line 25, ../sass/components/_hbc_desktop_menu.scss */
+/* line 26, ../sass/components/_hbc_desktop_menu.scss */
 #block-tb-megamenu-main-menu .tb-megamenu ul.tb-megamenu-nav li.tb-megamenu-item .tb-megamenu-column-inner {
   padding: 0px;
 }
-/* line 29, ../sass/components/_hbc_desktop_menu.scss */
+/* line 30, ../sass/components/_hbc_desktop_menu.scss */
 #block-tb-megamenu-main-menu .tb-megamenu ul.tb-megamenu-nav li.tb-megamenu-item .tb-megamenu-submenu {
   border-bottom: 0px;
   background-image: linear-gradient(#8d0069, #55003f);
 }
-/* line 36, ../sass/components/_hbc_desktop_menu.scss */
+/* line 37, ../sass/components/_hbc_desktop_menu.scss */
 #block-tb-megamenu-main-menu .tb-megamenu ul.tb-megamenu-nav li.tb-megamenu-item .tb-megamenu-submenu ul li a {
   padding: 10px;
   background-image: linear-gradient(#8d0069, #55003f);
@@ -1579,7 +1580,7 @@ body #page {
   color: #fff;
   font-family: latoregular;
 }
-/* line 42, ../sass/components/_hbc_desktop_menu.scss */
+/* line 43, ../sass/components/_hbc_desktop_menu.scss */
 #block-tb-megamenu-main-menu .tb-megamenu ul.tb-megamenu-nav li.tb-megamenu-item .tb-megamenu-submenu ul li a:hover {
   background-image: linear-gradient(#710255, #460034);
 }
@@ -1886,6 +1887,32 @@ body #page {
     display: none;
   }
 
+  /* line 8, ../sass/components/_hbc_responsive.scss */
+  .banner-btn {
+    height: 165px;
+  }
+  /* line 10, ../sass/components/_hbc_responsive.scss */
+  .banner-btn .banner-prev {
+    left: 20px;
+  }
+  /* line 12, ../sass/components/_hbc_responsive.scss */
+  .banner-btn .banner-prev:before {
+    font-family: FontAwesome;
+    font-family: FontAwesome;
+    content: "\f104";
+    color: #8d0069;
+  }
+  /* line 20, ../sass/components/_hbc_responsive.scss */
+  .banner-btn .banner-next {
+    right: 20px;
+  }
+  /* line 22, ../sass/components/_hbc_responsive.scss */
+  .banner-btn .banner-next:before {
+    font-family: FontAwesome;
+    content: "\f105";
+    color: #8d0069;
+  }
+
   /* line 55, ../sass/_mixins.scss */
   #block-hbc-hero-banner-hbc-hero-banner .slide-title,
   #block-hbc-hero-banner-hbc-hero-banner .slide-body,
@@ -1893,7 +1920,7 @@ body #page {
     display: none;
   }
 
-  /* line 12, ../sass/components/_hbc_responsive.scss */
+  /* line 33, ../sass/components/_hbc_responsive.scss */
   #content {
     overflow: hidden;
     *zoom: 1;
@@ -1901,7 +1928,7 @@ body #page {
     margin-left: auto;
     margin-right: auto;
   }
-  /* line 14, ../sass/components/_hbc_responsive.scss */
+  /* line 35, ../sass/components/_hbc_responsive.scss */
   #content .node {
     float: left;
     display: block;
@@ -1912,7 +1939,7 @@ body #page {
   #content .node:last-child {
     margin-right: 0;
   }
-  /* line 17, ../sass/components/_hbc_responsive.scss */
+  /* line 38, ../sass/components/_hbc_responsive.scss */
   #content #block-webform-client-block-1 {
     float: left;
     display: block;
@@ -1938,14 +1965,40 @@ body #page {
     color: #000;
   }
 
-  /* line 26, ../sass/components/_hbc_responsive.scss */
+  /* line 47, ../sass/components/_hbc_responsive.scss */
   #block-menu-block-1 {
     display: block;
   }
 
-  /* line 30, ../sass/components/_hbc_responsive.scss */
+  /* line 51, ../sass/components/_hbc_responsive.scss */
   #block-tb-megamenu-main-menu {
     display: none;
+  }
+
+  /* line 54, ../sass/components/_hbc_responsive.scss */
+  .banner-btn {
+    height: 165px;
+  }
+  /* line 56, ../sass/components/_hbc_responsive.scss */
+  .banner-btn .banner-prev {
+    left: 20px;
+  }
+  /* line 58, ../sass/components/_hbc_responsive.scss */
+  .banner-btn .banner-prev:before {
+    font-family: FontAwesome;
+    font-family: FontAwesome;
+    content: "\f104";
+    color: #8d0069;
+  }
+  /* line 66, ../sass/components/_hbc_responsive.scss */
+  .banner-btn .banner-next {
+    right: 20px;
+  }
+  /* line 68, ../sass/components/_hbc_responsive.scss */
+  .banner-btn .banner-next:before {
+    font-family: FontAwesome;
+    content: "\f105";
+    color: #8d0069;
   }
 
   /* line 55, ../sass/_mixins.scss */
@@ -1955,7 +2008,7 @@ body #page {
     display: none;
   }
 
-  /* line 37, ../sass/components/_hbc_responsive.scss */
+  /* line 79, ../sass/components/_hbc_responsive.scss */
   #content {
     overflow: hidden;
     *zoom: 1;
@@ -1963,7 +2016,7 @@ body #page {
     margin-left: auto;
     margin-right: auto;
   }
-  /* line 39, ../sass/components/_hbc_responsive.scss */
+  /* line 81, ../sass/components/_hbc_responsive.scss */
   #content .node {
     float: left;
     display: block;
@@ -1974,7 +2027,7 @@ body #page {
   #content .node:last-child {
     margin-right: 0;
   }
-  /* line 42, ../sass/components/_hbc_responsive.scss */
+  /* line 84, ../sass/components/_hbc_responsive.scss */
   #content #block-webform-client-block-1 {
     float: left;
     display: block;
@@ -2000,14 +2053,42 @@ body #page {
     color: #000;
   }
 
-  /* line 51, ../sass/components/_hbc_responsive.scss */
+  /* line 93, ../sass/components/_hbc_responsive.scss */
   #block-menu-block-1 {
     display: block;
   }
 
-  /* line 55, ../sass/components/_hbc_responsive.scss */
+  /* line 97, ../sass/components/_hbc_responsive.scss */
   #block-tb-megamenu-main-menu {
     display: none;
+  }
+
+  /* line 101, ../sass/components/_hbc_responsive.scss */
+  .banner-btn {
+    height: 165px;
+  }
+  /* line 103, ../sass/components/_hbc_responsive.scss */
+  .banner-btn .banner-prev {
+    left: 20px;
+  }
+  /* line 105, ../sass/components/_hbc_responsive.scss */
+  .banner-btn .banner-prev:before {
+    font-family: FontAwesome;
+    font-family: FontAwesome;
+    content: "\f104";
+    font-size: 90px;
+    color: #8d0069;
+  }
+  /* line 113, ../sass/components/_hbc_responsive.scss */
+  .banner-btn .banner-next {
+    right: 20px;
+  }
+  /* line 115, ../sass/components/_hbc_responsive.scss */
+  .banner-btn .banner-next:before {
+    font-family: FontAwesome;
+    content: "\f105";
+    font-size: 90px;
+    color: #8d0069;
   }
 
   /* line 55, ../sass/_mixins.scss */
@@ -2017,7 +2098,7 @@ body #page {
     display: none;
   }
 
-  /* line 62, ../sass/components/_hbc_responsive.scss */
+  /* line 127, ../sass/components/_hbc_responsive.scss */
   #content {
     overflow: hidden;
     *zoom: 1;
@@ -2025,7 +2106,7 @@ body #page {
     margin-left: auto;
     margin-right: auto;
   }
-  /* line 64, ../sass/components/_hbc_responsive.scss */
+  /* line 129, ../sass/components/_hbc_responsive.scss */
   #content .node {
     float: left;
     display: block;
@@ -2036,7 +2117,7 @@ body #page {
   #content .node:last-child {
     margin-right: 0;
   }
-  /* line 67, ../sass/components/_hbc_responsive.scss */
+  /* line 132, ../sass/components/_hbc_responsive.scss */
   #content #block-webform-client-block-1 {
     float: left;
     display: block;
@@ -2062,14 +2143,42 @@ body #page {
     color: #000;
   }
 
-  /* line 76, ../sass/components/_hbc_responsive.scss */
+  /* line 141, ../sass/components/_hbc_responsive.scss */
   #block-menu-block-1 {
     display: block;
   }
 
-  /* line 80, ../sass/components/_hbc_responsive.scss */
+  /* line 145, ../sass/components/_hbc_responsive.scss */
   #block-tb-megamenu-main-menu {
     display: none;
+  }
+
+  /* line 149, ../sass/components/_hbc_responsive.scss */
+  .banner-btn {
+    height: 165px;
+  }
+  /* line 151, ../sass/components/_hbc_responsive.scss */
+  .banner-btn .banner-prev {
+    left: 20px;
+  }
+  /* line 153, ../sass/components/_hbc_responsive.scss */
+  .banner-btn .banner-prev:before {
+    font-family: FontAwesome;
+    font-family: FontAwesome;
+    content: "\f104";
+    font-size: 110px;
+    color: #8d0069;
+  }
+  /* line 161, ../sass/components/_hbc_responsive.scss */
+  .banner-btn .banner-next {
+    right: 20px;
+  }
+  /* line 163, ../sass/components/_hbc_responsive.scss */
+  .banner-btn .banner-next:before {
+    font-family: FontAwesome;
+    content: "\f105";
+    font-size: 110px;
+    color: #8d0069;
   }
 
   /* line 55, ../sass/_mixins.scss */
@@ -2079,7 +2188,7 @@ body #page {
     display: none;
   }
 
-  /* line 87, ../sass/components/_hbc_responsive.scss */
+  /* line 177, ../sass/components/_hbc_responsive.scss */
   #content {
     overflow: hidden;
     *zoom: 1;
@@ -2087,7 +2196,7 @@ body #page {
     margin-left: auto;
     margin-right: auto;
   }
-  /* line 89, ../sass/components/_hbc_responsive.scss */
+  /* line 179, ../sass/components/_hbc_responsive.scss */
   #content .node {
     float: left;
     display: block;
@@ -2098,7 +2207,7 @@ body #page {
   #content .node:last-child {
     margin-right: 0;
   }
-  /* line 92, ../sass/components/_hbc_responsive.scss */
+  /* line 182, ../sass/components/_hbc_responsive.scss */
   #content #block-webform-client-block-1 {
     float: left;
     display: block;
@@ -2124,12 +2233,12 @@ body #page {
     color: #000;
   }
 
-  /* line 101, ../sass/components/_hbc_responsive.scss */
+  /* line 191, ../sass/components/_hbc_responsive.scss */
   #block-menu-block-1 {
     display: block;
   }
 
-  /* line 104, ../sass/components/_hbc_responsive.scss */
+  /* line 194, ../sass/components/_hbc_responsive.scss */
   #block-tb-megamenu-main-menu {
     display: none;
   }
@@ -2155,12 +2264,12 @@ body #page {
     color: #000;
   }
 
-  /* line 112, ../sass/components/_hbc_responsive.scss */
+  /* line 202, ../sass/components/_hbc_responsive.scss */
   #block-menu-block-1 {
     display: none;
   }
 
-  /* line 115, ../sass/components/_hbc_responsive.scss */
+  /* line 205, ../sass/components/_hbc_responsive.scss */
   #block-tb-megamenu-main-menu {
     display: block;
   }
