@@ -1,8 +1,8 @@
 // Google Maps for PP.
 
-// Lat & Long of Hector Street.
-var lat = '-31.904134';
-var long = '115.824050';
+// Lat & Long of Port Hedland.
+var lat = '-20.310383';
+var long = '118.583571';
 
 // Set cool styles from Snazzy Maps.
 var cool_styles = [
