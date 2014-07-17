@@ -38,7 +38,7 @@
 
 @mixin responsive-bar($bg, $content) {
   .responsive-bar {
-    opacity: 0;
+
     z-index: 1;
     width:100%;
     left:0px;
@@ -69,4 +69,35 @@
       display: block;
     }
   }
+}
+
+@mixin logo-contact-copy($span, $tel-size, $mail-size, $icon-phone, $icon-envelope, $contact-margin-top) {
+  #block-hbc-header-hbc-header-logo {
+    @include span-columns($span);
+  }
+
+  #block-hbc-header-hbc-header-contact {
+    @include span-columns($span);
+    margin-top:$contact-margin-top;
+//    margin-bottom:0px;
+    text-align: center;
+      .icon-phone {
+        font-size: $icon-phone;
+        color:$macro-purple;
+      }
+      .icon-envelope {
+        font-size: $icon-envelope;
+        color:$macro-purple;
+      }
+    }
+    a.hbc-contact-tel {
+      font-size: $tel-size;
+      padding:5px;
+      color: #333;
+    }
+    a.hbc-contact-email {
+      font-size: $mail-size;
+      padding:5px;
+      color: #333;
+    }
 }

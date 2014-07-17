@@ -1,0 +1,1 @@
+<div class="hbc-copyright">Copyright &copy; <?php print date('Y'); ?> Hedland Business Centre T/A Pilbara Short Stay.</div>

@@ -34,14 +34,12 @@ body {
   background-color: #fff;
 
   #block-hbc-header-hbc-header-logo {
-    @include span-columns(6);
+
   }
 
   #block-hbc-header-hbc-header-contact {
-    @include span-columns(6);
     .icon-phone,
-    .icon-envelope,
-    .icon-map-marker {
+    .icon-envelope {
       color:$macro-purple;
     }
   }
@@ -60,6 +58,26 @@ body {
 #main {
   @include outer-container;
   background-color: #fff;
+  .node {
+    font-family: $latolight;
+
+    h1, h2, h3, h4, h5, h6 {
+      color: $macro-purple;
+      margin:5px 0px;
+    }
+
+    p {
+      margin:5px 0px;
+    }
+
+    ul {
+      padding-left:40px;
+      list-style-type: disc !important;
+      li {
+        list-style-type: disc !important;
+      };
+    }
+  }
 }
 
 // Content Styles.
@@ -87,4 +105,13 @@ body {
   @include outer-container;
   background-color: $macro-purple;
   height: 100px;
+  box-sizing: border-box;
+  #block-hbc-footer-hbc-footer-logo {
+    font-family:$latobold;
+    padding:40px;
+    text-align: center;
+    margin-bottom:0px;
+    color:#fff;
+  }
+
 }

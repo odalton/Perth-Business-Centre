@@ -1,0 +1,4 @@
+name = HBC Footer.
+description = Adds Footer to the site.
+core = 7.x
+package = "Hedland Business Centre"

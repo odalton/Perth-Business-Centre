@@ -1,7 +1,10 @@
 
-
+//@mixin logo-contact-copy($span, $tel-size, $mail-size, $icon-phone, $icon-envelope) {
 @include media($tiny-mobile-width) {
   @include responsive-bar(red, 'hello');
+  @include logo-contact-copy(12, 36px, 17px, 30px, 17px, 0px);
+
+
   #block-tb-megamenu-main-menu {
     display: none;
   }
@@ -44,6 +47,8 @@
 
 @include media($small-mobile-width) {
   @include responsive-bar(orange, 'hello');
+  @include logo-contact-copy(12, 36px, 17px, 30px, 17px, 0px);
+
   #block-menu-block-1 {
     display: block;
   }
@@ -90,6 +95,21 @@
 
 @include media($medium-mobile-width) {
   @include responsive-bar(yellow, 'hello');
+  @include logo-contact-copy(12, 30px, 13px, 30px, 17px, 15px);
+
+  #block-hbc-header-hbc-header-logo {
+    @include span-columns(6);
+  }
+
+  #block-hbc-header-hbc-header-contact {
+    @include span-columns(6);
+    .icon-phone,
+    .icon-envelope,
+    .icon-map-marker {
+      color:$macro-purple;
+    }
+  }
+
   #block-menu-block-1 {
     display: block;
   }
@@ -138,6 +158,7 @@
 
 @include media($large-mobile-width) {
   @include responsive-bar(green, 'hello');
+  @include logo-contact-copy(6, 38px, 16px, 30px, 17px, 5px);
   #block-menu-block-1 {
     display: block;
   }
@@ -188,6 +209,7 @@
 
 @include media($tablet-width) {
   @include responsive-bar(blue, 'hello');
+  @include logo-contact-copy(6, 50px, 21px, 30px, 17px, 5px);
   #block-menu-block-1 {
     display: block;
   }
@@ -212,11 +234,13 @@
 
 @include media($desktop-width) {
   @include responsive-bar(purple, 'hello');
+  @include logo-contact-copy(6, 62px, 30px, 50px, 25px, 5px);
   @include add-carousel-copy();
 
 }
 
 @include media($monitor-width) {
   @include responsive-bar(pink, 'hello');
+  @include logo-contact-copy(6, 62px, 28px, 50px, 25px, 5px);
   @include add-carousel-copy();
 }

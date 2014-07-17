@@ -1,4 +1,5 @@
 <?php
   $img = theme('image', array( 'path' => 'sites/default/themes/hbc/'.$logo, ));
-  print $img;
+
 ?>
+<a href="<?php print $GLOBALS['base_path']; ?>"><?php print $img; ?></a>

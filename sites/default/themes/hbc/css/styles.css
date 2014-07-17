@@ -1423,7 +1423,7 @@ body #page {
   z-index: 1;
   height: 50px;
   background-color: #fff;
-  border-top: 5px solid #8d0069;
+  border-top: 5px solid #c02472;
 }
 /* line 24, ../sass/components/_hbc_main.scss */
 .header-mobile .region-header-mobile {
@@ -1440,36 +1440,13 @@ body #page {
   padding: 0px !important;
   background-color: #fff;
 }
-/* line 36, ../sass/components/_hbc_main.scss */
-.header #block-hbc-header-hbc-header-logo {
-  float: left;
-  display: block;
-  margin-right: 2.35765%;
-  width: 48.82117%;
-}
-/* line 38, ../sass/neat/grid/_span-columns.scss */
-.header #block-hbc-header-hbc-header-logo:last-child {
-  margin-right: 0;
-}
-/* line 40, ../sass/components/_hbc_main.scss */
-.header #block-hbc-header-hbc-header-contact {
-  float: left;
-  display: block;
-  margin-right: 2.35765%;
-  width: 48.82117%;
-}
-/* line 38, ../sass/neat/grid/_span-columns.scss */
-.header #block-hbc-header-hbc-header-contact:last-child {
-  margin-right: 0;
-}
-/* line 42, ../sass/components/_hbc_main.scss */
+/* line 41, ../sass/components/_hbc_main.scss */
 .header #block-hbc-header-hbc-header-contact .icon-phone,
-.header #block-hbc-header-hbc-header-contact .icon-envelope,
-.header #block-hbc-header-hbc-header-contact .icon-map-marker {
-  color: #8d0069;
+.header #block-hbc-header-hbc-header-contact .icon-envelope {
+  color: #c02472;
 }
 
-/* line 51, ../sass/components/_hbc_main.scss */
+/* line 49, ../sass/components/_hbc_main.scss */
 #navigation {
   overflow: hidden;
   *zoom: 1;
@@ -1481,7 +1458,7 @@ body #page {
   background-color: #fff;
 }
 
-/* line 60, ../sass/components/_hbc_main.scss */
+/* line 58, ../sass/components/_hbc_main.scss */
 #main {
   overflow: hidden;
   *zoom: 1;
@@ -1490,8 +1467,30 @@ body #page {
   margin-right: auto;
   background-color: #fff;
 }
+/* line 61, ../sass/components/_hbc_main.scss */
+#main .node {
+  font-family: latolight;
+}
+/* line 64, ../sass/components/_hbc_main.scss */
+#main .node h1, #main .node h2, #main .node h3, #main .node h4, #main .node h5, #main .node h6 {
+  color: #c02472;
+  margin: 5px 0px;
+}
+/* line 69, ../sass/components/_hbc_main.scss */
+#main .node p {
+  margin: 5px 0px;
+}
+/* line 73, ../sass/components/_hbc_main.scss */
+#main .node ul {
+  padding-left: 40px;
+  list-style-type: disc !important;
+}
+/* line 76, ../sass/components/_hbc_main.scss */
+#main .node ul li {
+  list-style-type: disc !important;
+}
 
-/* line 66, ../sass/components/_hbc_main.scss */
+/* line 84, ../sass/components/_hbc_main.scss */
 #content {
   overflow: hidden;
   *zoom: 1;
@@ -1500,13 +1499,13 @@ body #page {
   margin-right: auto;
   margin-bottom: 50px;
 }
-/* line 69, ../sass/components/_hbc_main.scss */
+/* line 87, ../sass/components/_hbc_main.scss */
 #content #page-title {
   font-family: latoregular;
-  color: #8d0069;
+  color: #c02472;
   margin: 10px 0px;
 }
-/* line 77, ../sass/components/_hbc_main.scss */
+/* line 95, ../sass/components/_hbc_main.scss */
 #content .node {
   float: left;
   display: block;
@@ -1517,7 +1516,7 @@ body #page {
 #content .node:last-child {
   margin-right: 0;
 }
-/* line 80, ../sass/components/_hbc_main.scss */
+/* line 98, ../sass/components/_hbc_main.scss */
 #content #block-webform-client-block-1 {
   float: left;
   display: block;
@@ -1529,15 +1528,24 @@ body #page {
   margin-right: 0;
 }
 
-/* line 86, ../sass/components/_hbc_main.scss */
+/* line 104, ../sass/components/_hbc_main.scss */
 #footer {
   overflow: hidden;
   *zoom: 1;
   max-width: 68em;
   margin-left: auto;
   margin-right: auto;
-  background-color: #8d0069;
+  background-color: #c02472;
   height: 100px;
+  box-sizing: border-box;
+}
+/* line 109, ../sass/components/_hbc_main.scss */
+#footer #block-hbc-footer-hbc-footer-logo {
+  font-family: latobold;
+  padding: 40px;
+  text-align: center;
+  margin-bottom: 0px;
+  color: #fff;
 }
 
 /* line 1, ../sass/components/_hbc_desktop_menu.scss */
@@ -1546,12 +1554,12 @@ body #page {
 }
 /* line 3, ../sass/components/_hbc_desktop_menu.scss */
 #block-tb-megamenu-main-menu .tb-megamenu {
-  background-image: linear-gradient(#8d0069, #55003f);
+  background-image: linear-gradient(#c02472, #55003f);
   border: 1px solid #460034;
 }
 /* line 11, ../sass/components/_hbc_desktop_menu.scss */
 #block-tb-megamenu-main-menu .tb-megamenu ul.tb-megamenu-nav li.tb-megamenu-item a {
-  background-image: linear-gradient(#8d0069, #55003f);
+  background-image: linear-gradient(#c02472, #55003f);
   background-size: 1px 54px;
   background-color: transparent;
   border-right: solid 1px #000;
@@ -1570,7 +1578,7 @@ body #page {
 /* line 30, ../sass/components/_hbc_desktop_menu.scss */
 #block-tb-megamenu-main-menu .tb-megamenu ul.tb-megamenu-nav li.tb-megamenu-item .tb-megamenu-submenu {
   border-bottom: 0px;
-  background-image: linear-gradient(#8d0069, #55003f);
+  background-image: linear-gradient(#c02472, #55003f);
 }
 /* line 36, ../sass/components/_hbc_desktop_menu.scss */
 #block-tb-megamenu-main-menu .tb-megamenu ul.tb-megamenu-nav li.tb-megamenu-item .tb-megamenu-submenu ul li {
@@ -1580,7 +1588,7 @@ body #page {
 #block-tb-megamenu-main-menu .tb-megamenu ul.tb-megamenu-nav li.tb-megamenu-item .tb-megamenu-submenu ul li a {
   min-height: 45px;
   padding: 10px;
-  background-image: linear-gradient(#8d0069, #55003f);
+  background-image: linear-gradient(#c02472, #55003f);
   border: none;
   color: #fff;
   font-family: latoregular;
@@ -1595,7 +1603,7 @@ body #page {
   position: fixed;
   top: 0px;
   left: 0px;
-  background-color: #8d0069;
+  background-color: #c02472;
   width: 100%;
 }
 
@@ -1639,7 +1647,7 @@ body #page {
 /* line 49, ../sass/components/_hbc_mobile_menu.scss */
 #block-menu-block-1 div.menu-block-wrapper ul.menu li {
   position: relative;
-  background-color: #8d0069;
+  background-color: #c02472;
   box-shadow: 0 1px 0 #8d008c inset, 0 -1px 0 #8d0046 inset;
   text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.3);
   padding: 10px;
@@ -1674,7 +1682,7 @@ body #page {
 }
 /* line 88, ../sass/components/_hbc_mobile_menu.scss */
 #block-menu-block-1 div.menu-block-wrapper ul.menu li:hover {
-  background: #8d0069;
+  background: #c02472;
 }
 /* line 92, ../sass/components/_hbc_mobile_menu.scss */
 #block-menu-block-1 div.menu-block-wrapper ul.menu li ul {
@@ -1688,7 +1696,7 @@ body #page {
 #block-menu-block-1 div.menu-block-wrapper ul.menu li ul li {
   position: relative;
   list-style: none;
-  background-color: #8d0069;
+  background-color: #c02472;
   box-shadow: 0 1px 0 #8d008c inset, 0 -1px 0 #8d0046 inset;
   text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.3);
   padding: 0px;
@@ -1722,32 +1730,52 @@ body #page {
 }
 /* line 4, ../sass/components/_hbc_forms.scss */
 #block-webform-client-block-1 .block-title {
-  color: #8d0069;
+  color: #c02472;
 }
-/* line 11, ../sass/components/_hbc_forms.scss */
+/* line 10, ../sass/components/_hbc_forms.scss */
 #block-webform-client-block-1 #webform-client-form-1 .description {
   position: absolute;
   left: -9999px;
 }
-/* line 16, ../sass/components/_hbc_forms.scss */
+/* line 15, ../sass/components/_hbc_forms.scss */
 #block-webform-client-block-1 #webform-client-form-1 .form-item {
   margin: 5px 0px;
   font-family: latoregular;
   font-size: 15px;
 }
-/* line 20, ../sass/components/_hbc_forms.scss */
+/* line 19, ../sass/components/_hbc_forms.scss */
 #block-webform-client-block-1 #webform-client-form-1 .form-item input {
   margin-bottom: 5px;
+  color: #c02472;
 }
 /* line 23, ../sass/components/_hbc_forms.scss */
+#block-webform-client-block-1 #webform-client-form-1 .form-item textarea {
+  margin-bottom: 5px;
+  color: #c02472;
+}
+/* line 27, ../sass/components/_hbc_forms.scss */
 #block-webform-client-block-1 #webform-client-form-1 .form-item label {
+  font-family: latolight;
   margin-bottom: 0px;
   font-size: 14px;
 }
-/* line 29, ../sass/components/_hbc_forms.scss */
+/* line 34, ../sass/components/_hbc_forms.scss */
+#block-webform-client-block-1 #webform-client-form-1 input[type="checkbox"],
+#block-webform-client-block-1 #webform-client-form-1 input[type="radio"] {
+  background-image: #c02472 url("");
+}
+/* line 39, ../sass/components/_hbc_forms.scss */
 #block-webform-client-block-1 #webform-client-form-1 input[type="submit"] {
-  background-color: #8d0069;
+  background-color: #c02472;
   width: 100%;
+}
+/* line 45, ../sass/components/_hbc_forms.scss */
+#block-webform-client-block-1 #webform-client-form-1 #webform-component-preferred-booking-date .form-item {
+  display: inline-block;
+}
+/* line 47, ../sass/components/_hbc_forms.scss */
+#block-webform-client-block-1 #webform-client-form-1 #webform-component-preferred-booking-date .form-item .form-select {
+  margin: 0px;
 }
 
 /* line 1, ../sass/components/_hbc_carousel.scss */
@@ -1799,34 +1827,34 @@ body #page {
 }
 /* line 45, ../sass/components/_hbc_carousel.scss */
 #block-hbc-hero-banner-hbc-hero-banner .slide-cta-wrapper .slide-cta {
-  border: 1px solid #460034;
+  border: 1px solid #8b124e;
   border-radius: 3px;
-  box-shadow: inset 0 1px 0 0 #d1099e;
+  box-shadow: inset 0 1px 0 0 #d65a98;
   color: white;
   display: inline-block;
   font-size: inherit;
   font-weight: bold;
-  background-color: #8d0069;
-  background-image: -webkit-linear-gradient(#8d0069, #55003f);
-  background-image: linear-gradient(#8d0069, #55003f);
+  background-color: #c02472;
+  background-image: -webkit-linear-gradient(#c02472, #981356);
+  background-image: linear-gradient(#c02472, #981356);
   padding: 7px 18px;
   text-decoration: none;
-  text-shadow: 0 1px 0 #310025;
+  text-shadow: 0 1px 0 #7d0b44;
   background-clip: padding-box;
   font-size: 30px;
 }
 /* line 131, ../sass/bourbon/addons/_button.scss */
 #block-hbc-hero-banner-hbc-hero-banner .slide-cta-wrapper .slide-cta:hover:not(:disabled) {
-  box-shadow: inset 0 1px 0 0 #a10679;
+  box-shadow: inset 0 1px 0 0 #cd317f;
   cursor: pointer;
-  background-color: #710255;
-  background-image: -webkit-linear-gradient(#710255, #460034);
-  background-image: linear-gradient(#710255, #460034);
+  background-color: #a62465;
+  background-image: -webkit-linear-gradient(#a62465, #8a124e);
+  background-image: linear-gradient(#a62465, #8a124e);
 }
 /* line 147, ../sass/bourbon/addons/_button.scss */
 #block-hbc-hero-banner-hbc-hero-banner .slide-cta-wrapper .slide-cta:active:not(:disabled), #block-hbc-hero-banner-hbc-hero-banner .slide-cta-wrapper .slide-cta:focus:not(:disabled) {
-  border: 1px solid #460034;
-  box-shadow: inset 0 0 8px 4px #360028, inset 0 0 8px 4px #360028;
+  border: 1px solid #8b124e;
+  box-shadow: inset 0 0 8px 4px #7c1147, inset 0 0 8px 4px #7c1147;
 }
 /* line 51, ../sass/bourbon/addons/_button.scss */
 #block-hbc-hero-banner-hbc-hero-banner .slide-cta-wrapper .slide-cta:disabled {
@@ -1859,7 +1887,7 @@ body #page {
   font-family: FontAwesome;
   content: "\f104";
   font-size: 110px;
-  color: #8d0069;
+  color: #c02472;
 }
 /* line 80, ../sass/components/_hbc_carousel.scss */
 .banner-btn.banner-next {
@@ -1870,13 +1898,12 @@ body #page {
   font-family: FontAwesome;
   content: "\f105";
   font-size: 110px;
-  color: #8d0069;
+  color: #c02472;
 }
 
 @media screen and (min-width: 220px) {
   /* line 40, ../sass/_mixins.scss */
   .responsive-bar {
-    opacity: 0;
     z-index: 1;
     width: 100%;
     left: 0px;
@@ -1888,35 +1915,85 @@ body #page {
     color: #000;
   }
 
-  /* line 5, ../sass/components/_hbc_responsive.scss */
+  /* line 75, ../sass/_mixins.scss */
+  #block-hbc-header-hbc-header-logo {
+    float: left;
+    display: block;
+    margin-right: 2.35765%;
+    width: 100%;
+  }
+  /* line 38, ../sass/neat/grid/_span-columns.scss */
+  #block-hbc-header-hbc-header-logo:last-child {
+    margin-right: 0;
+  }
+
+  /* line 79, ../sass/_mixins.scss */
+  #block-hbc-header-hbc-header-contact {
+    float: left;
+    display: block;
+    margin-right: 2.35765%;
+    width: 100%;
+    margin-top: 0px;
+    text-align: center;
+  }
+  /* line 38, ../sass/neat/grid/_span-columns.scss */
+  #block-hbc-header-hbc-header-contact:last-child {
+    margin-right: 0;
+  }
+  /* line 84, ../sass/_mixins.scss */
+  #block-hbc-header-hbc-header-contact .icon-phone {
+    font-size: 30px;
+    color: #c02472;
+  }
+  /* line 88, ../sass/_mixins.scss */
+  #block-hbc-header-hbc-header-contact .icon-envelope {
+    font-size: 17px;
+    color: #c02472;
+  }
+
+  /* line 93, ../sass/_mixins.scss */
+  a.hbc-contact-tel {
+    font-size: 36px;
+    padding: 5px;
+    color: #333;
+  }
+
+  /* line 98, ../sass/_mixins.scss */
+  a.hbc-contact-email {
+    font-size: 17px;
+    padding: 5px;
+    color: #333;
+  }
+
+  /* line 8, ../sass/components/_hbc_responsive.scss */
   #block-tb-megamenu-main-menu {
     display: none;
   }
 
-  /* line 8, ../sass/components/_hbc_responsive.scss */
+  /* line 11, ../sass/components/_hbc_responsive.scss */
   .banner-btn {
     height: 165px;
   }
-  /* line 10, ../sass/components/_hbc_responsive.scss */
+  /* line 13, ../sass/components/_hbc_responsive.scss */
   .banner-btn .banner-prev {
     left: 20px;
   }
-  /* line 12, ../sass/components/_hbc_responsive.scss */
+  /* line 15, ../sass/components/_hbc_responsive.scss */
   .banner-btn .banner-prev:before {
     font-family: FontAwesome;
     font-family: FontAwesome;
     content: "\f104";
-    color: #8d0069;
+    color: #c02472;
   }
-  /* line 20, ../sass/components/_hbc_responsive.scss */
+  /* line 23, ../sass/components/_hbc_responsive.scss */
   .banner-btn .banner-next {
     right: 20px;
   }
-  /* line 22, ../sass/components/_hbc_responsive.scss */
+  /* line 25, ../sass/components/_hbc_responsive.scss */
   .banner-btn .banner-next:before {
     font-family: FontAwesome;
     content: "\f105";
-    color: #8d0069;
+    color: #c02472;
   }
 
   /* line 56, ../sass/_mixins.scss */
@@ -1926,7 +2003,7 @@ body #page {
     display: none;
   }
 
-  /* line 33, ../sass/components/_hbc_responsive.scss */
+  /* line 36, ../sass/components/_hbc_responsive.scss */
   #content {
     overflow: hidden;
     *zoom: 1;
@@ -1934,7 +2011,7 @@ body #page {
     margin-left: auto;
     margin-right: auto;
   }
-  /* line 35, ../sass/components/_hbc_responsive.scss */
+  /* line 38, ../sass/components/_hbc_responsive.scss */
   #content .node {
     float: left;
     display: block;
@@ -1945,7 +2022,7 @@ body #page {
   #content .node:last-child {
     margin-right: 0;
   }
-  /* line 38, ../sass/components/_hbc_responsive.scss */
+  /* line 41, ../sass/components/_hbc_responsive.scss */
   #content #block-webform-client-block-1 {
     float: left;
     display: block;
@@ -1960,7 +2037,6 @@ body #page {
 @media screen and (min-width: 320px) {
   /* line 40, ../sass/_mixins.scss */
   .responsive-bar {
-    opacity: 0;
     z-index: 1;
     width: 100%;
     left: 0px;
@@ -1972,40 +2048,90 @@ body #page {
     color: #000;
   }
 
-  /* line 47, ../sass/components/_hbc_responsive.scss */
+  /* line 75, ../sass/_mixins.scss */
+  #block-hbc-header-hbc-header-logo {
+    float: left;
+    display: block;
+    margin-right: 2.35765%;
+    width: 100%;
+  }
+  /* line 38, ../sass/neat/grid/_span-columns.scss */
+  #block-hbc-header-hbc-header-logo:last-child {
+    margin-right: 0;
+  }
+
+  /* line 79, ../sass/_mixins.scss */
+  #block-hbc-header-hbc-header-contact {
+    float: left;
+    display: block;
+    margin-right: 2.35765%;
+    width: 100%;
+    margin-top: 0px;
+    text-align: center;
+  }
+  /* line 38, ../sass/neat/grid/_span-columns.scss */
+  #block-hbc-header-hbc-header-contact:last-child {
+    margin-right: 0;
+  }
+  /* line 84, ../sass/_mixins.scss */
+  #block-hbc-header-hbc-header-contact .icon-phone {
+    font-size: 30px;
+    color: #c02472;
+  }
+  /* line 88, ../sass/_mixins.scss */
+  #block-hbc-header-hbc-header-contact .icon-envelope {
+    font-size: 17px;
+    color: #c02472;
+  }
+
+  /* line 93, ../sass/_mixins.scss */
+  a.hbc-contact-tel {
+    font-size: 36px;
+    padding: 5px;
+    color: #333;
+  }
+
+  /* line 98, ../sass/_mixins.scss */
+  a.hbc-contact-email {
+    font-size: 17px;
+    padding: 5px;
+    color: #333;
+  }
+
+  /* line 52, ../sass/components/_hbc_responsive.scss */
   #block-menu-block-1 {
     display: block;
   }
 
-  /* line 51, ../sass/components/_hbc_responsive.scss */
+  /* line 56, ../sass/components/_hbc_responsive.scss */
   #block-tb-megamenu-main-menu {
     display: none;
   }
 
-  /* line 54, ../sass/components/_hbc_responsive.scss */
+  /* line 59, ../sass/components/_hbc_responsive.scss */
   .banner-btn {
     height: 165px;
   }
-  /* line 56, ../sass/components/_hbc_responsive.scss */
+  /* line 61, ../sass/components/_hbc_responsive.scss */
   .banner-btn .banner-prev {
     left: 20px;
   }
-  /* line 58, ../sass/components/_hbc_responsive.scss */
+  /* line 63, ../sass/components/_hbc_responsive.scss */
   .banner-btn .banner-prev:before {
     font-family: FontAwesome;
     font-family: FontAwesome;
     content: "\f104";
-    color: #8d0069;
+    color: #c02472;
   }
-  /* line 66, ../sass/components/_hbc_responsive.scss */
+  /* line 71, ../sass/components/_hbc_responsive.scss */
   .banner-btn .banner-next {
     right: 20px;
   }
-  /* line 68, ../sass/components/_hbc_responsive.scss */
+  /* line 73, ../sass/components/_hbc_responsive.scss */
   .banner-btn .banner-next:before {
     font-family: FontAwesome;
     content: "\f105";
-    color: #8d0069;
+    color: #c02472;
   }
 
   /* line 56, ../sass/_mixins.scss */
@@ -2015,7 +2141,7 @@ body #page {
     display: none;
   }
 
-  /* line 79, ../sass/components/_hbc_responsive.scss */
+  /* line 84, ../sass/components/_hbc_responsive.scss */
   #content {
     overflow: hidden;
     *zoom: 1;
@@ -2023,7 +2149,7 @@ body #page {
     margin-left: auto;
     margin-right: auto;
   }
-  /* line 81, ../sass/components/_hbc_responsive.scss */
+  /* line 86, ../sass/components/_hbc_responsive.scss */
   #content .node {
     float: left;
     display: block;
@@ -2034,7 +2160,7 @@ body #page {
   #content .node:last-child {
     margin-right: 0;
   }
-  /* line 84, ../sass/components/_hbc_responsive.scss */
+  /* line 89, ../sass/components/_hbc_responsive.scss */
   #content #block-webform-client-block-1 {
     float: left;
     display: block;
@@ -2049,7 +2175,6 @@ body #page {
 @media screen and (min-width: 480px) {
   /* line 40, ../sass/_mixins.scss */
   .responsive-bar {
-    opacity: 0;
     z-index: 1;
     width: 100%;
     left: 0px;
@@ -2061,42 +2186,122 @@ body #page {
     color: #000;
   }
 
-  /* line 93, ../sass/components/_hbc_responsive.scss */
+  /* line 75, ../sass/_mixins.scss */
+  #block-hbc-header-hbc-header-logo {
+    float: left;
+    display: block;
+    margin-right: 2.35765%;
+    width: 100%;
+  }
+  /* line 38, ../sass/neat/grid/_span-columns.scss */
+  #block-hbc-header-hbc-header-logo:last-child {
+    margin-right: 0;
+  }
+
+  /* line 79, ../sass/_mixins.scss */
+  #block-hbc-header-hbc-header-contact {
+    float: left;
+    display: block;
+    margin-right: 2.35765%;
+    width: 100%;
+    margin-top: 15px;
+    text-align: center;
+  }
+  /* line 38, ../sass/neat/grid/_span-columns.scss */
+  #block-hbc-header-hbc-header-contact:last-child {
+    margin-right: 0;
+  }
+  /* line 84, ../sass/_mixins.scss */
+  #block-hbc-header-hbc-header-contact .icon-phone {
+    font-size: 30px;
+    color: #c02472;
+  }
+  /* line 88, ../sass/_mixins.scss */
+  #block-hbc-header-hbc-header-contact .icon-envelope {
+    font-size: 17px;
+    color: #c02472;
+  }
+
+  /* line 93, ../sass/_mixins.scss */
+  a.hbc-contact-tel {
+    font-size: 30px;
+    padding: 5px;
+    color: #333;
+  }
+
+  /* line 98, ../sass/_mixins.scss */
+  a.hbc-contact-email {
+    font-size: 13px;
+    padding: 5px;
+    color: #333;
+  }
+
+  /* line 100, ../sass/components/_hbc_responsive.scss */
+  #block-hbc-header-hbc-header-logo {
+    float: left;
+    display: block;
+    margin-right: 2.35765%;
+    width: 48.82117%;
+  }
+  /* line 38, ../sass/neat/grid/_span-columns.scss */
+  #block-hbc-header-hbc-header-logo:last-child {
+    margin-right: 0;
+  }
+
+  /* line 104, ../sass/components/_hbc_responsive.scss */
+  #block-hbc-header-hbc-header-contact {
+    float: left;
+    display: block;
+    margin-right: 2.35765%;
+    width: 48.82117%;
+  }
+  /* line 38, ../sass/neat/grid/_span-columns.scss */
+  #block-hbc-header-hbc-header-contact:last-child {
+    margin-right: 0;
+  }
+  /* line 106, ../sass/components/_hbc_responsive.scss */
+  #block-hbc-header-hbc-header-contact .icon-phone,
+  #block-hbc-header-hbc-header-contact .icon-envelope,
+  #block-hbc-header-hbc-header-contact .icon-map-marker {
+    color: #c02472;
+  }
+
+  /* line 113, ../sass/components/_hbc_responsive.scss */
   #block-menu-block-1 {
     display: block;
   }
 
-  /* line 97, ../sass/components/_hbc_responsive.scss */
+  /* line 117, ../sass/components/_hbc_responsive.scss */
   #block-tb-megamenu-main-menu {
     display: none;
   }
 
-  /* line 101, ../sass/components/_hbc_responsive.scss */
+  /* line 121, ../sass/components/_hbc_responsive.scss */
   .banner-btn {
     height: 165px;
   }
-  /* line 103, ../sass/components/_hbc_responsive.scss */
+  /* line 123, ../sass/components/_hbc_responsive.scss */
   .banner-btn .banner-prev {
     left: 20px;
   }
-  /* line 105, ../sass/components/_hbc_responsive.scss */
+  /* line 125, ../sass/components/_hbc_responsive.scss */
   .banner-btn .banner-prev:before {
     font-family: FontAwesome;
     font-family: FontAwesome;
     content: "\f104";
     font-size: 90px;
-    color: #8d0069;
+    color: #c02472;
   }
-  /* line 113, ../sass/components/_hbc_responsive.scss */
+  /* line 133, ../sass/components/_hbc_responsive.scss */
   .banner-btn .banner-next {
     right: 20px;
   }
-  /* line 115, ../sass/components/_hbc_responsive.scss */
+  /* line 135, ../sass/components/_hbc_responsive.scss */
   .banner-btn .banner-next:before {
     font-family: FontAwesome;
     content: "\f105";
     font-size: 90px;
-    color: #8d0069;
+    color: #c02472;
   }
 
   /* line 56, ../sass/_mixins.scss */
@@ -2106,7 +2311,7 @@ body #page {
     display: none;
   }
 
-  /* line 127, ../sass/components/_hbc_responsive.scss */
+  /* line 147, ../sass/components/_hbc_responsive.scss */
   #content {
     overflow: hidden;
     *zoom: 1;
@@ -2114,7 +2319,7 @@ body #page {
     margin-left: auto;
     margin-right: auto;
   }
-  /* line 129, ../sass/components/_hbc_responsive.scss */
+  /* line 149, ../sass/components/_hbc_responsive.scss */
   #content .node {
     float: left;
     display: block;
@@ -2125,7 +2330,7 @@ body #page {
   #content .node:last-child {
     margin-right: 0;
   }
-  /* line 132, ../sass/components/_hbc_responsive.scss */
+  /* line 152, ../sass/components/_hbc_responsive.scss */
   #content #block-webform-client-block-1 {
     float: left;
     display: block;
@@ -2140,7 +2345,6 @@ body #page {
 @media screen and (min-width: 595px) {
   /* line 40, ../sass/_mixins.scss */
   .responsive-bar {
-    opacity: 0;
     z-index: 1;
     width: 100%;
     left: 0px;
@@ -2152,42 +2356,92 @@ body #page {
     color: #000;
   }
 
-  /* line 141, ../sass/components/_hbc_responsive.scss */
+  /* line 75, ../sass/_mixins.scss */
+  #block-hbc-header-hbc-header-logo {
+    float: left;
+    display: block;
+    margin-right: 2.35765%;
+    width: 48.82117%;
+  }
+  /* line 38, ../sass/neat/grid/_span-columns.scss */
+  #block-hbc-header-hbc-header-logo:last-child {
+    margin-right: 0;
+  }
+
+  /* line 79, ../sass/_mixins.scss */
+  #block-hbc-header-hbc-header-contact {
+    float: left;
+    display: block;
+    margin-right: 2.35765%;
+    width: 48.82117%;
+    margin-top: 5px;
+    text-align: center;
+  }
+  /* line 38, ../sass/neat/grid/_span-columns.scss */
+  #block-hbc-header-hbc-header-contact:last-child {
+    margin-right: 0;
+  }
+  /* line 84, ../sass/_mixins.scss */
+  #block-hbc-header-hbc-header-contact .icon-phone {
+    font-size: 30px;
+    color: #c02472;
+  }
+  /* line 88, ../sass/_mixins.scss */
+  #block-hbc-header-hbc-header-contact .icon-envelope {
+    font-size: 17px;
+    color: #c02472;
+  }
+
+  /* line 93, ../sass/_mixins.scss */
+  a.hbc-contact-tel {
+    font-size: 38px;
+    padding: 5px;
+    color: #333;
+  }
+
+  /* line 98, ../sass/_mixins.scss */
+  a.hbc-contact-email {
+    font-size: 16px;
+    padding: 5px;
+    color: #333;
+  }
+
+  /* line 162, ../sass/components/_hbc_responsive.scss */
   #block-menu-block-1 {
     display: block;
   }
 
-  /* line 145, ../sass/components/_hbc_responsive.scss */
+  /* line 166, ../sass/components/_hbc_responsive.scss */
   #block-tb-megamenu-main-menu {
     display: none;
   }
 
-  /* line 149, ../sass/components/_hbc_responsive.scss */
+  /* line 170, ../sass/components/_hbc_responsive.scss */
   .banner-btn {
     height: 165px;
   }
-  /* line 151, ../sass/components/_hbc_responsive.scss */
+  /* line 172, ../sass/components/_hbc_responsive.scss */
   .banner-btn .banner-prev {
     left: 20px;
   }
-  /* line 153, ../sass/components/_hbc_responsive.scss */
+  /* line 174, ../sass/components/_hbc_responsive.scss */
   .banner-btn .banner-prev:before {
     font-family: FontAwesome;
     font-family: FontAwesome;
     content: "\f104";
     font-size: 110px;
-    color: #8d0069;
+    color: #c02472;
   }
-  /* line 161, ../sass/components/_hbc_responsive.scss */
+  /* line 182, ../sass/components/_hbc_responsive.scss */
   .banner-btn .banner-next {
     right: 20px;
   }
-  /* line 163, ../sass/components/_hbc_responsive.scss */
+  /* line 184, ../sass/components/_hbc_responsive.scss */
   .banner-btn .banner-next:before {
     font-family: FontAwesome;
     content: "\f105";
     font-size: 110px;
-    color: #8d0069;
+    color: #c02472;
   }
 
   /* line 56, ../sass/_mixins.scss */
@@ -2197,7 +2451,7 @@ body #page {
     display: none;
   }
 
-  /* line 177, ../sass/components/_hbc_responsive.scss */
+  /* line 198, ../sass/components/_hbc_responsive.scss */
   #content {
     overflow: hidden;
     *zoom: 1;
@@ -2205,7 +2459,7 @@ body #page {
     margin-left: auto;
     margin-right: auto;
   }
-  /* line 179, ../sass/components/_hbc_responsive.scss */
+  /* line 200, ../sass/components/_hbc_responsive.scss */
   #content .node {
     float: left;
     display: block;
@@ -2216,7 +2470,7 @@ body #page {
   #content .node:last-child {
     margin-right: 0;
   }
-  /* line 182, ../sass/components/_hbc_responsive.scss */
+  /* line 203, ../sass/components/_hbc_responsive.scss */
   #content #block-webform-client-block-1 {
     float: left;
     display: block;
@@ -2231,7 +2485,6 @@ body #page {
 @media screen and (min-width: 768px) {
   /* line 40, ../sass/_mixins.scss */
   .responsive-bar {
-    opacity: 0;
     z-index: 1;
     width: 100%;
     left: 0px;
@@ -2243,12 +2496,62 @@ body #page {
     color: #000;
   }
 
-  /* line 191, ../sass/components/_hbc_responsive.scss */
+  /* line 75, ../sass/_mixins.scss */
+  #block-hbc-header-hbc-header-logo {
+    float: left;
+    display: block;
+    margin-right: 2.35765%;
+    width: 48.82117%;
+  }
+  /* line 38, ../sass/neat/grid/_span-columns.scss */
+  #block-hbc-header-hbc-header-logo:last-child {
+    margin-right: 0;
+  }
+
+  /* line 79, ../sass/_mixins.scss */
+  #block-hbc-header-hbc-header-contact {
+    float: left;
+    display: block;
+    margin-right: 2.35765%;
+    width: 48.82117%;
+    margin-top: 5px;
+    text-align: center;
+  }
+  /* line 38, ../sass/neat/grid/_span-columns.scss */
+  #block-hbc-header-hbc-header-contact:last-child {
+    margin-right: 0;
+  }
+  /* line 84, ../sass/_mixins.scss */
+  #block-hbc-header-hbc-header-contact .icon-phone {
+    font-size: 30px;
+    color: #c02472;
+  }
+  /* line 88, ../sass/_mixins.scss */
+  #block-hbc-header-hbc-header-contact .icon-envelope {
+    font-size: 17px;
+    color: #c02472;
+  }
+
+  /* line 93, ../sass/_mixins.scss */
+  a.hbc-contact-tel {
+    font-size: 50px;
+    padding: 5px;
+    color: #333;
+  }
+
+  /* line 98, ../sass/_mixins.scss */
+  a.hbc-contact-email {
+    font-size: 21px;
+    padding: 5px;
+    color: #333;
+  }
+
+  /* line 213, ../sass/components/_hbc_responsive.scss */
   #block-menu-block-1 {
     display: block;
   }
 
-  /* line 194, ../sass/components/_hbc_responsive.scss */
+  /* line 216, ../sass/components/_hbc_responsive.scss */
   #block-tb-megamenu-main-menu {
     display: none;
   }
@@ -2263,7 +2566,6 @@ body #page {
 @media screen and (min-width: 980px) {
   /* line 40, ../sass/_mixins.scss */
   .responsive-bar {
-    opacity: 0;
     z-index: 1;
     width: 100%;
     left: 0px;
@@ -2275,12 +2577,12 @@ body #page {
     color: #000;
   }
 
-  /* line 202, ../sass/components/_hbc_responsive.scss */
+  /* line 224, ../sass/components/_hbc_responsive.scss */
   #block-menu-block-1 {
     display: none;
   }
 
-  /* line 205, ../sass/components/_hbc_responsive.scss */
+  /* line 227, ../sass/components/_hbc_responsive.scss */
   #block-tb-megamenu-main-menu {
     display: block;
   }
@@ -2295,7 +2597,6 @@ body #page {
 @media screen and (min-width: 1024px) {
   /* line 40, ../sass/_mixins.scss */
   .responsive-bar {
-    opacity: 0;
     z-index: 1;
     width: 100%;
     left: 0px;
@@ -2305,6 +2606,56 @@ body #page {
     background-color: purple;
     content: "hello";
     color: #000;
+  }
+
+  /* line 75, ../sass/_mixins.scss */
+  #block-hbc-header-hbc-header-logo {
+    float: left;
+    display: block;
+    margin-right: 2.35765%;
+    width: 48.82117%;
+  }
+  /* line 38, ../sass/neat/grid/_span-columns.scss */
+  #block-hbc-header-hbc-header-logo:last-child {
+    margin-right: 0;
+  }
+
+  /* line 79, ../sass/_mixins.scss */
+  #block-hbc-header-hbc-header-contact {
+    float: left;
+    display: block;
+    margin-right: 2.35765%;
+    width: 48.82117%;
+    margin-top: 5px;
+    text-align: center;
+  }
+  /* line 38, ../sass/neat/grid/_span-columns.scss */
+  #block-hbc-header-hbc-header-contact:last-child {
+    margin-right: 0;
+  }
+  /* line 84, ../sass/_mixins.scss */
+  #block-hbc-header-hbc-header-contact .icon-phone {
+    font-size: 50px;
+    color: #c02472;
+  }
+  /* line 88, ../sass/_mixins.scss */
+  #block-hbc-header-hbc-header-contact .icon-envelope {
+    font-size: 25px;
+    color: #c02472;
+  }
+
+  /* line 93, ../sass/_mixins.scss */
+  a.hbc-contact-tel {
+    font-size: 62px;
+    padding: 5px;
+    color: #333;
+  }
+
+  /* line 98, ../sass/_mixins.scss */
+  a.hbc-contact-email {
+    font-size: 30px;
+    padding: 5px;
+    color: #333;
   }
 
   /* line 66, ../sass/_mixins.scss */
@@ -2317,7 +2668,6 @@ body #page {
 @media screen and (min-width: 1920px) {
   /* line 40, ../sass/_mixins.scss */
   .responsive-bar {
-    opacity: 0;
     z-index: 1;
     width: 100%;
     left: 0px;
@@ -2327,6 +2677,56 @@ body #page {
     background-color: pink;
     content: "hello";
     color: #000;
+  }
+
+  /* line 75, ../sass/_mixins.scss */
+  #block-hbc-header-hbc-header-logo {
+    float: left;
+    display: block;
+    margin-right: 2.35765%;
+    width: 48.82117%;
+  }
+  /* line 38, ../sass/neat/grid/_span-columns.scss */
+  #block-hbc-header-hbc-header-logo:last-child {
+    margin-right: 0;
+  }
+
+  /* line 79, ../sass/_mixins.scss */
+  #block-hbc-header-hbc-header-contact {
+    float: left;
+    display: block;
+    margin-right: 2.35765%;
+    width: 48.82117%;
+    margin-top: 5px;
+    text-align: center;
+  }
+  /* line 38, ../sass/neat/grid/_span-columns.scss */
+  #block-hbc-header-hbc-header-contact:last-child {
+    margin-right: 0;
+  }
+  /* line 84, ../sass/_mixins.scss */
+  #block-hbc-header-hbc-header-contact .icon-phone {
+    font-size: 50px;
+    color: #c02472;
+  }
+  /* line 88, ../sass/_mixins.scss */
+  #block-hbc-header-hbc-header-contact .icon-envelope {
+    font-size: 25px;
+    color: #c02472;
+  }
+
+  /* line 93, ../sass/_mixins.scss */
+  a.hbc-contact-tel {
+    font-size: 62px;
+    padding: 5px;
+    color: #333;
+  }
+
+  /* line 98, ../sass/_mixins.scss */
+  a.hbc-contact-email {
+    font-size: 28px;
+    padding: 5px;
+    color: #333;
   }
 
   /* line 66, ../sass/_mixins.scss */

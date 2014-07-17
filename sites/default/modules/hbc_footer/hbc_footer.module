@@ -1,0 +1,48 @@
+<?php
+
+/**
+ * Implements hook_block_info().
+ */
+function hbc_footer_block_info() {
+
+  $blocks['hbc_footer_logo'] = array(
+    'info' => t('HBC Footer Block.'),
+    'cache' => DRUPAL_NO_CACHE
+  );
+  return $blocks;
+}
+
+/**
+ * Implements hook_block_view().
+ */
+function hbc_footer_block_view($delta = '') {
+  // This example is adapted from node.module.
+  $block = array();
+
+  switch ($delta) {
+
+    case 'hbc_footer_logo':
+      // Path the module.
+      $block['subject'] = '';
+      $block['content'] = array(
+        '#theme' => 'hbc_footer',
+      );
+      break;
+
+  }
+  return $block;
+}
+
+/**
+ * Implements hook_custom_theme().
+ */
+function hbc_footer_theme() {
+
+  return array(
+    'hbc_footer' => array(
+      'template' => 'templates/hbc_footer',
+      'variables' => array(),
+    ),
+
+  );
+}

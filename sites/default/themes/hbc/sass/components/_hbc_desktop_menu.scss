@@ -3,14 +3,14 @@
   .tb-megamenu {
 //    background-image: image-url('nav-bg.jpg');
 //    background-size: 1px 54px;
-    background-image: linear-gradient(#8d0069, #55003f);
+    background-image: linear-gradient($macro-purple, #55003f);
     border:1px solid #460034;
     ul.tb-megamenu-nav {
       li.tb-megamenu-item {
 
         a {
 //          background-image: image-url('nav-bg.jpg');
-          background-image: linear-gradient(#8d0069, #55003f);
+          background-image: linear-gradient($macro-purple, #55003f);
           background-size: 1px 54px;
           background-color: transparent;
           border-right: solid 1px #000;
@@ -29,7 +29,7 @@
 
         .tb-megamenu-submenu {
           border-bottom:0px;
-          background-image: linear-gradient(#8d0069, #55003f);
+          background-image: linear-gradient($macro-purple, #55003f);
           // Sub Menu
           ul {
 
@@ -38,7 +38,7 @@
               a {
                 min-height: 45px;
                 padding:10px;
-                background-image: linear-gradient(#8d0069, #55003f);
+                background-image: linear-gradient($macro-purple, #55003f);
                 border:none;
                 color: #fff;
                 font-family: $latoregular;
