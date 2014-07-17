@@ -1908,6 +1908,7 @@ body #page {
 @media screen and (min-width: 220px) {
   /* line 40, ../sass/_mixins.scss */
   .responsive-bar {
+    opacity: 0;
     z-index: 1;
     width: 100%;
     left: 0px;
@@ -2041,6 +2042,7 @@ body #page {
 @media screen and (min-width: 320px) {
   /* line 40, ../sass/_mixins.scss */
   .responsive-bar {
+    opacity: 0;
     z-index: 1;
     width: 100%;
     left: 0px;
@@ -2179,6 +2181,7 @@ body #page {
 @media screen and (min-width: 480px) {
   /* line 40, ../sass/_mixins.scss */
   .responsive-bar {
+    opacity: 0;
     z-index: 1;
     width: 100%;
     left: 0px;
@@ -2349,6 +2352,7 @@ body #page {
 @media screen and (min-width: 595px) {
   /* line 40, ../sass/_mixins.scss */
   .responsive-bar {
+    opacity: 0;
     z-index: 1;
     width: 100%;
     left: 0px;
@@ -2489,6 +2493,7 @@ body #page {
 @media screen and (min-width: 768px) {
   /* line 40, ../sass/_mixins.scss */
   .responsive-bar {
+    opacity: 0;
     z-index: 1;
     width: 100%;
     left: 0px;
@@ -2570,6 +2575,7 @@ body #page {
 @media screen and (min-width: 980px) {
   /* line 40, ../sass/_mixins.scss */
   .responsive-bar {
+    opacity: 0;
     z-index: 1;
     width: 100%;
     left: 0px;
@@ -2601,6 +2607,7 @@ body #page {
 @media screen and (min-width: 1024px) {
   /* line 40, ../sass/_mixins.scss */
   .responsive-bar {
+    opacity: 0;
     z-index: 1;
     width: 100%;
     left: 0px;
@@ -2672,6 +2679,7 @@ body #page {
 @media screen and (min-width: 1920px) {
   /* line 40, ../sass/_mixins.scss */
   .responsive-bar {
+    opacity: 0;
     z-index: 1;
     width: 100%;
     left: 0px;

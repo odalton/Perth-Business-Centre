@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c50db2ba-937c-4439-bfc1-687907beaba1" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/default/modules/hbc_gmaps/js/hbc_gmaps.js" afterPath="$PROJECT_DIR$/sites/default/modules/hbc_gmaps/js/hbc_gmaps.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/default/themes/hbc/sass/_mixins.scss" afterPath="$PROJECT_DIR$/sites/default/themes/hbc/sass/_mixins.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/default/modules/hbc_form/hbc_form.module" afterPath="$PROJECT_DIR$/sites/default/modules/hbc_form/hbc_form.module" />
     </list>
     <ignored path="hbc.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -25,28 +26,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="hbc_header_logo.tpl.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/sites/default/modules/hbc_header/templates/hbc_header_logo.tpl.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="4" column="42" selection-start="132" selection-end="132" vertical-scroll-proportion="-2.5" vertical-offset="0" max-vertical-offset="150">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="hbc_footer.info" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/sites/default/modules/hbc_footer/hbc_footer.info">
           <provider selected="true" editor-type-id="text-editor">
             <state line="3" column="19" selection-start="88" selection-end="88" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="135">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="hbc_footer.module" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/sites/default/modules/hbc_footer/hbc_footer.module">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="38" column="29" selection-start="663" selection-end="663" vertical-scroll-proportion="-6.2" vertical-offset="105" max-vertical-offset="795">
               <folding />
             </state>
           </provider>
@@ -61,10 +44,19 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="hbc_gmaps.js" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="hbc_gmaps.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/sites/default/modules/hbc_gmaps/js/hbc_gmaps.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="13" column="8" selection-start="254" selection-end="254" vertical-scroll-proportion="0.27738264" vertical-offset="0" max-vertical-offset="2235">
+            <state line="22" column="7" selection-start="369" selection-end="369" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2235">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="hbc_form.module" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/sites/default/modules/hbc_form/hbc_form.module">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="15" column="14" selection-start="373" selection-end="373" vertical-scroll-proportion="-9.375" vertical-offset="0" max-vertical-offset="435">
               <folding />
             </state>
           </provider>
@@ -115,6 +107,15 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="_mixins.scss" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/sites/default/themes/hbc/sass/_mixins.scss">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="40" column="14" selection-start="1018" selection-end="1018" vertical-scroll-proportion="0.24005891" vertical-offset="437" max-vertical-offset="1620">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
     </leaf>
   </component>
   <component name="FindManager">
@@ -138,8 +139,6 @@
         <option value="$PROJECT_DIR$/sites/default/themes/hbc/sass/components/_hbc_responsive.scss" />
         <option value="$PROJECT_DIR$/sites/default/themes/hbc/sass/_init.scss" />
         <option value="$PROJECT_DIR$/sites/default/themes/hbc/sass/components/_hbc_desktop_menu.scss" />
-        <option value="$PROJECT_DIR$/sites/default/themes/hbc/sass/_mixins.scss" />
-        <option value="$PROJECT_DIR$/sites/default/modules/hbc_form/hbc_form.module" />
         <option value="$PROJECT_DIR$/sites/default/modules/hbc_footer/hbc_footer.info" />
         <option value="$PROJECT_DIR$/sites/default/modules/hbc_header/templates/hbc_header_logo.tpl.php" />
         <option value="$PROJECT_DIR$/sites/default/modules/hbc_footer/hbc_footer.module" />
@@ -149,6 +148,8 @@
         <option value="$PROJECT_DIR$/sites/default/modules/hbc_gmaps/hbc_gmaps.module" />
         <option value="$PROJECT_DIR$/sites/default/themes/hbc/sass/components/_hbc_main.scss" />
         <option value="$PROJECT_DIR$/sites/default/modules/hbc_gmaps/js/hbc_gmaps.js" />
+        <option value="$PROJECT_DIR$/sites/default/modules/hbc_form/hbc_form.module" />
+        <option value="$PROJECT_DIR$/sites/default/themes/hbc/sass/_mixins.scss" />
       </list>
     </option>
   </component>
@@ -489,6 +490,32 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="hbc" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="hbc" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sites" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="default" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="modules" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="hbc_form" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
       <pane id="Scope" />
@@ -579,20 +606,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/sites/default/themes/hbc/sass/_mixins.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="81" column="6" selection-start="1817" selection-end="1835" vertical-scroll-proportion="-12.416667" vertical-offset="917" max-vertical-offset="1620">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sites/default/modules/hbc_form/hbc_form.module">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="0" selection-start="211" selection-end="211" vertical-scroll-proportion="-6.25" vertical-offset="0" max-vertical-offset="435">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/sites/default/modules/hbc_header/templates/hbc_header_contact.tpl.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="5" column="6" selection-start="323" selection-end="323" vertical-scroll-proportion="0.11664075" vertical-offset="0" max-vertical-offset="643">
@@ -679,7 +692,21 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/sites/default/modules/hbc_gmaps/js/hbc_gmaps.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="8" selection-start="254" selection-end="254" vertical-scroll-proportion="0.27738264" vertical-offset="0" max-vertical-offset="2235">
+        <state line="22" column="7" selection-start="369" selection-end="369" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2235">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sites/default/modules/hbc_form/hbc_form.module">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="15" column="14" selection-start="373" selection-end="373" vertical-scroll-proportion="-9.375" vertical-offset="0" max-vertical-offset="435">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sites/default/themes/hbc/sass/_mixins.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="40" column="14" selection-start="1018" selection-end="1018" vertical-scroll-proportion="0.24005891" vertical-offset="437" max-vertical-offset="1620">
           <folding />
         </state>
       </provider>
