@@ -58,6 +58,13 @@ body {
 #main {
   @include outer-container;
   background-color: #fff;
+
+  #block-hbc-gmaps-gmaps {
+    #map-canvas {
+      height: 340px;
+    }
+  }
+
   .node {
     font-family: $latolight;
 

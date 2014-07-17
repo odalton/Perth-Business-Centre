@@ -1467,30 +1467,34 @@ body #page {
   margin-right: auto;
   background-color: #fff;
 }
-/* line 61, ../sass/components/_hbc_main.scss */
+/* line 63, ../sass/components/_hbc_main.scss */
+#main #block-hbc-gmaps-gmaps #map-canvas {
+  height: 340px;
+}
+/* line 68, ../sass/components/_hbc_main.scss */
 #main .node {
   font-family: latolight;
 }
-/* line 64, ../sass/components/_hbc_main.scss */
+/* line 71, ../sass/components/_hbc_main.scss */
 #main .node h1, #main .node h2, #main .node h3, #main .node h4, #main .node h5, #main .node h6 {
   color: #c02472;
   margin: 5px 0px;
 }
-/* line 69, ../sass/components/_hbc_main.scss */
+/* line 76, ../sass/components/_hbc_main.scss */
 #main .node p {
   margin: 5px 0px;
 }
-/* line 73, ../sass/components/_hbc_main.scss */
+/* line 80, ../sass/components/_hbc_main.scss */
 #main .node ul {
   padding-left: 40px;
   list-style-type: disc !important;
 }
-/* line 76, ../sass/components/_hbc_main.scss */
+/* line 83, ../sass/components/_hbc_main.scss */
 #main .node ul li {
   list-style-type: disc !important;
 }
 
-/* line 84, ../sass/components/_hbc_main.scss */
+/* line 91, ../sass/components/_hbc_main.scss */
 #content {
   overflow: hidden;
   *zoom: 1;
@@ -1499,13 +1503,13 @@ body #page {
   margin-right: auto;
   margin-bottom: 50px;
 }
-/* line 87, ../sass/components/_hbc_main.scss */
+/* line 94, ../sass/components/_hbc_main.scss */
 #content #page-title {
   font-family: latoregular;
   color: #c02472;
   margin: 10px 0px;
 }
-/* line 95, ../sass/components/_hbc_main.scss */
+/* line 102, ../sass/components/_hbc_main.scss */
 #content .node {
   float: left;
   display: block;
@@ -1516,7 +1520,7 @@ body #page {
 #content .node:last-child {
   margin-right: 0;
 }
-/* line 98, ../sass/components/_hbc_main.scss */
+/* line 105, ../sass/components/_hbc_main.scss */
 #content #block-webform-client-block-1 {
   float: left;
   display: block;
@@ -1528,7 +1532,7 @@ body #page {
   margin-right: 0;
 }
 
-/* line 104, ../sass/components/_hbc_main.scss */
+/* line 111, ../sass/components/_hbc_main.scss */
 #footer {
   overflow: hidden;
   *zoom: 1;
@@ -1539,7 +1543,7 @@ body #page {
   height: 100px;
   box-sizing: border-box;
 }
-/* line 109, ../sass/components/_hbc_main.scss */
+/* line 116, ../sass/components/_hbc_main.scss */
 #footer #block-hbc-footer-hbc-footer-logo {
   font-family: latobold;
   padding: 40px;

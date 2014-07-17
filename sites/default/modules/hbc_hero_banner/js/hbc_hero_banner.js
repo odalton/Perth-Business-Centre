@@ -21,7 +21,10 @@
       owl.owlCarousel({
         slideSpeed : 300,
         paginationSpeed : 400,
-        singleItem:true
+        singleItem:true,
+        autoPlay:true,
+        stopOnHover:false
+
       });
       // Hero banner previous button.
       $('.banner-prev', context).click(function(e){

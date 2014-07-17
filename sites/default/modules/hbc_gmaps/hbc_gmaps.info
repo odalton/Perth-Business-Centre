@@ -1,0 +1,4 @@
+name = HBC GMaps Module
+description = "Adds Google Map to a Block"
+package = PP
+core = 7.x
