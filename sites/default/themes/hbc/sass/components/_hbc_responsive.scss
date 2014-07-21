@@ -219,6 +219,16 @@
   #block-tb-megamenu-main-menu {
     display: none;
   }
+
+  #hero-banner-carousel {
+    .slide-cta-wrapper {
+      max-width: 245px;
+      .slide-cta {
+        font-size: 20px;
+      }
+    }
+  }
+
   @include add-carousel-copy();
 }
 
