@@ -1,0 +1,93 @@
+<?php
+
+/**
+ * Implements hook_block_info().
+ */
+function hbc_magnific_block_info() {
+  // Hero banner carousel block.
+  $blocks['hbc_magnific'] = array(
+    'info' => t('HBC Gallery'),
+    'cache' => DRUPAL_NO_CACHE
+  );
+  return $blocks;
+}
+/**
+ * Implements hook_block_view().
+ */
+function hbc_magnific_block_view($delta = '') {
+  // This example is adapted from node.module.
+  $block = array();
+
+  switch ($delta) {
+    // Hero banner carousel block.
+    case 'hbc_magnific':
+      // Path the module.
+      $base_path = drupal_get_path('module', 'hbc_magnific');
+      // Add Owl Carousel plugin js and css.
+      drupal_add_js('sites/all/libraries/magnific/jquery.magnific-popup.min.js');
+      drupal_add_css('sites/all/libraries/magnific/magnific-popup.css');
+      // Add custom js.
+      drupal_add_js($base_path . '/js/hbc_magnific.js');
+
+      $block['subject'] = '';
+      $block['content'] = array(
+        '#theme' => 'hbc_magnific',
+        '#gallerys' => hbc_magnific_nodes(),
+      );
+      break;
+
+  }
+  return $block;
+}
+
+
+/**
+ * Implements hook_custom_theme().
+ */
+function hbc_magnific_theme() {
+
+  return array(
+    // Hero banner block theme.
+    'hbc_magnific' => array(
+      'template' => 'templates/hbc_magnific',
+      'variables' => array(
+        'gallerys' => null,
+      ),
+    ),
+
+  );
+}
+
+
+// Custom function to return all the hero banner nodes.
+function hbc_magnific_nodes(){
+
+  // Empty array to return later.
+  $out = array();
+  $items = array();
+
+  $query = new EntityFieldQuery();
+  $query->entityCondition('entity_type', 'node') // Query nodes.
+    ->entityCondition('bundle', 'gallery_image') // Hero banner content type.
+    ->addMetaData('account', user_load(1)); // Run the query as user 1.
+  $result = $query->execute(); // Execute that funky function.
+
+  if (isset($result['node'])) {
+    // Returned node IDs.
+    $nids = array_keys($result['node']);
+    // Load the nodes with provided nids.
+    $items = entity_load('node', $nids);
+
+  }
+  // If there are nodes.
+  if (!empty($items)) {
+    foreach ($items as $k => $v) {
+      $out[$k]['title'] =  $v->title; // Node title.
+      $out[$k]['image'] = $v->field_gallery_image['und'][0]['uri'];
+      $out[$k]['alt'] = $v->field_gallery_image['und'][0]['alt'];
+      $out[$k]['image_title'] = $v->field_gallery_image['und'][0]['title'];
+      $out[$k]['image_by'] = $v->field_image_by['und'][0]['value'];
+    }
+  }
+  return $out;
+}

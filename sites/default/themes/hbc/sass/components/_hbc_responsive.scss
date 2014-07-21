@@ -83,7 +83,8 @@
   // Content Styles.
   #content {
     @include outer-container;
-    .node {
+    .node,
+    #block-hbc-magnific-hbc-magnific {
       @include span-columns(12);
     }
     #block-webform-client-block-1 {
@@ -146,7 +147,8 @@
   // Content Styles.
   #content {
     @include outer-container;
-    .node {
+    .node,
+    #block-hbc-magnific-hbc-magnific {
       @include span-columns(12);
     }
     #block-webform-client-block-1 {
@@ -197,7 +199,8 @@
   // Content Styles.
   #content {
     @include outer-container;
-    .node {
+    .node,
+    #block-hbc-magnific-hbc-magnific {
       @include span-columns(8);
     }
     #block-webform-client-block-1 {

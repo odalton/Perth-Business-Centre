@@ -101,21 +101,36 @@ body {
   margin-bottom: 50px;
   .node {
     @include span-columns(8);
+
+
   }
   #block-webform-client-block-1 {
     @include span-columns(4);
   }
 }
 
+
+#hbc-gallery-wrapper {
+  a {
+    margin: 1px 2px;
+    max-width: 230px;
+    max-height: 230px;
+  }
+}
+
 // Footer Styles.
 #footer {
   @include outer-container;
+  position: relative;
+  box-sizing: border-box;
   background-color: $macro-purple;
   height: 100px;
   box-sizing: border-box;
   #block-hbc-footer-hbc-footer-logo {
+    position: relative;
+    box-sizing: border-box;
     font-family:$latobold;
-    padding:40px;
+    padding:14px;
     text-align: center;
     margin-bottom:0px;
     color:#fff;

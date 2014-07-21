@@ -1,0 +1,4 @@
+name = HBC Magnific Gallery Popup
+description = Adds a Magnific popup gallery into Gallery section.
+core = 7.x
+package = "Hedland Business Centre"
