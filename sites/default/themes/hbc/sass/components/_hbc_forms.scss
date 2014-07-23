@@ -1,11 +1,13 @@
-#block-webform-client-block-1 {
+#block-webform-client-block-1,
+#block-webform-client-block-20 {
   margin-bottom: 0px;
 
   .block-title {
     color: $macro-purple;
   }
   // Booking Webform.
-  #webform-client-form-1 {
+  #webform-client-form-1,
+  #webform-client-form-20 {
 
     .description {
       position: absolute;
@@ -41,7 +43,9 @@
       width:100%;
     }
 
-    #webform-component-preferred-booking-date {
+    #webform-component-preferred-booking-date,
+    #webform-component-check-in-date,
+    #webform-component-check-out-date {
       .form-item {
         display: inline-block;
         .form-select {

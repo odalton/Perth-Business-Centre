@@ -1423,7 +1423,7 @@ body #page {
   z-index: 1;
   height: 50px;
   background-color: #fff;
-  border-top: 5px solid #8c006b;
+  border-top: 5px solid #8f0069;
 }
 /* line 24, ../sass/components/_hbc_main.scss */
 .header-mobile .region-header-mobile {
@@ -1443,7 +1443,7 @@ body #page {
 /* line 41, ../sass/components/_hbc_main.scss */
 .header #block-hbc-header-hbc-header-contact .icon-phone,
 .header #block-hbc-header-hbc-header-contact .icon-envelope {
-  color: #8c006b;
+  color: #8f0069;
 }
 
 /* line 49, ../sass/components/_hbc_main.scss */
@@ -1477,7 +1477,7 @@ body #page {
 }
 /* line 71, ../sass/components/_hbc_main.scss */
 #main .node h1, #main .node h2, #main .node h3, #main .node h4, #main .node h5, #main .node h6 {
-  color: #8c006b;
+  color: #8f0069;
   margin: 5px 0px;
 }
 /* line 76, ../sass/components/_hbc_main.scss */
@@ -1506,7 +1506,7 @@ body #page {
 /* line 94, ../sass/components/_hbc_main.scss */
 #content #page-title {
   font-family: latoregular;
-  color: #8c006b;
+  color: #8f0069;
   margin: 10px 0px;
 }
 /* line 102, ../sass/components/_hbc_main.scss */
@@ -1548,7 +1548,7 @@ body #page {
   margin-right: auto;
   position: relative;
   box-sizing: border-box;
-  background-color: #8c006b;
+  background-color: #8f0069;
   height: 100px;
   box-sizing: border-box;
 }
@@ -1569,12 +1569,12 @@ body #page {
 }
 /* line 3, ../sass/components/_hbc_desktop_menu.scss */
 #block-tb-megamenu-main-menu .tb-megamenu {
-  background-image: linear-gradient(#8c006b, #55003f);
+  background-image: linear-gradient(#8f0069, #55003f);
   border: 1px solid #460034;
 }
 /* line 11, ../sass/components/_hbc_desktop_menu.scss */
 #block-tb-megamenu-main-menu .tb-megamenu ul.tb-megamenu-nav li.tb-megamenu-item a {
-  background-image: linear-gradient(#8c006b, #55003f);
+  background-image: linear-gradient(#8f0069, #55003f);
   background-size: 1px 54px;
   background-color: transparent;
   border-right: solid 1px #000;
@@ -1593,7 +1593,7 @@ body #page {
 /* line 30, ../sass/components/_hbc_desktop_menu.scss */
 #block-tb-megamenu-main-menu .tb-megamenu ul.tb-megamenu-nav li.tb-megamenu-item .tb-megamenu-submenu {
   border-bottom: 0px;
-  background-image: linear-gradient(#8c006b, #55003f);
+  background-image: linear-gradient(#8f0069, #55003f);
 }
 /* line 36, ../sass/components/_hbc_desktop_menu.scss */
 #block-tb-megamenu-main-menu .tb-megamenu ul.tb-megamenu-nav li.tb-megamenu-item .tb-megamenu-submenu ul li {
@@ -1603,7 +1603,7 @@ body #page {
 #block-tb-megamenu-main-menu .tb-megamenu ul.tb-megamenu-nav li.tb-megamenu-item .tb-megamenu-submenu ul li a {
   min-height: 45px;
   padding: 10px;
-  background-image: linear-gradient(#8c006b, #55003f);
+  background-image: linear-gradient(#8f0069, #55003f);
   border: none;
   color: #fff;
   font-family: latoregular;
@@ -1618,7 +1618,7 @@ body #page {
   position: fixed;
   top: 0px;
   left: 0px;
-  background-color: #8c006b;
+  background-color: #8f0069;
   width: 100%;
 }
 
@@ -1662,7 +1662,7 @@ body #page {
 /* line 49, ../sass/components/_hbc_mobile_menu.scss */
 #block-menu-block-1 div.menu-block-wrapper ul.menu li {
   position: relative;
-  background-color: #8c006b;
+  background-color: #8f0069;
   box-shadow: 0 1px 0 #8d008c inset, 0 -1px 0 #8d0046 inset;
   text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.3);
   padding: 10px;
@@ -1697,7 +1697,7 @@ body #page {
 }
 /* line 88, ../sass/components/_hbc_mobile_menu.scss */
 #block-menu-block-1 div.menu-block-wrapper ul.menu li:hover {
-  background: #8c006b;
+  background: #8f0069;
 }
 /* line 92, ../sass/components/_hbc_mobile_menu.scss */
 #block-menu-block-1 div.menu-block-wrapper ul.menu li ul {
@@ -1711,7 +1711,7 @@ body #page {
 #block-menu-block-1 div.menu-block-wrapper ul.menu li ul li {
   position: relative;
   list-style: none;
-  background-color: #8c006b;
+  background-color: #8f0069;
   box-shadow: 0 1px 0 #8d008c inset, 0 -1px 0 #8d0046 inset;
   text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.3);
   padding: 0px;
@@ -1740,56 +1740,104 @@ body #page {
 }
 
 /* line 1, ../sass/components/_hbc_forms.scss */
-#block-webform-client-block-1 {
+#block-webform-client-block-1,
+#block-webform-client-block-20 {
   margin-bottom: 0px;
 }
-/* line 4, ../sass/components/_hbc_forms.scss */
-#block-webform-client-block-1 .block-title {
-  color: #8c006b;
+/* line 5, ../sass/components/_hbc_forms.scss */
+#block-webform-client-block-1 .block-title,
+#block-webform-client-block-20 .block-title {
+  color: #8f0069;
 }
-/* line 10, ../sass/components/_hbc_forms.scss */
-#block-webform-client-block-1 #webform-client-form-1 .description {
+/* line 12, ../sass/components/_hbc_forms.scss */
+#block-webform-client-block-1 #webform-client-form-1 .description,
+#block-webform-client-block-1 #webform-client-form-20 .description,
+#block-webform-client-block-20 #webform-client-form-1 .description,
+#block-webform-client-block-20 #webform-client-form-20 .description {
   position: absolute;
   left: -9999px;
 }
-/* line 15, ../sass/components/_hbc_forms.scss */
-#block-webform-client-block-1 #webform-client-form-1 .form-item {
+/* line 17, ../sass/components/_hbc_forms.scss */
+#block-webform-client-block-1 #webform-client-form-1 .form-item,
+#block-webform-client-block-1 #webform-client-form-20 .form-item,
+#block-webform-client-block-20 #webform-client-form-1 .form-item,
+#block-webform-client-block-20 #webform-client-form-20 .form-item {
   margin: 5px 0px;
   font-family: latoregular;
   font-size: 15px;
 }
-/* line 19, ../sass/components/_hbc_forms.scss */
-#block-webform-client-block-1 #webform-client-form-1 .form-item input {
+/* line 21, ../sass/components/_hbc_forms.scss */
+#block-webform-client-block-1 #webform-client-form-1 .form-item input,
+#block-webform-client-block-1 #webform-client-form-20 .form-item input,
+#block-webform-client-block-20 #webform-client-form-1 .form-item input,
+#block-webform-client-block-20 #webform-client-form-20 .form-item input {
   margin-bottom: 5px;
-  color: #8c006b;
+  color: #8f0069;
 }
-/* line 23, ../sass/components/_hbc_forms.scss */
-#block-webform-client-block-1 #webform-client-form-1 .form-item textarea {
+/* line 25, ../sass/components/_hbc_forms.scss */
+#block-webform-client-block-1 #webform-client-form-1 .form-item textarea,
+#block-webform-client-block-1 #webform-client-form-20 .form-item textarea,
+#block-webform-client-block-20 #webform-client-form-1 .form-item textarea,
+#block-webform-client-block-20 #webform-client-form-20 .form-item textarea {
   margin-bottom: 5px;
-  color: #8c006b;
+  color: #8f0069;
 }
-/* line 27, ../sass/components/_hbc_forms.scss */
-#block-webform-client-block-1 #webform-client-form-1 .form-item label {
+/* line 29, ../sass/components/_hbc_forms.scss */
+#block-webform-client-block-1 #webform-client-form-1 .form-item label,
+#block-webform-client-block-1 #webform-client-form-20 .form-item label,
+#block-webform-client-block-20 #webform-client-form-1 .form-item label,
+#block-webform-client-block-20 #webform-client-form-20 .form-item label {
   font-family: latolight;
   margin-bottom: 0px;
   font-size: 14px;
 }
-/* line 34, ../sass/components/_hbc_forms.scss */
+/* line 36, ../sass/components/_hbc_forms.scss */
 #block-webform-client-block-1 #webform-client-form-1 input[type="checkbox"],
-#block-webform-client-block-1 #webform-client-form-1 input[type="radio"] {
-  background-image: #8c006b url("");
+#block-webform-client-block-1 #webform-client-form-1 input[type="radio"],
+#block-webform-client-block-1 #webform-client-form-20 input[type="checkbox"],
+#block-webform-client-block-1 #webform-client-form-20 input[type="radio"],
+#block-webform-client-block-20 #webform-client-form-1 input[type="checkbox"],
+#block-webform-client-block-20 #webform-client-form-1 input[type="radio"],
+#block-webform-client-block-20 #webform-client-form-20 input[type="checkbox"],
+#block-webform-client-block-20 #webform-client-form-20 input[type="radio"] {
+  background-image: #8f0069 url("");
 }
-/* line 39, ../sass/components/_hbc_forms.scss */
-#block-webform-client-block-1 #webform-client-form-1 input[type="submit"] {
-  background-color: #8c006b;
+/* line 41, ../sass/components/_hbc_forms.scss */
+#block-webform-client-block-1 #webform-client-form-1 input[type="submit"],
+#block-webform-client-block-1 #webform-client-form-20 input[type="submit"],
+#block-webform-client-block-20 #webform-client-form-1 input[type="submit"],
+#block-webform-client-block-20 #webform-client-form-20 input[type="submit"] {
+  background-color: #8f0069;
   width: 100%;
 }
-/* line 45, ../sass/components/_hbc_forms.scss */
-#block-webform-client-block-1 #webform-client-form-1 #webform-component-preferred-booking-date .form-item {
+/* line 49, ../sass/components/_hbc_forms.scss */
+#block-webform-client-block-1 #webform-client-form-1 #webform-component-preferred-booking-date .form-item,
+#block-webform-client-block-1 #webform-client-form-1 #webform-component-check-in-date .form-item,
+#block-webform-client-block-1 #webform-client-form-1 #webform-component-check-out-date .form-item,
+#block-webform-client-block-1 #webform-client-form-20 #webform-component-preferred-booking-date .form-item,
+#block-webform-client-block-1 #webform-client-form-20 #webform-component-check-in-date .form-item,
+#block-webform-client-block-1 #webform-client-form-20 #webform-component-check-out-date .form-item,
+#block-webform-client-block-20 #webform-client-form-1 #webform-component-preferred-booking-date .form-item,
+#block-webform-client-block-20 #webform-client-form-1 #webform-component-check-in-date .form-item,
+#block-webform-client-block-20 #webform-client-form-1 #webform-component-check-out-date .form-item,
+#block-webform-client-block-20 #webform-client-form-20 #webform-component-preferred-booking-date .form-item,
+#block-webform-client-block-20 #webform-client-form-20 #webform-component-check-in-date .form-item,
+#block-webform-client-block-20 #webform-client-form-20 #webform-component-check-out-date .form-item {
   display: inline-block;
 }
-/* line 47, ../sass/components/_hbc_forms.scss */
-#block-webform-client-block-1 #webform-client-form-1 #webform-component-preferred-booking-date .form-item .form-select {
+/* line 51, ../sass/components/_hbc_forms.scss */
+#block-webform-client-block-1 #webform-client-form-1 #webform-component-preferred-booking-date .form-item .form-select,
+#block-webform-client-block-1 #webform-client-form-1 #webform-component-check-in-date .form-item .form-select,
+#block-webform-client-block-1 #webform-client-form-1 #webform-component-check-out-date .form-item .form-select,
+#block-webform-client-block-1 #webform-client-form-20 #webform-component-preferred-booking-date .form-item .form-select,
+#block-webform-client-block-1 #webform-client-form-20 #webform-component-check-in-date .form-item .form-select,
+#block-webform-client-block-1 #webform-client-form-20 #webform-component-check-out-date .form-item .form-select,
+#block-webform-client-block-20 #webform-client-form-1 #webform-component-preferred-booking-date .form-item .form-select,
+#block-webform-client-block-20 #webform-client-form-1 #webform-component-check-in-date .form-item .form-select,
+#block-webform-client-block-20 #webform-client-form-1 #webform-component-check-out-date .form-item .form-select,
+#block-webform-client-block-20 #webform-client-form-20 #webform-component-preferred-booking-date .form-item .form-select,
+#block-webform-client-block-20 #webform-client-form-20 #webform-component-check-in-date .form-item .form-select,
+#block-webform-client-block-20 #webform-client-form-20 #webform-component-check-out-date .form-item .form-select {
   margin: 0px;
 }
 
@@ -1842,34 +1890,34 @@ body #page {
 }
 /* line 45, ../sass/components/_hbc_carousel.scss */
 #block-hbc-hero-banner-hbc-hero-banner .slide-cta-wrapper .slide-cta {
-  border: 1px solid #450034;
+  border: 1px solid #480035;
   border-radius: 3px;
-  box-shadow: inset 0 1px 0 0 #d009a1;
+  box-shadow: inset 0 1px 0 0 #d3099d;
   color: white;
   display: inline-block;
   font-size: inherit;
   font-weight: bold;
-  background-color: #8c006b;
-  background-image: -webkit-linear-gradient(#8c006b, #540040);
-  background-image: linear-gradient(#8c006b, #540040);
+  background-color: #8f0069;
+  background-image: -webkit-linear-gradient(#8f0069, #570040);
+  background-image: linear-gradient(#8f0069, #570040);
   padding: 7px 18px;
   text-decoration: none;
-  text-shadow: 0 1px 0 #300025;
+  text-shadow: 0 1px 0 #330026;
   background-clip: padding-box;
   font-size: 30px;
 }
 /* line 131, ../sass/bourbon/addons/_button.scss */
 #block-hbc-hero-banner-hbc-hero-banner .slide-cta-wrapper .slide-cta:hover:not(:disabled) {
-  box-shadow: inset 0 1px 0 0 #a0067b;
+  box-shadow: inset 0 1px 0 0 #a30679;
   cursor: pointer;
-  background-color: #700256;
-  background-image: -webkit-linear-gradient(#700256, #450034);
-  background-image: linear-gradient(#700256, #450034);
+  background-color: #730255;
+  background-image: -webkit-linear-gradient(#730255, #480035);
+  background-image: linear-gradient(#730255, #480035);
 }
 /* line 147, ../sass/bourbon/addons/_button.scss */
 #block-hbc-hero-banner-hbc-hero-banner .slide-cta-wrapper .slide-cta:active:not(:disabled), #block-hbc-hero-banner-hbc-hero-banner .slide-cta-wrapper .slide-cta:focus:not(:disabled) {
-  border: 1px solid #450034;
-  box-shadow: inset 0 0 8px 4px #350029, inset 0 0 8px 4px #350029;
+  border: 1px solid #480035;
+  box-shadow: inset 0 0 8px 4px #380029, inset 0 0 8px 4px #380029;
 }
 /* line 51, ../sass/bourbon/addons/_button.scss */
 #block-hbc-hero-banner-hbc-hero-banner .slide-cta-wrapper .slide-cta:disabled {
@@ -1902,7 +1950,7 @@ body #page {
   font-family: FontAwesome;
   content: "\f104";
   font-size: 110px;
-  color: #8c006b;
+  color: #8f0069;
 }
 /* line 80, ../sass/components/_hbc_carousel.scss */
 .banner-btn.banner-next {
@@ -1913,13 +1961,13 @@ body #page {
   font-family: FontAwesome;
   content: "\f105";
   font-size: 110px;
-  color: #8c006b;
+  color: #8f0069;
 }
 
 @media screen and (min-width: 220px) {
   /* line 40, ../sass/_mixins.scss */
   .responsive-bar {
-    opacity: 1;
+    opacity: 0;
     z-index: 1;
     width: 100%;
     left: 0px;
@@ -1959,12 +2007,12 @@ body #page {
   /* line 84, ../sass/_mixins.scss */
   #block-hbc-header-hbc-header-contact .icon-phone {
     font-size: 30px;
-    color: #8c006b;
+    color: #8f0069;
   }
   /* line 88, ../sass/_mixins.scss */
   #block-hbc-header-hbc-header-contact .icon-envelope {
     font-size: 17px;
-    color: #8c006b;
+    color: #8f0069;
   }
 
   /* line 93, ../sass/_mixins.scss */
@@ -1999,7 +2047,7 @@ body #page {
     font-family: FontAwesome;
     font-family: FontAwesome;
     content: "\f104";
-    color: #8c006b;
+    color: #8f0069;
   }
   /* line 23, ../sass/components/_hbc_responsive.scss */
   .banner-btn .banner-next {
@@ -2009,7 +2057,7 @@ body #page {
   .banner-btn .banner-next:before {
     font-family: FontAwesome;
     content: "\f105";
-    color: #8c006b;
+    color: #8f0069;
   }
 
   /* line 56, ../sass/_mixins.scss */
@@ -2039,21 +2087,23 @@ body #page {
     margin-right: 0;
   }
   /* line 41, ../sass/components/_hbc_responsive.scss */
-  #content #block-webform-client-block-1 {
+  #content #block-webform-client-block-1,
+  #content #block-webform-client-block-20 {
     float: left;
     display: block;
     margin-right: 2.35765%;
     width: 100%;
   }
   /* line 38, ../sass/neat/grid/_span-columns.scss */
-  #content #block-webform-client-block-1:last-child {
+  #content #block-webform-client-block-1:last-child,
+  #content #block-webform-client-block-20:last-child {
     margin-right: 0;
   }
 }
 @media screen and (min-width: 320px) {
   /* line 40, ../sass/_mixins.scss */
   .responsive-bar {
-    opacity: 1;
+    opacity: 0;
     z-index: 1;
     width: 100%;
     left: 0px;
@@ -2093,12 +2143,12 @@ body #page {
   /* line 84, ../sass/_mixins.scss */
   #block-hbc-header-hbc-header-contact .icon-phone {
     font-size: 30px;
-    color: #8c006b;
+    color: #8f0069;
   }
   /* line 88, ../sass/_mixins.scss */
   #block-hbc-header-hbc-header-contact .icon-envelope {
     font-size: 17px;
-    color: #8c006b;
+    color: #8f0069;
   }
 
   /* line 93, ../sass/_mixins.scss */
@@ -2115,40 +2165,40 @@ body #page {
     color: #333;
   }
 
-  /* line 52, ../sass/components/_hbc_responsive.scss */
+  /* line 53, ../sass/components/_hbc_responsive.scss */
   #block-menu-block-1 {
     display: block;
   }
 
-  /* line 56, ../sass/components/_hbc_responsive.scss */
+  /* line 57, ../sass/components/_hbc_responsive.scss */
   #block-tb-megamenu-main-menu {
     display: none;
   }
 
-  /* line 59, ../sass/components/_hbc_responsive.scss */
+  /* line 60, ../sass/components/_hbc_responsive.scss */
   .banner-btn {
     height: 165px;
   }
-  /* line 61, ../sass/components/_hbc_responsive.scss */
+  /* line 62, ../sass/components/_hbc_responsive.scss */
   .banner-btn .banner-prev {
     left: 20px;
   }
-  /* line 63, ../sass/components/_hbc_responsive.scss */
+  /* line 64, ../sass/components/_hbc_responsive.scss */
   .banner-btn .banner-prev:before {
     font-family: FontAwesome;
     font-family: FontAwesome;
     content: "\f104";
-    color: #8c006b;
+    color: #8f0069;
   }
-  /* line 71, ../sass/components/_hbc_responsive.scss */
+  /* line 72, ../sass/components/_hbc_responsive.scss */
   .banner-btn .banner-next {
     right: 20px;
   }
-  /* line 73, ../sass/components/_hbc_responsive.scss */
+  /* line 74, ../sass/components/_hbc_responsive.scss */
   .banner-btn .banner-next:before {
     font-family: FontAwesome;
     content: "\f105";
-    color: #8c006b;
+    color: #8f0069;
   }
 
   /* line 56, ../sass/_mixins.scss */
@@ -2158,7 +2208,7 @@ body #page {
     display: none;
   }
 
-  /* line 84, ../sass/components/_hbc_responsive.scss */
+  /* line 85, ../sass/components/_hbc_responsive.scss */
   #content {
     overflow: hidden;
     *zoom: 1;
@@ -2166,7 +2216,7 @@ body #page {
     margin-left: auto;
     margin-right: auto;
   }
-  /* line 86, ../sass/components/_hbc_responsive.scss */
+  /* line 87, ../sass/components/_hbc_responsive.scss */
   #content .node,
   #content #block-hbc-magnific-hbc-magnific {
     float: left;
@@ -2179,22 +2229,24 @@ body #page {
   #content #block-hbc-magnific-hbc-magnific:last-child {
     margin-right: 0;
   }
-  /* line 90, ../sass/components/_hbc_responsive.scss */
-  #content #block-webform-client-block-1 {
+  /* line 91, ../sass/components/_hbc_responsive.scss */
+  #content #block-webform-client-block-1,
+  #content #block-webform-client-block-20 {
     float: left;
     display: block;
     margin-right: 2.35765%;
     width: 100%;
   }
   /* line 38, ../sass/neat/grid/_span-columns.scss */
-  #content #block-webform-client-block-1:last-child {
+  #content #block-webform-client-block-1:last-child,
+  #content #block-webform-client-block-20:last-child {
     margin-right: 0;
   }
 }
 @media screen and (min-width: 480px) {
   /* line 40, ../sass/_mixins.scss */
   .responsive-bar {
-    opacity: 1;
+    opacity: 0;
     z-index: 1;
     width: 100%;
     left: 0px;
@@ -2234,12 +2286,12 @@ body #page {
   /* line 84, ../sass/_mixins.scss */
   #block-hbc-header-hbc-header-contact .icon-phone {
     font-size: 30px;
-    color: #8c006b;
+    color: #8f0069;
   }
   /* line 88, ../sass/_mixins.scss */
   #block-hbc-header-hbc-header-contact .icon-envelope {
     font-size: 17px;
-    color: #8c006b;
+    color: #8f0069;
   }
 
   /* line 93, ../sass/_mixins.scss */
@@ -2256,7 +2308,7 @@ body #page {
     color: #333;
   }
 
-  /* line 101, ../sass/components/_hbc_responsive.scss */
+  /* line 103, ../sass/components/_hbc_responsive.scss */
   #block-hbc-header-hbc-header-logo {
     float: left;
     display: block;
@@ -2268,7 +2320,7 @@ body #page {
     margin-right: 0;
   }
 
-  /* line 105, ../sass/components/_hbc_responsive.scss */
+  /* line 107, ../sass/components/_hbc_responsive.scss */
   #block-hbc-header-hbc-header-contact {
     float: left;
     display: block;
@@ -2279,49 +2331,49 @@ body #page {
   #block-hbc-header-hbc-header-contact:last-child {
     margin-right: 0;
   }
-  /* line 107, ../sass/components/_hbc_responsive.scss */
+  /* line 109, ../sass/components/_hbc_responsive.scss */
   #block-hbc-header-hbc-header-contact .icon-phone,
   #block-hbc-header-hbc-header-contact .icon-envelope,
   #block-hbc-header-hbc-header-contact .icon-map-marker {
-    color: #8c006b;
+    color: #8f0069;
   }
 
-  /* line 114, ../sass/components/_hbc_responsive.scss */
+  /* line 116, ../sass/components/_hbc_responsive.scss */
   #block-menu-block-1 {
     display: block;
   }
 
-  /* line 118, ../sass/components/_hbc_responsive.scss */
+  /* line 120, ../sass/components/_hbc_responsive.scss */
   #block-tb-megamenu-main-menu {
     display: none;
   }
 
-  /* line 122, ../sass/components/_hbc_responsive.scss */
+  /* line 124, ../sass/components/_hbc_responsive.scss */
   .banner-btn {
     height: 165px;
   }
-  /* line 124, ../sass/components/_hbc_responsive.scss */
+  /* line 126, ../sass/components/_hbc_responsive.scss */
   .banner-btn .banner-prev {
     left: 20px;
   }
-  /* line 126, ../sass/components/_hbc_responsive.scss */
+  /* line 128, ../sass/components/_hbc_responsive.scss */
   .banner-btn .banner-prev:before {
     font-family: FontAwesome;
     font-family: FontAwesome;
     content: "\f104";
     font-size: 90px;
-    color: #8c006b;
+    color: #8f0069;
   }
-  /* line 134, ../sass/components/_hbc_responsive.scss */
+  /* line 136, ../sass/components/_hbc_responsive.scss */
   .banner-btn .banner-next {
     right: 20px;
   }
-  /* line 136, ../sass/components/_hbc_responsive.scss */
+  /* line 138, ../sass/components/_hbc_responsive.scss */
   .banner-btn .banner-next:before {
     font-family: FontAwesome;
     content: "\f105";
     font-size: 90px;
-    color: #8c006b;
+    color: #8f0069;
   }
 
   /* line 56, ../sass/_mixins.scss */
@@ -2331,7 +2383,7 @@ body #page {
     display: none;
   }
 
-  /* line 148, ../sass/components/_hbc_responsive.scss */
+  /* line 150, ../sass/components/_hbc_responsive.scss */
   #content {
     overflow: hidden;
     *zoom: 1;
@@ -2339,7 +2391,7 @@ body #page {
     margin-left: auto;
     margin-right: auto;
   }
-  /* line 150, ../sass/components/_hbc_responsive.scss */
+  /* line 152, ../sass/components/_hbc_responsive.scss */
   #content .node,
   #content #block-hbc-magnific-hbc-magnific {
     float: left;
@@ -2352,22 +2404,24 @@ body #page {
   #content #block-hbc-magnific-hbc-magnific:last-child {
     margin-right: 0;
   }
-  /* line 154, ../sass/components/_hbc_responsive.scss */
-  #content #block-webform-client-block-1 {
+  /* line 156, ../sass/components/_hbc_responsive.scss */
+  #content #block-webform-client-block-1,
+  #content #block-webform-client-block-20 {
     float: left;
     display: block;
     margin-right: 2.35765%;
     width: 100%;
   }
   /* line 38, ../sass/neat/grid/_span-columns.scss */
-  #content #block-webform-client-block-1:last-child {
+  #content #block-webform-client-block-1:last-child,
+  #content #block-webform-client-block-20:last-child {
     margin-right: 0;
   }
 }
 @media screen and (min-width: 595px) {
   /* line 40, ../sass/_mixins.scss */
   .responsive-bar {
-    opacity: 1;
+    opacity: 0;
     z-index: 1;
     width: 100%;
     left: 0px;
@@ -2407,12 +2461,12 @@ body #page {
   /* line 84, ../sass/_mixins.scss */
   #block-hbc-header-hbc-header-contact .icon-phone {
     font-size: 30px;
-    color: #8c006b;
+    color: #8f0069;
   }
   /* line 88, ../sass/_mixins.scss */
   #block-hbc-header-hbc-header-contact .icon-envelope {
     font-size: 17px;
-    color: #8c006b;
+    color: #8f0069;
   }
 
   /* line 93, ../sass/_mixins.scss */
@@ -2429,42 +2483,42 @@ body #page {
     color: #333;
   }
 
-  /* line 164, ../sass/components/_hbc_responsive.scss */
+  /* line 167, ../sass/components/_hbc_responsive.scss */
   #block-menu-block-1 {
     display: block;
   }
 
-  /* line 168, ../sass/components/_hbc_responsive.scss */
+  /* line 171, ../sass/components/_hbc_responsive.scss */
   #block-tb-megamenu-main-menu {
     display: none;
   }
 
-  /* line 172, ../sass/components/_hbc_responsive.scss */
+  /* line 175, ../sass/components/_hbc_responsive.scss */
   .banner-btn {
     height: 165px;
   }
-  /* line 174, ../sass/components/_hbc_responsive.scss */
+  /* line 177, ../sass/components/_hbc_responsive.scss */
   .banner-btn .banner-prev {
     left: 20px;
   }
-  /* line 176, ../sass/components/_hbc_responsive.scss */
+  /* line 179, ../sass/components/_hbc_responsive.scss */
   .banner-btn .banner-prev:before {
     font-family: FontAwesome;
     font-family: FontAwesome;
     content: "\f104";
     font-size: 110px;
-    color: #8c006b;
+    color: #8f0069;
   }
-  /* line 184, ../sass/components/_hbc_responsive.scss */
+  /* line 187, ../sass/components/_hbc_responsive.scss */
   .banner-btn .banner-next {
     right: 20px;
   }
-  /* line 186, ../sass/components/_hbc_responsive.scss */
+  /* line 189, ../sass/components/_hbc_responsive.scss */
   .banner-btn .banner-next:before {
     font-family: FontAwesome;
     content: "\f105";
     font-size: 110px;
-    color: #8c006b;
+    color: #8f0069;
   }
 
   /* line 56, ../sass/_mixins.scss */
@@ -2474,7 +2528,7 @@ body #page {
     display: none;
   }
 
-  /* line 200, ../sass/components/_hbc_responsive.scss */
+  /* line 203, ../sass/components/_hbc_responsive.scss */
   #content {
     overflow: hidden;
     *zoom: 1;
@@ -2482,7 +2536,7 @@ body #page {
     margin-left: auto;
     margin-right: auto;
   }
-  /* line 202, ../sass/components/_hbc_responsive.scss */
+  /* line 205, ../sass/components/_hbc_responsive.scss */
   #content .node,
   #content #block-hbc-magnific-hbc-magnific {
     float: left;
@@ -2495,22 +2549,24 @@ body #page {
   #content #block-hbc-magnific-hbc-magnific:last-child {
     margin-right: 0;
   }
-  /* line 206, ../sass/components/_hbc_responsive.scss */
-  #content #block-webform-client-block-1 {
+  /* line 209, ../sass/components/_hbc_responsive.scss */
+  #content #block-webform-client-block-1,
+  #content #block-webform-client-block-20 {
     float: left;
     display: block;
     margin-right: 2.35765%;
     width: 31.76157%;
   }
   /* line 38, ../sass/neat/grid/_span-columns.scss */
-  #content #block-webform-client-block-1:last-child {
+  #content #block-webform-client-block-1:last-child,
+  #content #block-webform-client-block-20:last-child {
     margin-right: 0;
   }
 }
 @media screen and (min-width: 768px) {
   /* line 40, ../sass/_mixins.scss */
   .responsive-bar {
-    opacity: 1;
+    opacity: 0;
     z-index: 1;
     width: 100%;
     left: 0px;
@@ -2550,12 +2606,12 @@ body #page {
   /* line 84, ../sass/_mixins.scss */
   #block-hbc-header-hbc-header-contact .icon-phone {
     font-size: 30px;
-    color: #8c006b;
+    color: #8f0069;
   }
   /* line 88, ../sass/_mixins.scss */
   #block-hbc-header-hbc-header-contact .icon-envelope {
     font-size: 17px;
-    color: #8c006b;
+    color: #8f0069;
   }
 
   /* line 93, ../sass/_mixins.scss */
@@ -2572,21 +2628,21 @@ body #page {
     color: #333;
   }
 
-  /* line 216, ../sass/components/_hbc_responsive.scss */
+  /* line 220, ../sass/components/_hbc_responsive.scss */
   #block-menu-block-1 {
     display: block;
   }
 
-  /* line 219, ../sass/components/_hbc_responsive.scss */
+  /* line 223, ../sass/components/_hbc_responsive.scss */
   #block-tb-megamenu-main-menu {
     display: none;
   }
 
-  /* line 224, ../sass/components/_hbc_responsive.scss */
+  /* line 228, ../sass/components/_hbc_responsive.scss */
   #hero-banner-carousel .slide-cta-wrapper {
     max-width: 245px;
   }
-  /* line 226, ../sass/components/_hbc_responsive.scss */
+  /* line 230, ../sass/components/_hbc_responsive.scss */
   #hero-banner-carousel .slide-cta-wrapper .slide-cta {
     font-size: 20px;
   }
@@ -2601,7 +2657,7 @@ body #page {
 @media screen and (min-width: 980px) {
   /* line 40, ../sass/_mixins.scss */
   .responsive-bar {
-    opacity: 1;
+    opacity: 0;
     z-index: 1;
     width: 100%;
     left: 0px;
@@ -2613,12 +2669,12 @@ body #page {
     color: #000;
   }
 
-  /* line 237, ../sass/components/_hbc_responsive.scss */
+  /* line 241, ../sass/components/_hbc_responsive.scss */
   #block-menu-block-1 {
     display: none;
   }
 
-  /* line 240, ../sass/components/_hbc_responsive.scss */
+  /* line 244, ../sass/components/_hbc_responsive.scss */
   #block-tb-megamenu-main-menu {
     display: block;
   }
@@ -2633,7 +2689,7 @@ body #page {
 @media screen and (min-width: 1024px) {
   /* line 40, ../sass/_mixins.scss */
   .responsive-bar {
-    opacity: 1;
+    opacity: 0;
     z-index: 1;
     width: 100%;
     left: 0px;
@@ -2673,12 +2729,12 @@ body #page {
   /* line 84, ../sass/_mixins.scss */
   #block-hbc-header-hbc-header-contact .icon-phone {
     font-size: 50px;
-    color: #8c006b;
+    color: #8f0069;
   }
   /* line 88, ../sass/_mixins.scss */
   #block-hbc-header-hbc-header-contact .icon-envelope {
     font-size: 25px;
-    color: #8c006b;
+    color: #8f0069;
   }
 
   /* line 93, ../sass/_mixins.scss */
@@ -2705,7 +2761,7 @@ body #page {
 @media screen and (min-width: 1920px) {
   /* line 40, ../sass/_mixins.scss */
   .responsive-bar {
-    opacity: 1;
+    opacity: 0;
     z-index: 1;
     width: 100%;
     left: 0px;
@@ -2745,12 +2801,12 @@ body #page {
   /* line 84, ../sass/_mixins.scss */
   #block-hbc-header-hbc-header-contact .icon-phone {
     font-size: 50px;
-    color: #8c006b;
+    color: #8f0069;
   }
   /* line 88, ../sass/_mixins.scss */
   #block-hbc-header-hbc-header-contact .icon-envelope {
     font-size: 25px;
-    color: #8c006b;
+    color: #8f0069;
   }
 
   /* line 93, ../sass/_mixins.scss */

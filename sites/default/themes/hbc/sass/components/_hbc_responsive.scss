@@ -38,7 +38,8 @@
     .node {
       @include span-columns(12);
     }
-    #block-webform-client-block-1 {
+    #block-webform-client-block-1,
+    #block-webform-client-block-20 {
       @include span-columns(12);
     }
   }
@@ -87,7 +88,8 @@
     #block-hbc-magnific-hbc-magnific {
       @include span-columns(12);
     }
-    #block-webform-client-block-1 {
+    #block-webform-client-block-1,
+    #block-webform-client-block-20 {
       @include span-columns(12);
     }
   }
@@ -151,7 +153,8 @@
     #block-hbc-magnific-hbc-magnific {
       @include span-columns(12);
     }
-    #block-webform-client-block-1 {
+    #block-webform-client-block-1,
+    #block-webform-client-block-20 {
       @include span-columns(12);
     }
   }
@@ -203,7 +206,8 @@
     #block-hbc-magnific-hbc-magnific {
       @include span-columns(8);
     }
-    #block-webform-client-block-1 {
+    #block-webform-client-block-1,
+    #block-webform-client-block-20 {
       @include span-columns(4);
     }
   }
