@@ -17,8 +17,24 @@ function hbc_form_form_webform_client_form_1_alter(&$form, &$form_state, $form_i
   $form['submitted']['lastname']['#attributes']['placeholder']           = "Lastname.";
   $form['submitted']['phone_number']['#attributes']['placeholder']       = "Phone Number.";
   $form['submitted']['email']['#attributes']['placeholder']              = "Email.";
-  $form['submitted']['company_name']['#attributes']['placeholder']            = "Company Name.";
+  $form['submitted']['company_name']['#attributes']['placeholder']       = "Company Name.";
   $form['submitted']['message']['#attributes']['placeholder']            = "Message.";
+
+  }
+
+}
+
+function hbc_form_form_webform_client_form_20_alter(&$form, &$form_state, $form_id) {
+  if(isset($form_id) && $form_id == "webform_client_form_20") {
+    $form['#action'] = "/". drupal_get_path_alias("node/".arg(1));
+
+    // Add for placeholders to the form inputs.
+    $form['submitted']['firstname']['#attributes']['placeholder']          = "Firstname.";
+    $form['submitted']['lastname']['#attributes']['placeholder']           = "Lastname.";
+    $form['submitted']['phone_number']['#attributes']['placeholder']       = "Phone Number.";
+    $form['submitted']['email']['#attributes']['placeholder']              = "Email.";
+    $form['submitted']['company_name']['#attributes']['placeholder']       = "Company Name.";
+    $form['submitted']['additional_requirements']['#attributes']['placeholder']   = "Additional Requirements.";
 
   }
 }
