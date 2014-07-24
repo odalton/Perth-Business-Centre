@@ -1853,10 +1853,12 @@ body.section-contact-us #block-webform-client-block-1 {
 /* line 4, ../sass/components/_hbc_carousel.scss */
 #block-hbc-hero-banner-hbc-hero-banner .slide-title {
   position: absolute;
+  z-index: 1 !important;
+  display: block;
   font-family: latobold;
   font-size: 30px;
-  top: 30px;
-  left: 65px;
+  top: 60px;
+  left: 90px;
   color: #ffffff;
   max-height: 45px;
   max-width: 400px;
@@ -1864,28 +1866,29 @@ body.section-contact-us #block-webform-client-block-1 {
   height: auto;
   font-style: italic;
 }
-/* line 17, ../sass/components/_hbc_carousel.scss */
+/* line 19, ../sass/components/_hbc_carousel.scss */
 #block-hbc-hero-banner-hbc-hero-banner .slide-title p {
   margin: 0px;
 }
-/* line 22, ../sass/components/_hbc_carousel.scss */
+/* line 24, ../sass/components/_hbc_carousel.scss */
 #block-hbc-hero-banner-hbc-hero-banner .slide-body {
   position: absolute;
+  z-index: 1;
   font-family: latoregular;
   font-size: 20px;
-  left: 65px;
-  top: 80px;
+  left: 90px;
+  top: 110px;
   color: #ffffff;
   max-height: 200px;
   max-width: 400px;
   overflow: hidden;
   font-style: italic;
 }
-/* line 34, ../sass/components/_hbc_carousel.scss */
+/* line 36, ../sass/components/_hbc_carousel.scss */
 #block-hbc-hero-banner-hbc-hero-banner .slide-body p {
   margin: 0px;
 }
-/* line 39, ../sass/components/_hbc_carousel.scss */
+/* line 41, ../sass/components/_hbc_carousel.scss */
 #block-hbc-hero-banner-hbc-hero-banner .slide-cta-wrapper {
   position: absolute;
   bottom: 30px;
@@ -1893,7 +1896,7 @@ body.section-contact-us #block-webform-client-block-1 {
   width: 400px;
   text-align: center;
 }
-/* line 45, ../sass/components/_hbc_carousel.scss */
+/* line 47, ../sass/components/_hbc_carousel.scss */
 #block-hbc-hero-banner-hbc-hero-banner .slide-cta-wrapper .slide-cta {
   border: 1px solid #480035;
   border-radius: 3px;
@@ -1930,7 +1933,7 @@ body.section-contact-us #block-webform-client-block-1 {
   cursor: not-allowed;
 }
 
-/* line 56, ../sass/components/_hbc_carousel.scss */
+/* line 57, ../sass/components/_hbc_carousel.scss */
 .banner-btn {
   position: absolute;
   margin: auto;
@@ -1942,26 +1945,26 @@ body.section-contact-us #block-webform-client-block-1 {
   bottom: 0;
   opacity: 0.6;
 }
-/* line 67, ../sass/components/_hbc_carousel.scss */
+/* line 68, ../sass/components/_hbc_carousel.scss */
 .banner-btn:hover {
   opacity: 1;
 }
-/* line 71, ../sass/components/_hbc_carousel.scss */
+/* line 72, ../sass/components/_hbc_carousel.scss */
 .banner-btn.banner-prev {
   left: 20px;
 }
-/* line 73, ../sass/components/_hbc_carousel.scss */
+/* line 74, ../sass/components/_hbc_carousel.scss */
 .banner-btn.banner-prev:before {
   font-family: FontAwesome;
   content: "\f104";
   font-size: 110px;
   color: #8f0069;
 }
-/* line 80, ../sass/components/_hbc_carousel.scss */
+/* line 81, ../sass/components/_hbc_carousel.scss */
 .banner-btn.banner-next {
   right: 20px;
 }
-/* line 82, ../sass/components/_hbc_carousel.scss */
+/* line 83, ../sass/components/_hbc_carousel.scss */
 .banner-btn.banner-next:before {
   font-family: FontAwesome;
   content: "\f105";

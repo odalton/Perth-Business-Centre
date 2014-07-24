@@ -3,11 +3,13 @@
 
   .slide-title {
     position: absolute;
+    z-index: 1 !important;
+    display: block;
     font-family: latobold;
     font-size: 30px;
-    top:30px;
-    left:65px;
-//    background-color: rgba(255,255,255, 0.7);
+    top:60px;
+//    bottom:0px;
+    left:90px;
     color: #ffffff;
     max-height: 45px;
     max-width: 400px;
@@ -21,11 +23,11 @@
 
   .slide-body {
     position: absolute;
+    z-index: 1;
     font-family: $latoregular;
     font-size: 20px;
-    left:65px;
-    top: 80px;
-//    background-color: rgba(255,255,255, 0.7);
+    left:90px;
+    top: 110px;
     color: #ffffff;
     max-height: 200px;
     max-width: 400px;
@@ -44,7 +46,6 @@
     text-align: center;
     .slide-cta {
       @include button(simple, $macro-purple);
-      //$style: simple, $base-color: #4294f0, $text-size: inherit, $padding: 7px 18px)
       font-size: 30px;
 
     }

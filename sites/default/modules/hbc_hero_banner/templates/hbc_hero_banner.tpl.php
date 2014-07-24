@@ -7,10 +7,10 @@ foreach ($slides as $slide):
 //    // Renderable image.
     $img = theme('image', array( 'path' => $img_style, ));
     print '<div class="slide">';
-    print $img;
+
 //    // If show title is checked, show that title.
 //    if ($slide['show_title'] == 1) {
-    print '<div class="slide-title"><p>'.t($slide['title']).'</p></div>';
+    print '<div class="slide-title">'.t($slide['title']).'</div>';
 //    }
     print '<div class="slide-body">'.$slide['body'].'</div>';
     print '<div class="slide-cta-wrapper">';
@@ -22,9 +22,8 @@ foreach ($slides as $slide):
         )
     );
     print "</div>";
-//
+    print $img;
     print '</div>';
-//
 endforeach;
 ?>
 </div>
