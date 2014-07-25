@@ -51,6 +51,9 @@ function hbc_gmaps_theme($existing, $type, $theme, $path) {
  * Implements hook_preprocess_HOOK().
  */
 function hbc_gmaps_preprocess_page(&$variables) {
-  drupal_add_js('https://maps.googleapis.com/maps/api/js?key=AIzaSyCxPMFKItqPYezCGKYcvFl3reOl70tO1jM', 'external');
-  drupal_add_js(drupal_get_path('module', 'hbc_gmaps') . '/js/hbc_gmaps.js', 'file');
+  $node = $variables['node'];
+  if($node->type == 'page' && $node->nid == 6) {
+    drupal_add_js('https://maps.googleapis.com/maps/api/js?key=AIzaSyCxPMFKItqPYezCGKYcvFl3reOl70tO1jM', 'external');
+    drupal_add_js(drupal_get_path('module', 'hbc_gmaps') . '/js/hbc_gmaps.js', 'file');
+  }
 }
