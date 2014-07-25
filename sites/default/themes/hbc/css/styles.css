@@ -1858,7 +1858,8 @@ body.section-contact-us #block-webform-client-block-1 {
   font-family: latobold;
   font-size: 30px;
   top: 60px;
-  left: 90px;
+  padding: 0px 5px;
+  left: 85px;
   color: #ffffff;
   max-height: 45px;
   max-width: 400px;
@@ -1876,7 +1877,7 @@ body.section-contact-us #block-webform-client-block-1 {
   z-index: 1;
   font-family: latoregular;
   font-size: 20px;
-  left: 90px;
+  left: 85px;
   top: 110px;
   color: #ffffff;
   max-height: 200px;
