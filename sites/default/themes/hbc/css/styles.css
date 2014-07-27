@@ -1459,6 +1459,28 @@ body #page {
 }
 
 /* line 58, ../sass/components/_hbc_main.scss */
+body.section-make-booking #main {
+  overflow: hidden;
+  *zoom: 1;
+  max-width: 68em;
+  margin-left: auto;
+  margin-right: auto;
+}
+/* line 60, ../sass/components/_hbc_main.scss */
+body.section-make-booking #main .node {
+  float: right;
+  padding-left: 20px;
+}
+/* line 64, ../sass/components/_hbc_main.scss */
+body.section-make-booking #main #block-webform-client-block-1 {
+  float: left;
+}
+/* line 66, ../sass/components/_hbc_main.scss */
+body.section-make-booking #main #block-webform-client-block-1 h2 {
+  display: none;
+}
+
+/* line 72, ../sass/components/_hbc_main.scss */
 #main {
   overflow: hidden;
   *zoom: 1;
@@ -1467,34 +1489,34 @@ body #page {
   margin-right: auto;
   background-color: #fff;
 }
-/* line 63, ../sass/components/_hbc_main.scss */
+/* line 77, ../sass/components/_hbc_main.scss */
 #main #block-hbc-gmaps-gmaps #map-canvas {
   height: 340px;
 }
-/* line 68, ../sass/components/_hbc_main.scss */
+/* line 82, ../sass/components/_hbc_main.scss */
 #main .node {
   font-family: latoregular;
 }
-/* line 71, ../sass/components/_hbc_main.scss */
+/* line 85, ../sass/components/_hbc_main.scss */
 #main .node h1, #main .node h2, #main .node h3, #main .node h4, #main .node h5, #main .node h6 {
   color: #8f0069;
   margin: 5px 0px;
 }
-/* line 76, ../sass/components/_hbc_main.scss */
+/* line 90, ../sass/components/_hbc_main.scss */
 #main .node p {
   margin: 5px 0px;
 }
-/* line 80, ../sass/components/_hbc_main.scss */
+/* line 94, ../sass/components/_hbc_main.scss */
 #main .node ul {
   padding-left: 40px;
   list-style-type: disc !important;
 }
-/* line 83, ../sass/components/_hbc_main.scss */
+/* line 97, ../sass/components/_hbc_main.scss */
 #main .node ul li {
   list-style-type: disc !important;
 }
 
-/* line 91, ../sass/components/_hbc_main.scss */
+/* line 105, ../sass/components/_hbc_main.scss */
 #content {
   overflow: hidden;
   *zoom: 1;
@@ -1503,13 +1525,13 @@ body #page {
   margin-right: auto;
   margin-bottom: 50px;
 }
-/* line 94, ../sass/components/_hbc_main.scss */
+/* line 108, ../sass/components/_hbc_main.scss */
 #content #page-title {
   font-family: latoregular;
   color: #8f0069;
   margin: 10px 0px;
 }
-/* line 102, ../sass/components/_hbc_main.scss */
+/* line 116, ../sass/components/_hbc_main.scss */
 #content .node {
   float: left;
   display: block;
@@ -1520,7 +1542,7 @@ body #page {
 #content .node:last-child {
   margin-right: 0;
 }
-/* line 107, ../sass/components/_hbc_main.scss */
+/* line 121, ../sass/components/_hbc_main.scss */
 #content #block-webform-client-block-1 {
   float: left;
   display: block;
@@ -1532,14 +1554,14 @@ body #page {
   margin-right: 0;
 }
 
-/* line 114, ../sass/components/_hbc_main.scss */
+/* line 128, ../sass/components/_hbc_main.scss */
 #hbc-gallery-wrapper a {
   margin: 1px 2px;
   max-width: 230px;
   max-height: 230px;
 }
 
-/* line 122, ../sass/components/_hbc_main.scss */
+/* line 136, ../sass/components/_hbc_main.scss */
 #footer {
   overflow: hidden;
   *zoom: 1;
@@ -1552,7 +1574,7 @@ body #page {
   height: 100px;
   box-sizing: border-box;
 }
-/* line 129, ../sass/components/_hbc_main.scss */
+/* line 143, ../sass/components/_hbc_main.scss */
 #footer #block-hbc-footer-hbc-footer-logo {
   position: relative;
   box-sizing: border-box;
@@ -2108,6 +2130,49 @@ body.section-contact-us #block-webform-client-block-1 {
   #content #block-webform-client-block-20:last-child {
     margin-right: 0;
   }
+
+  /* line 108, ../sass/_mixins.scss */
+  body.section-make-booking #main {
+    overflow: hidden;
+    *zoom: 1;
+    max-width: 68em;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  /* line 110, ../sass/_mixins.scss */
+  body.section-make-booking #main .node {
+    float: left;
+    display: block;
+    margin-right: 2.35765%;
+    width: 100%;
+    float: right;
+    padding-left: 20px;
+  }
+  /* line 38, ../sass/neat/grid/_span-columns.scss */
+  body.section-make-booking #main .node:last-child {
+    margin-right: 0;
+  }
+  /* line 115, ../sass/_mixins.scss */
+  body.section-make-booking #main #block-webform-client-block-1 {
+    float: left;
+    display: block;
+    margin-right: 2.35765%;
+    width: 100%;
+    float: left;
+  }
+  /* line 38, ../sass/neat/grid/_span-columns.scss */
+  body.section-make-booking #main #block-webform-client-block-1:last-child {
+    margin-right: 0;
+  }
+  /* line 118, ../sass/_mixins.scss */
+  body.section-make-booking #main #block-webform-client-block-1 h2 {
+    display: none;
+  }
+
+  /* line 51, ../sass/components/_hbc_responsive.scss */
+  body.section-make-booking #main .node {
+    display: none;
+  }
 }
 @media screen and (min-width: 320px) {
   /* line 40, ../sass/_mixins.scss */
@@ -2174,36 +2239,36 @@ body.section-contact-us #block-webform-client-block-1 {
     color: #333;
   }
 
-  /* line 53, ../sass/components/_hbc_responsive.scss */
+  /* line 63, ../sass/components/_hbc_responsive.scss */
   #block-menu-block-1 {
     display: block;
   }
 
-  /* line 57, ../sass/components/_hbc_responsive.scss */
+  /* line 67, ../sass/components/_hbc_responsive.scss */
   #block-tb-megamenu-main-menu {
     display: none;
   }
 
-  /* line 60, ../sass/components/_hbc_responsive.scss */
+  /* line 70, ../sass/components/_hbc_responsive.scss */
   .banner-btn {
     height: 165px;
   }
-  /* line 62, ../sass/components/_hbc_responsive.scss */
+  /* line 72, ../sass/components/_hbc_responsive.scss */
   .banner-btn .banner-prev {
     left: 20px;
   }
-  /* line 64, ../sass/components/_hbc_responsive.scss */
+  /* line 74, ../sass/components/_hbc_responsive.scss */
   .banner-btn .banner-prev:before {
     font-family: FontAwesome;
     font-family: FontAwesome;
     content: "\f104";
     color: #8f0069;
   }
-  /* line 72, ../sass/components/_hbc_responsive.scss */
+  /* line 82, ../sass/components/_hbc_responsive.scss */
   .banner-btn .banner-next {
     right: 20px;
   }
-  /* line 74, ../sass/components/_hbc_responsive.scss */
+  /* line 84, ../sass/components/_hbc_responsive.scss */
   .banner-btn .banner-next:before {
     font-family: FontAwesome;
     content: "\f105";
@@ -2217,7 +2282,7 @@ body.section-contact-us #block-webform-client-block-1 {
     display: none;
   }
 
-  /* line 85, ../sass/components/_hbc_responsive.scss */
+  /* line 95, ../sass/components/_hbc_responsive.scss */
   #content {
     overflow: hidden;
     *zoom: 1;
@@ -2225,7 +2290,7 @@ body.section-contact-us #block-webform-client-block-1 {
     margin-left: auto;
     margin-right: auto;
   }
-  /* line 87, ../sass/components/_hbc_responsive.scss */
+  /* line 97, ../sass/components/_hbc_responsive.scss */
   #content .node,
   #content #block-hbc-magnific-hbc-magnific {
     float: left;
@@ -2238,7 +2303,7 @@ body.section-contact-us #block-webform-client-block-1 {
   #content #block-hbc-magnific-hbc-magnific:last-child {
     margin-right: 0;
   }
-  /* line 91, ../sass/components/_hbc_responsive.scss */
+  /* line 101, ../sass/components/_hbc_responsive.scss */
   #content #block-webform-client-block-1,
   #content #block-webform-client-block-20 {
     float: left;
@@ -2250,6 +2315,49 @@ body.section-contact-us #block-webform-client-block-1 {
   #content #block-webform-client-block-1:last-child,
   #content #block-webform-client-block-20:last-child {
     margin-right: 0;
+  }
+
+  /* line 108, ../sass/_mixins.scss */
+  body.section-make-booking #main {
+    overflow: hidden;
+    *zoom: 1;
+    max-width: 68em;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  /* line 110, ../sass/_mixins.scss */
+  body.section-make-booking #main .node {
+    float: left;
+    display: block;
+    margin-right: 2.35765%;
+    width: 100%;
+    float: right;
+    padding-left: 20px;
+  }
+  /* line 38, ../sass/neat/grid/_span-columns.scss */
+  body.section-make-booking #main .node:last-child {
+    margin-right: 0;
+  }
+  /* line 115, ../sass/_mixins.scss */
+  body.section-make-booking #main #block-webform-client-block-1 {
+    float: left;
+    display: block;
+    margin-right: 2.35765%;
+    width: 100%;
+    float: left;
+  }
+  /* line 38, ../sass/neat/grid/_span-columns.scss */
+  body.section-make-booking #main #block-webform-client-block-1:last-child {
+    margin-right: 0;
+  }
+  /* line 118, ../sass/_mixins.scss */
+  body.section-make-booking #main #block-webform-client-block-1 h2 {
+    display: none;
+  }
+
+  /* line 111, ../sass/components/_hbc_responsive.scss */
+  body.section-make-booking #main .node {
+    display: none;
   }
 }
 @media screen and (min-width: 480px) {
@@ -2317,7 +2425,7 @@ body.section-contact-us #block-webform-client-block-1 {
     color: #333;
   }
 
-  /* line 103, ../sass/components/_hbc_responsive.scss */
+  /* line 123, ../sass/components/_hbc_responsive.scss */
   #block-hbc-header-hbc-header-logo {
     float: left;
     display: block;
@@ -2329,7 +2437,7 @@ body.section-contact-us #block-webform-client-block-1 {
     margin-right: 0;
   }
 
-  /* line 107, ../sass/components/_hbc_responsive.scss */
+  /* line 127, ../sass/components/_hbc_responsive.scss */
   #block-hbc-header-hbc-header-contact {
     float: left;
     display: block;
@@ -2340,32 +2448,32 @@ body.section-contact-us #block-webform-client-block-1 {
   #block-hbc-header-hbc-header-contact:last-child {
     margin-right: 0;
   }
-  /* line 109, ../sass/components/_hbc_responsive.scss */
+  /* line 129, ../sass/components/_hbc_responsive.scss */
   #block-hbc-header-hbc-header-contact .icon-phone,
   #block-hbc-header-hbc-header-contact .icon-envelope,
   #block-hbc-header-hbc-header-contact .icon-map-marker {
     color: #8f0069;
   }
 
-  /* line 116, ../sass/components/_hbc_responsive.scss */
+  /* line 136, ../sass/components/_hbc_responsive.scss */
   #block-menu-block-1 {
     display: block;
   }
 
-  /* line 120, ../sass/components/_hbc_responsive.scss */
+  /* line 140, ../sass/components/_hbc_responsive.scss */
   #block-tb-megamenu-main-menu {
     display: none;
   }
 
-  /* line 124, ../sass/components/_hbc_responsive.scss */
+  /* line 144, ../sass/components/_hbc_responsive.scss */
   .banner-btn {
     height: 165px;
   }
-  /* line 126, ../sass/components/_hbc_responsive.scss */
+  /* line 146, ../sass/components/_hbc_responsive.scss */
   .banner-btn .banner-prev {
     left: 20px;
   }
-  /* line 128, ../sass/components/_hbc_responsive.scss */
+  /* line 148, ../sass/components/_hbc_responsive.scss */
   .banner-btn .banner-prev:before {
     font-family: FontAwesome;
     font-family: FontAwesome;
@@ -2373,11 +2481,11 @@ body.section-contact-us #block-webform-client-block-1 {
     font-size: 90px;
     color: #8f0069;
   }
-  /* line 136, ../sass/components/_hbc_responsive.scss */
+  /* line 156, ../sass/components/_hbc_responsive.scss */
   .banner-btn .banner-next {
     right: 20px;
   }
-  /* line 138, ../sass/components/_hbc_responsive.scss */
+  /* line 158, ../sass/components/_hbc_responsive.scss */
   .banner-btn .banner-next:before {
     font-family: FontAwesome;
     content: "\f105";
@@ -2392,7 +2500,7 @@ body.section-contact-us #block-webform-client-block-1 {
     display: none;
   }
 
-  /* line 150, ../sass/components/_hbc_responsive.scss */
+  /* line 170, ../sass/components/_hbc_responsive.scss */
   #content {
     overflow: hidden;
     *zoom: 1;
@@ -2400,7 +2508,7 @@ body.section-contact-us #block-webform-client-block-1 {
     margin-left: auto;
     margin-right: auto;
   }
-  /* line 152, ../sass/components/_hbc_responsive.scss */
+  /* line 172, ../sass/components/_hbc_responsive.scss */
   #content .node,
   #content #block-hbc-magnific-hbc-magnific {
     float: left;
@@ -2413,7 +2521,7 @@ body.section-contact-us #block-webform-client-block-1 {
   #content #block-hbc-magnific-hbc-magnific:last-child {
     margin-right: 0;
   }
-  /* line 156, ../sass/components/_hbc_responsive.scss */
+  /* line 176, ../sass/components/_hbc_responsive.scss */
   #content #block-webform-client-block-1,
   #content #block-webform-client-block-20 {
     float: left;
@@ -2425,6 +2533,49 @@ body.section-contact-us #block-webform-client-block-1 {
   #content #block-webform-client-block-1:last-child,
   #content #block-webform-client-block-20:last-child {
     margin-right: 0;
+  }
+
+  /* line 108, ../sass/_mixins.scss */
+  body.section-make-booking #main {
+    overflow: hidden;
+    *zoom: 1;
+    max-width: 68em;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  /* line 110, ../sass/_mixins.scss */
+  body.section-make-booking #main .node {
+    float: left;
+    display: block;
+    margin-right: 2.35765%;
+    width: 100%;
+    float: right;
+    padding-left: 20px;
+  }
+  /* line 38, ../sass/neat/grid/_span-columns.scss */
+  body.section-make-booking #main .node:last-child {
+    margin-right: 0;
+  }
+  /* line 115, ../sass/_mixins.scss */
+  body.section-make-booking #main #block-webform-client-block-1 {
+    float: left;
+    display: block;
+    margin-right: 2.35765%;
+    width: 100%;
+    float: left;
+  }
+  /* line 38, ../sass/neat/grid/_span-columns.scss */
+  body.section-make-booking #main #block-webform-client-block-1:last-child {
+    margin-right: 0;
+  }
+  /* line 118, ../sass/_mixins.scss */
+  body.section-make-booking #main #block-webform-client-block-1 h2 {
+    display: none;
+  }
+
+  /* line 186, ../sass/components/_hbc_responsive.scss */
+  body.section-make-booking #main .node {
+    display: none;
   }
 }
 @media screen and (min-width: 595px) {
@@ -2492,25 +2643,25 @@ body.section-contact-us #block-webform-client-block-1 {
     color: #333;
   }
 
-  /* line 167, ../sass/components/_hbc_responsive.scss */
+  /* line 198, ../sass/components/_hbc_responsive.scss */
   #block-menu-block-1 {
     display: block;
   }
 
-  /* line 171, ../sass/components/_hbc_responsive.scss */
+  /* line 202, ../sass/components/_hbc_responsive.scss */
   #block-tb-megamenu-main-menu {
     display: none;
   }
 
-  /* line 175, ../sass/components/_hbc_responsive.scss */
+  /* line 206, ../sass/components/_hbc_responsive.scss */
   .banner-btn {
     height: 165px;
   }
-  /* line 177, ../sass/components/_hbc_responsive.scss */
+  /* line 208, ../sass/components/_hbc_responsive.scss */
   .banner-btn .banner-prev {
     left: 20px;
   }
-  /* line 179, ../sass/components/_hbc_responsive.scss */
+  /* line 210, ../sass/components/_hbc_responsive.scss */
   .banner-btn .banner-prev:before {
     font-family: FontAwesome;
     font-family: FontAwesome;
@@ -2518,11 +2669,11 @@ body.section-contact-us #block-webform-client-block-1 {
     font-size: 110px;
     color: #8f0069;
   }
-  /* line 187, ../sass/components/_hbc_responsive.scss */
+  /* line 218, ../sass/components/_hbc_responsive.scss */
   .banner-btn .banner-next {
     right: 20px;
   }
-  /* line 189, ../sass/components/_hbc_responsive.scss */
+  /* line 220, ../sass/components/_hbc_responsive.scss */
   .banner-btn .banner-next:before {
     font-family: FontAwesome;
     content: "\f105";
@@ -2537,7 +2688,7 @@ body.section-contact-us #block-webform-client-block-1 {
     display: none;
   }
 
-  /* line 203, ../sass/components/_hbc_responsive.scss */
+  /* line 232, ../sass/components/_hbc_responsive.scss */
   #content {
     overflow: hidden;
     *zoom: 1;
@@ -2545,7 +2696,7 @@ body.section-contact-us #block-webform-client-block-1 {
     margin-left: auto;
     margin-right: auto;
   }
-  /* line 205, ../sass/components/_hbc_responsive.scss */
+  /* line 234, ../sass/components/_hbc_responsive.scss */
   #content .node,
   #content #block-hbc-magnific-hbc-magnific {
     float: left;
@@ -2558,7 +2709,7 @@ body.section-contact-us #block-webform-client-block-1 {
   #content #block-hbc-magnific-hbc-magnific:last-child {
     margin-right: 0;
   }
-  /* line 209, ../sass/components/_hbc_responsive.scss */
+  /* line 238, ../sass/components/_hbc_responsive.scss */
   #content #block-webform-client-block-1,
   #content #block-webform-client-block-20 {
     float: left;
@@ -2570,6 +2721,49 @@ body.section-contact-us #block-webform-client-block-1 {
   #content #block-webform-client-block-1:last-child,
   #content #block-webform-client-block-20:last-child {
     margin-right: 0;
+  }
+
+  /* line 108, ../sass/_mixins.scss */
+  body.section-make-booking #main {
+    overflow: hidden;
+    *zoom: 1;
+    max-width: 68em;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  /* line 110, ../sass/_mixins.scss */
+  body.section-make-booking #main .node {
+    float: left;
+    display: block;
+    margin-right: 2.35765%;
+    width: 100%;
+    float: right;
+    padding-left: 20px;
+  }
+  /* line 38, ../sass/neat/grid/_span-columns.scss */
+  body.section-make-booking #main .node:last-child {
+    margin-right: 0;
+  }
+  /* line 115, ../sass/_mixins.scss */
+  body.section-make-booking #main #block-webform-client-block-1 {
+    float: left;
+    display: block;
+    margin-right: 2.35765%;
+    width: 100%;
+    float: left;
+  }
+  /* line 38, ../sass/neat/grid/_span-columns.scss */
+  body.section-make-booking #main #block-webform-client-block-1:last-child {
+    margin-right: 0;
+  }
+  /* line 118, ../sass/_mixins.scss */
+  body.section-make-booking #main #block-webform-client-block-1 h2 {
+    display: none;
+  }
+
+  /* line 248, ../sass/components/_hbc_responsive.scss */
+  body.section-make-booking #main .node {
+    display: none;
   }
 }
 @media screen and (min-width: 768px) {
@@ -2637,21 +2831,21 @@ body.section-contact-us #block-webform-client-block-1 {
     color: #333;
   }
 
-  /* line 220, ../sass/components/_hbc_responsive.scss */
+  /* line 259, ../sass/components/_hbc_responsive.scss */
   #block-menu-block-1 {
     display: block;
   }
 
-  /* line 223, ../sass/components/_hbc_responsive.scss */
+  /* line 262, ../sass/components/_hbc_responsive.scss */
   #block-tb-megamenu-main-menu {
     display: none;
   }
 
-  /* line 228, ../sass/components/_hbc_responsive.scss */
+  /* line 267, ../sass/components/_hbc_responsive.scss */
   #hero-banner-carousel .slide-cta-wrapper {
     max-width: 245px;
   }
-  /* line 230, ../sass/components/_hbc_responsive.scss */
+  /* line 269, ../sass/components/_hbc_responsive.scss */
   #hero-banner-carousel .slide-cta-wrapper .slide-cta {
     font-size: 20px;
   }
@@ -2661,6 +2855,44 @@ body.section-contact-us #block-webform-client-block-1 {
   #block-hbc-hero-banner-hbc-hero-banner .slide-body,
   #block-hbc-hero-banner-hbc-hero-banner .slide-cta-wrapper {
     display: block;
+  }
+
+  /* line 108, ../sass/_mixins.scss */
+  body.section-make-booking #main {
+    overflow: hidden;
+    *zoom: 1;
+    max-width: 68em;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  /* line 110, ../sass/_mixins.scss */
+  body.section-make-booking #main .node {
+    float: left;
+    display: block;
+    margin-right: 2.35765%;
+    width: 48.82117%;
+    float: right;
+    padding-left: 20px;
+  }
+  /* line 38, ../sass/neat/grid/_span-columns.scss */
+  body.section-make-booking #main .node:last-child {
+    margin-right: 0;
+  }
+  /* line 115, ../sass/_mixins.scss */
+  body.section-make-booking #main #block-webform-client-block-1 {
+    float: left;
+    display: block;
+    margin-right: 2.35765%;
+    width: 48.82117%;
+    float: left;
+  }
+  /* line 38, ../sass/neat/grid/_span-columns.scss */
+  body.section-make-booking #main #block-webform-client-block-1:last-child {
+    margin-right: 0;
+  }
+  /* line 118, ../sass/_mixins.scss */
+  body.section-make-booking #main #block-webform-client-block-1 h2 {
+    display: none;
   }
 }
 @media screen and (min-width: 980px) {
@@ -2678,12 +2910,12 @@ body.section-contact-us #block-webform-client-block-1 {
     color: #000;
   }
 
-  /* line 241, ../sass/components/_hbc_responsive.scss */
+  /* line 281, ../sass/components/_hbc_responsive.scss */
   #block-menu-block-1 {
     display: none;
   }
 
-  /* line 244, ../sass/components/_hbc_responsive.scss */
+  /* line 284, ../sass/components/_hbc_responsive.scss */
   #block-tb-megamenu-main-menu {
     display: block;
   }
@@ -2693,6 +2925,44 @@ body.section-contact-us #block-webform-client-block-1 {
   #block-hbc-hero-banner-hbc-hero-banner .slide-body,
   #block-hbc-hero-banner-hbc-hero-banner .slide-cta-wrapper {
     display: block;
+  }
+
+  /* line 108, ../sass/_mixins.scss */
+  body.section-make-booking #main {
+    overflow: hidden;
+    *zoom: 1;
+    max-width: 68em;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  /* line 110, ../sass/_mixins.scss */
+  body.section-make-booking #main .node {
+    float: left;
+    display: block;
+    margin-right: 2.35765%;
+    width: 48.82117%;
+    float: right;
+    padding-left: 20px;
+  }
+  /* line 38, ../sass/neat/grid/_span-columns.scss */
+  body.section-make-booking #main .node:last-child {
+    margin-right: 0;
+  }
+  /* line 115, ../sass/_mixins.scss */
+  body.section-make-booking #main #block-webform-client-block-1 {
+    float: left;
+    display: block;
+    margin-right: 2.35765%;
+    width: 48.82117%;
+    float: left;
+  }
+  /* line 38, ../sass/neat/grid/_span-columns.scss */
+  body.section-make-booking #main #block-webform-client-block-1:last-child {
+    margin-right: 0;
+  }
+  /* line 118, ../sass/_mixins.scss */
+  body.section-make-booking #main #block-webform-client-block-1 h2 {
+    display: none;
   }
 }
 @media screen and (min-width: 1024px) {
@@ -2766,6 +3036,44 @@ body.section-contact-us #block-webform-client-block-1 {
   #block-hbc-hero-banner-hbc-hero-banner .slide-cta-wrapper {
     display: block;
   }
+
+  /* line 108, ../sass/_mixins.scss */
+  body.section-make-booking #main {
+    overflow: hidden;
+    *zoom: 1;
+    max-width: 68em;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  /* line 110, ../sass/_mixins.scss */
+  body.section-make-booking #main .node {
+    float: left;
+    display: block;
+    margin-right: 2.35765%;
+    width: 48.82117%;
+    float: right;
+    padding-left: 20px;
+  }
+  /* line 38, ../sass/neat/grid/_span-columns.scss */
+  body.section-make-booking #main .node:last-child {
+    margin-right: 0;
+  }
+  /* line 115, ../sass/_mixins.scss */
+  body.section-make-booking #main #block-webform-client-block-1 {
+    float: left;
+    display: block;
+    margin-right: 2.35765%;
+    width: 48.82117%;
+    float: left;
+  }
+  /* line 38, ../sass/neat/grid/_span-columns.scss */
+  body.section-make-booking #main #block-webform-client-block-1:last-child {
+    margin-right: 0;
+  }
+  /* line 118, ../sass/_mixins.scss */
+  body.section-make-booking #main #block-webform-client-block-1 h2 {
+    display: none;
+  }
 }
 @media screen and (min-width: 1920px) {
   /* line 40, ../sass/_mixins.scss */
@@ -2837,6 +3145,44 @@ body.section-contact-us #block-webform-client-block-1 {
   #block-hbc-hero-banner-hbc-hero-banner .slide-body,
   #block-hbc-hero-banner-hbc-hero-banner .slide-cta-wrapper {
     display: block;
+  }
+
+  /* line 108, ../sass/_mixins.scss */
+  body.section-make-booking #main {
+    overflow: hidden;
+    *zoom: 1;
+    max-width: 68em;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  /* line 110, ../sass/_mixins.scss */
+  body.section-make-booking #main .node {
+    float: left;
+    display: block;
+    margin-right: 2.35765%;
+    width: 48.82117%;
+    float: right;
+    padding-left: 20px;
+  }
+  /* line 38, ../sass/neat/grid/_span-columns.scss */
+  body.section-make-booking #main .node:last-child {
+    margin-right: 0;
+  }
+  /* line 115, ../sass/_mixins.scss */
+  body.section-make-booking #main #block-webform-client-block-1 {
+    float: left;
+    display: block;
+    margin-right: 2.35765%;
+    width: 48.82117%;
+    float: left;
+  }
+  /* line 38, ../sass/neat/grid/_span-columns.scss */
+  body.section-make-booking #main #block-webform-client-block-1:last-child {
+    margin-right: 0;
+  }
+  /* line 118, ../sass/_mixins.scss */
+  body.section-make-booking #main #block-webform-client-block-1 h2 {
+    display: none;
   }
 }
 /**

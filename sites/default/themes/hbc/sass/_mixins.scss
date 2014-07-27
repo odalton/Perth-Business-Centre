@@ -101,3 +101,22 @@
       color: #333;
     }
 }
+
+
+@mixin banner-layout($node, $webform) {
+  body.section-make-booking {
+    #main {
+      @include outer-container;
+      .node {
+        @include span-columns($node);
+        float: right;
+        padding-left:20px;
+      }
+      #block-webform-client-block-1 {
+        @include span-columns($webform);
+        float: left;
+        h2 {display: none}
+      }
+    }
+  }
+}

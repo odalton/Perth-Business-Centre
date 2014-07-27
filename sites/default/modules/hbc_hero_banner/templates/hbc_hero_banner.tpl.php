@@ -10,7 +10,7 @@ foreach ($slides as $slide):
 
 //    // If show title is checked, show that title.
 //    if ($slide['show_title'] == 1) {
-    print '<div class="slide-title">'.t($slide['title']).'</div>';
+//    print '<div class="slide-title">'.t($slide['title']).'</div>';
 //    }
     print '<div class="slide-body">'.$slide['body'].'</div>';
     print '<div class="slide-cta-wrapper">';
