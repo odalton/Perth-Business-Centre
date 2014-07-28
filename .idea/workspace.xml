@@ -2,10 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c50db2ba-937c-4439-bfc1-687907beaba1" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/default/themes/hbc/.sass-cache/bb7104d03781a2dd15ede088e4dff32d45542889/_hbc_carousel.scssc" afterPath="$PROJECT_DIR$/sites/default/themes/hbc/.sass-cache/bb7104d03781a2dd15ede088e4dff32d45542889/_hbc_carousel.scssc" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/default/themes/hbc/sass/components/_hbc_carousel.scss" afterPath="$PROJECT_DIR$/sites/default/themes/hbc/sass/components/_hbc_carousel.scss" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/default/modules/hbc_hero_banner/js/hbc_hero_banner.js" afterPath="$PROJECT_DIR$/sites/default/modules/hbc_hero_banner/js/hbc_hero_banner.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/default/themes/hbc/css/styles.css" afterPath="$PROJECT_DIR$/sites/default/themes/hbc/css/styles.css" />
     </list>
     <ignored path="hbc.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -111,19 +109,19 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="hbc_hero_banner.js" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="hbc_hero_banner.js" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/sites/default/modules/hbc_hero_banner/js/hbc_hero_banner.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="24" column="22" selection-start="830" selection-end="830" vertical-scroll-proportion="0.0" vertical-offset="10" max-vertical-offset="720">
+            <state line="24" column="21" selection-start="825" selection-end="829" vertical-scroll-proportion="0.4964539" vertical-offset="10" max-vertical-offset="720">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="_hbc_carousel.scss" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="_hbc_carousel.scss" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/sites/default/themes/hbc/sass/components/_hbc_carousel.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="29" column="26" selection-start="569" selection-end="569" vertical-scroll-proportion="0.2972561" vertical-offset="240" max-vertical-offset="1455">
+            <state line="29" column="34" selection-start="577" selection-end="577" vertical-scroll-proportion="-3.9795918" vertical-offset="240" max-vertical-offset="1455">
               <folding />
             </state>
           </provider>
@@ -170,8 +168,8 @@
         <option value="$PROJECT_DIR$/sites/default/themes/hbc/sass/_mixins.scss" />
         <option value="$PROJECT_DIR$/sites/default/modules/hbc_header/templates/hbc_header_contact.tpl.php" />
         <option value="$PROJECT_DIR$/sites/default/themes/hbc/templates/html.tpl.php" />
-        <option value="$PROJECT_DIR$/sites/default/modules/hbc_hero_banner/js/hbc_hero_banner.js" />
         <option value="$PROJECT_DIR$/sites/default/themes/hbc/sass/components/_hbc_carousel.scss" />
+        <option value="$PROJECT_DIR$/sites/default/modules/hbc_hero_banner/js/hbc_hero_banner.js" />
       </list>
     </option>
   </component>
@@ -806,16 +804,16 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/sites/default/modules/hbc_hero_banner/js/hbc_hero_banner.js">
+    <entry file="file://$PROJECT_DIR$/sites/default/themes/hbc/sass/components/_hbc_carousel.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="24" column="22" selection-start="830" selection-end="830" vertical-scroll-proportion="0.0" vertical-offset="10" max-vertical-offset="720">
+        <state line="29" column="34" selection-start="577" selection-end="577" vertical-scroll-proportion="-3.9795918" vertical-offset="240" max-vertical-offset="1455">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/sites/default/themes/hbc/sass/components/_hbc_carousel.scss">
+    <entry file="file://$PROJECT_DIR$/sites/default/modules/hbc_hero_banner/js/hbc_hero_banner.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="29" column="26" selection-start="569" selection-end="569" vertical-scroll-proportion="0.2972561" vertical-offset="240" max-vertical-offset="1455">
+        <state line="24" column="21" selection-start="825" selection-end="829" vertical-scroll-proportion="0.4964539" vertical-offset="10" max-vertical-offset="720">
           <folding />
         </state>
       </provider>
