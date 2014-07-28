@@ -1897,21 +1897,23 @@ body.section-contact-us #block-webform-client-block-1 {
 #block-hbc-hero-banner-hbc-hero-banner .slide-body {
   position: absolute;
   z-index: 1;
-  font-family: latoregular;
-  font-size: 20px;
+  font-size: 28px;
+  line-height: 1.1em;
+  font-family: latobold;
+  text-shadow: 1.1px 0.01px black;
   left: 85px;
-  top: 110px;
+  top: 58px;
   color: #ffffff;
-  max-height: 200px;
+  max-height: 215px;
   max-width: 400px;
   overflow: hidden;
   font-style: italic;
 }
-/* line 36, ../sass/components/_hbc_carousel.scss */
+/* line 38, ../sass/components/_hbc_carousel.scss */
 #block-hbc-hero-banner-hbc-hero-banner .slide-body p {
   margin: 0px;
 }
-/* line 41, ../sass/components/_hbc_carousel.scss */
+/* line 43, ../sass/components/_hbc_carousel.scss */
 #block-hbc-hero-banner-hbc-hero-banner .slide-cta-wrapper {
   position: absolute;
   bottom: 30px;
@@ -1919,7 +1921,7 @@ body.section-contact-us #block-webform-client-block-1 {
   width: 400px;
   text-align: center;
 }
-/* line 47, ../sass/components/_hbc_carousel.scss */
+/* line 49, ../sass/components/_hbc_carousel.scss */
 #block-hbc-hero-banner-hbc-hero-banner .slide-cta-wrapper .slide-cta {
   border: 1px solid #480035;
   border-radius: 3px;
@@ -1956,7 +1958,7 @@ body.section-contact-us #block-webform-client-block-1 {
   cursor: not-allowed;
 }
 
-/* line 57, ../sass/components/_hbc_carousel.scss */
+/* line 59, ../sass/components/_hbc_carousel.scss */
 .banner-btn {
   position: absolute;
   margin: auto;
@@ -1968,26 +1970,26 @@ body.section-contact-us #block-webform-client-block-1 {
   bottom: 0;
   opacity: 0.6;
 }
-/* line 68, ../sass/components/_hbc_carousel.scss */
+/* line 70, ../sass/components/_hbc_carousel.scss */
 .banner-btn:hover {
   opacity: 1;
 }
-/* line 72, ../sass/components/_hbc_carousel.scss */
+/* line 74, ../sass/components/_hbc_carousel.scss */
 .banner-btn.banner-prev {
   left: 20px;
 }
-/* line 74, ../sass/components/_hbc_carousel.scss */
+/* line 76, ../sass/components/_hbc_carousel.scss */
 .banner-btn.banner-prev:before {
   font-family: FontAwesome;
   content: "\f104";
   font-size: 110px;
   color: #8f0069;
 }
-/* line 81, ../sass/components/_hbc_carousel.scss */
+/* line 83, ../sass/components/_hbc_carousel.scss */
 .banner-btn.banner-next {
   right: 20px;
 }
-/* line 83, ../sass/components/_hbc_carousel.scss */
+/* line 85, ../sass/components/_hbc_carousel.scss */
 .banner-btn.banner-next:before {
   font-family: FontAwesome;
   content: "\f105";

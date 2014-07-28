@@ -2,7 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c50db2ba-937c-4439-bfc1-687907beaba1" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/default/modules/hbc_header/templates/hbc_header_contact.tpl.php" afterPath="$PROJECT_DIR$/sites/default/modules/hbc_header/templates/hbc_header_contact.tpl.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/default/themes/hbc/.sass-cache/bb7104d03781a2dd15ede088e4dff32d45542889/_hbc_carousel.scssc" afterPath="$PROJECT_DIR$/sites/default/themes/hbc/.sass-cache/bb7104d03781a2dd15ede088e4dff32d45542889/_hbc_carousel.scssc" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/default/themes/hbc/sass/components/_hbc_carousel.scss" afterPath="$PROJECT_DIR$/sites/default/themes/hbc/sass/components/_hbc_carousel.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/default/modules/hbc_hero_banner/js/hbc_hero_banner.js" afterPath="$PROJECT_DIR$/sites/default/modules/hbc_hero_banner/js/hbc_hero_banner.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/default/themes/hbc/css/styles.css" afterPath="$PROJECT_DIR$/sites/default/themes/hbc/css/styles.css" />
     </list>
     <ignored path="hbc.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -25,33 +28,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="hbc_hero_banner.tpl.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/sites/default/modules/hbc_hero_banner/templates/hbc_hero_banner.tpl.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="13" column="6" selection-start="498" selection-end="498" vertical-scroll-proportion="0.0" vertical-offset="195" max-vertical-offset="570">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="_hbc_main.scss" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/sites/default/themes/hbc/sass/components/_hbc_main.scss">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="63" column="35" selection-start="945" selection-end="945" vertical-scroll-proportion="0.0" vertical-offset="461" max-vertical-offset="2370">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="styles.css" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/sites/default/themes/hbc/css/styles.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="321" column="0" selection-start="8335" selection-end="8335" vertical-scroll-proportion="0.0" vertical-offset="6765" max-vertical-offset="49185">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="_mixins.scss" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/sites/default/themes/hbc/sass/_mixins.scss">
           <provider selected="true" editor-type-id="text-editor">
@@ -83,7 +59,19 @@
         <entry file="file://$PROJECT_DIR$/sites/default/themes/hbc/templates/page.tpl.php">
           <provider selected="true" editor-type-id="text-editor">
             <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="50.916668" vertical-offset="1222" max-vertical-offset="1890">
-              <folding />
+              <folding>
+                <marker date="1405340489000" expanded="true" signature="191:3903" placeholder="..." />
+                <marker date="1405340489000" expanded="true" signature="222:282" placeholder="..." />
+                <marker date="1405340489000" expanded="true" signature="335:1799" placeholder="..." />
+                <marker date="1405340489000" expanded="true" signature="712:1176" placeholder="..." />
+                <marker date="1405340489000" expanded="true" signature="802:983" placeholder="..." />
+                <marker date="1405340489000" expanded="true" signature="1313:1721" placeholder="..." />
+                <marker date="1405340489000" expanded="true" signature="1824:2665" placeholder="..." />
+                <marker date="1405340489000" expanded="true" signature="1914:2586" placeholder="..." />
+                <marker date="1405340489000" expanded="true" signature="2684:3815" placeholder="..." />
+                <marker date="1405340489000" expanded="true" signature="2735:3410" placeholder="..." />
+                <marker date="1405340489000" expanded="true" signature="3691:3785" placeholder="..." />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -92,15 +80,50 @@
         <entry file="file://$PROJECT_DIR$/sites/all/themes/zen/templates/html.tpl.php">
           <provider selected="true" editor-type-id="text-editor">
             <state line="0" column="0" selection-start="0" selection-end="6" vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="795">
+              <folding>
+                <marker date="1398863088000" expanded="true" signature="632:2040" placeholder="..." />
+                <marker date="1398863088000" expanded="true" signature="707:1639" placeholder="..." />
+                <marker date="1398863088000" expanded="true" signature="1156:1265" placeholder="..." />
+                <marker date="1398863088000" expanded="true" signature="1334:1451" placeholder="..." />
+                <marker date="1398863088000" expanded="true" signature="1500:1611" placeholder="..." />
+                <marker date="1398863088000" expanded="true" signature="1679:2032" placeholder="..." />
+                <marker date="1398863088000" expanded="true" signature="1783:1923" placeholder="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="html.tpl.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/sites/default/themes/hbc/templates/html.tpl.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="53" column="84" selection-start="2202" selection-end="2202" vertical-scroll-proportion="-18.375" vertical-offset="264" max-vertical-offset="945">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="html.tpl.php" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/sites/default/themes/hbc/templates/html.tpl.php">
+      <file leaf-file-name="hbc_hero_banner.module" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/sites/default/modules/hbc_hero_banner/hbc_hero_banner.module">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="53" column="84" selection-start="2202" selection-end="2202" vertical-scroll-proportion="0.6475771" vertical-offset="264" max-vertical-offset="945">
+            <state line="65" column="17" selection-start="1519" selection-end="1519" vertical-scroll-proportion="-25.0" vertical-offset="375" max-vertical-offset="1785">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="hbc_hero_banner.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/sites/default/modules/hbc_hero_banner/js/hbc_hero_banner.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="24" column="22" selection-start="830" selection-end="830" vertical-scroll-proportion="0.0" vertical-offset="10" max-vertical-offset="720">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="_hbc_carousel.scss" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/sites/default/themes/hbc/sass/components/_hbc_carousel.scss">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="29" column="26" selection-start="569" selection-end="569" vertical-scroll-proportion="0.2972561" vertical-offset="240" max-vertical-offset="1455">
               <folding />
             </state>
           </provider>
@@ -140,8 +163,6 @@
         <option value="$PROJECT_DIR$/sites/default/themes/hbc/sass/_init.scss" />
         <option value="$PROJECT_DIR$/sites/default/modules/hbc_form/hbc_form.module" />
         <option value="$PROJECT_DIR$/sites/default/themes/hbc/sass/components/_hbc_forms.scss" />
-        <option value="$PROJECT_DIR$/sites/default/themes/hbc/sass/components/_hbc_carousel.scss" />
-        <option value="$PROJECT_DIR$/sites/default/modules/hbc_hero_banner/js/hbc_hero_banner.js" />
         <option value="$PROJECT_DIR$/sites/default/modules/hbc_gmaps/hbc_gmaps.module" />
         <option value="$PROJECT_DIR$/sites/default/modules/hbc_hero_banner/templates/hbc_hero_banner.tpl.php" />
         <option value="$PROJECT_DIR$/sites/default/themes/hbc/sass/components/_hbc_main.scss" />
@@ -149,6 +170,8 @@
         <option value="$PROJECT_DIR$/sites/default/themes/hbc/sass/_mixins.scss" />
         <option value="$PROJECT_DIR$/sites/default/modules/hbc_header/templates/hbc_header_contact.tpl.php" />
         <option value="$PROJECT_DIR$/sites/default/themes/hbc/templates/html.tpl.php" />
+        <option value="$PROJECT_DIR$/sites/default/modules/hbc_hero_banner/js/hbc_hero_banner.js" />
+        <option value="$PROJECT_DIR$/sites/default/themes/hbc/sass/components/_hbc_carousel.scss" />
       </list>
     </option>
   </component>
@@ -399,6 +422,62 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="hbc_hero_banner" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="hbc" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="hbc" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sites" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="default" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="modules" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="hbc_hero_banner" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="js" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="hbc" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="hbc" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sites" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="default" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="modules" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="hbc_header" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -611,24 +690,11 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/sites/default/modules/hbc_form/hbc_form.module">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="27" column="63" selection-start="1050" selection-end="1050" vertical-scroll-proportion="0.5769231" vertical-offset="0" max-vertical-offset="702" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/sites/default/themes/hbc/sass/_init.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="70" column="10" selection-start="2732" selection-end="2742" vertical-scroll-proportion="0.55228275" vertical-offset="675" max-vertical-offset="2550" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sites/default/modules/hbc_hero_banner/js/hbc_hero_banner.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="23" column="24" selection-start="807" selection-end="807" vertical-scroll-proportion="0.4739011" vertical-offset="0" max-vertical-offset="728" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sites/default/themes/hbc/sass/components/_hbc_carousel.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="28" column="11" selection-start="534" selection-end="534" vertical-scroll-proportion="0.15463917" vertical-offset="315" max-vertical-offset="1425" />
+        <state line="70" column="10" selection-start="2732" selection-end="2742" vertical-scroll-proportion="0.55228275" vertical-offset="675" max-vertical-offset="2550">
+          <folding />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/sites/default/themes/hbc/sass/components/_hbc_forms.scss">
@@ -695,20 +761,61 @@
     <entry file="file://$PROJECT_DIR$/sites/default/themes/hbc/templates/page.tpl.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="50.916668" vertical-offset="1222" max-vertical-offset="1890">
-          <folding />
+          <folding>
+            <marker date="1405340489000" expanded="true" signature="191:3903" placeholder="..." />
+            <marker date="1405340489000" expanded="true" signature="222:282" placeholder="..." />
+            <marker date="1405340489000" expanded="true" signature="335:1799" placeholder="..." />
+            <marker date="1405340489000" expanded="true" signature="712:1176" placeholder="..." />
+            <marker date="1405340489000" expanded="true" signature="802:983" placeholder="..." />
+            <marker date="1405340489000" expanded="true" signature="1313:1721" placeholder="..." />
+            <marker date="1405340489000" expanded="true" signature="1824:2665" placeholder="..." />
+            <marker date="1405340489000" expanded="true" signature="1914:2586" placeholder="..." />
+            <marker date="1405340489000" expanded="true" signature="2684:3815" placeholder="..." />
+            <marker date="1405340489000" expanded="true" signature="2735:3410" placeholder="..." />
+            <marker date="1405340489000" expanded="true" signature="3691:3785" placeholder="..." />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/sites/all/themes/zen/templates/html.tpl.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="6" vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="795">
-          <folding />
+          <folding>
+            <marker date="1398863088000" expanded="true" signature="632:2040" placeholder="..." />
+            <marker date="1398863088000" expanded="true" signature="707:1639" placeholder="..." />
+            <marker date="1398863088000" expanded="true" signature="1156:1265" placeholder="..." />
+            <marker date="1398863088000" expanded="true" signature="1334:1451" placeholder="..." />
+            <marker date="1398863088000" expanded="true" signature="1500:1611" placeholder="..." />
+            <marker date="1398863088000" expanded="true" signature="1679:2032" placeholder="..." />
+            <marker date="1398863088000" expanded="true" signature="1783:1923" placeholder="..." />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/sites/default/themes/hbc/templates/html.tpl.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="53" column="84" selection-start="2202" selection-end="2202" vertical-scroll-proportion="0.6475771" vertical-offset="264" max-vertical-offset="945">
+        <state line="53" column="84" selection-start="2202" selection-end="2202" vertical-scroll-proportion="-18.375" vertical-offset="264" max-vertical-offset="945">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sites/default/modules/hbc_hero_banner/hbc_hero_banner.module">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="65" column="17" selection-start="1519" selection-end="1519" vertical-scroll-proportion="-25.0" vertical-offset="375" max-vertical-offset="1785">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sites/default/modules/hbc_hero_banner/js/hbc_hero_banner.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="24" column="22" selection-start="830" selection-end="830" vertical-scroll-proportion="0.0" vertical-offset="10" max-vertical-offset="720">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sites/default/themes/hbc/sass/components/_hbc_carousel.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="29" column="26" selection-start="569" selection-end="569" vertical-scroll-proportion="0.2972561" vertical-offset="240" max-vertical-offset="1455">
           <folding />
         </state>
       </provider>

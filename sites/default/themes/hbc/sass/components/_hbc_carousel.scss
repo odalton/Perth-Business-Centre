@@ -24,12 +24,14 @@
   .slide-body {
     position: absolute;
     z-index: 1;
-    font-family: $latoregular;
-    font-size: 20px;
+    font-size: 28px;
+    line-height: 1.1em;
+    font-family: latobold;
+    text-shadow: 1.1px 0.01px black;
     left:85px;
-    top: 110px;
+    top: 58px;
     color: #ffffff;
-    max-height: 200px;
+    max-height: 215px;
     max-width: 400px;
     overflow: hidden;
     font-style: italic;
