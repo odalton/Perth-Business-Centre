@@ -2,14 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c50db2ba-937c-4439-bfc1-687907beaba1" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/default/themes/hbc/.sass-cache/bb7104d03781a2dd15ede088e4dff32d45542889/_hbc_carousel.scssc" afterPath="$PROJECT_DIR$/sites/default/themes/hbc/.sass-cache/bb7104d03781a2dd15ede088e4dff32d45542889/_hbc_carousel.scssc" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/default/themes/hbc/.sass-cache/bb7104d03781a2dd15ede088e4dff32d45542889/_hbc_main.scssc" afterPath="$PROJECT_DIR$/sites/default/themes/hbc/.sass-cache/bb7104d03781a2dd15ede088e4dff32d45542889/_hbc_main.scssc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/default/themes/hbc/sass/components/_hbc_carousel.scss" afterPath="$PROJECT_DIR$/sites/default/themes/hbc/sass/components/_hbc_carousel.scss" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/default/themes/hbc/sass/components/_hbc_main.scss" afterPath="$PROJECT_DIR$/sites/default/themes/hbc/sass/components/_hbc_main.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/default/modules/hbc_gmaps/js/hbc_gmaps.js" afterPath="$PROJECT_DIR$/sites/default/modules/hbc_gmaps/js/hbc_gmaps.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/default/modules/hbc_gmaps/hbc_gmaps.module" afterPath="$PROJECT_DIR$/sites/default/modules/hbc_gmaps/hbc_gmaps.module" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/default/themes/hbc/css/styles.css" afterPath="$PROJECT_DIR$/sites/default/themes/hbc/css/styles.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="hbc.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -35,7 +31,16 @@
       <file leaf-file-name="_hbc_main.scss" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/sites/default/themes/hbc/sass/components/_hbc_main.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="126" column="24" selection-start="1913" selection-end="1913" vertical-scroll-proportion="-3.7567568" vertical-offset="1612" max-vertical-offset="2460">
+            <state line="104" column="10" selection-start="1502" selection-end="1502" vertical-scroll-proportion="2.108108" vertical-offset="1716" max-vertical-offset="2475">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="hbc_gmaps.module" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/sites/default/modules/hbc_gmaps/hbc_gmaps.module">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="52" column="49" selection-start="975" selection-end="975" vertical-scroll-proportion="1.1079545" vertical-offset="0" max-vertical-offset="1020">
               <folding />
             </state>
           </provider>
@@ -50,10 +55,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="_hbc_responsive.scss" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="_hbc_responsive.scss" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/sites/default/themes/hbc/sass/components/_hbc_responsive.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="100" column="33" selection-start="1912" selection-end="1940" vertical-scroll-proportion="-3.8394496" vertical-offset="4011" max-vertical-offset="4665">
+            <state line="100" column="33" selection-start="1912" selection-end="1940" vertical-scroll-proportion="33.932434" vertical-offset="4011" max-vertical-offset="4665">
               <folding />
             </state>
           </provider>
@@ -89,10 +94,10 @@
         <option value="$PROJECT_DIR$/sites/default/modules/hbc_header/templates/hbc_header_contact.tpl.php" />
         <option value="$PROJECT_DIR$/sites/default/themes/hbc/templates/html.tpl.php" />
         <option value="$PROJECT_DIR$/sites/default/modules/hbc_hero_banner/js/hbc_hero_banner.js" />
-        <option value="$PROJECT_DIR$/sites/default/modules/hbc_gmaps/hbc_gmaps.module" />
         <option value="$PROJECT_DIR$/sites/default/modules/hbc_gmaps/js/hbc_gmaps.js" />
         <option value="$PROJECT_DIR$/sites/default/themes/hbc/sass/components/_hbc_carousel.scss" />
         <option value="$PROJECT_DIR$/sites/default/themes/hbc/sass/components/_hbc_main.scss" />
+        <option value="$PROJECT_DIR$/sites/default/modules/hbc_gmaps/hbc_gmaps.module" />
       </list>
     </option>
   </component>
@@ -298,6 +303,54 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="hbc" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="hbc" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sites" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="default" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="modules" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="hbc" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="hbc" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sites" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="default" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="modules" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="hbc_gmaps" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
       <pane id="Scope" />
@@ -477,13 +530,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/sites/default/modules/hbc_gmaps/hbc_gmaps.module">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="56" column="82" selection-start="1195" selection-end="1195" vertical-scroll-proportion="0.7869318" vertical-offset="286" max-vertical-offset="990">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/sites/all/themes/zen/templates/node.tpl.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="24" column="21" selection-start="836" selection-end="836" vertical-scroll-proportion="0.38352272" vertical-offset="0" max-vertical-offset="704">
@@ -498,16 +544,23 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/sites/default/themes/hbc/sass/components/_hbc_main.scss">
+    <entry file="file://$PROJECT_DIR$/sites/default/themes/hbc/sass/components/_hbc_responsive.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="126" column="24" selection-start="1913" selection-end="1913" vertical-scroll-proportion="-3.7567568" vertical-offset="1612" max-vertical-offset="2460">
+        <state line="100" column="33" selection-start="1912" selection-end="1940" vertical-scroll-proportion="33.932434" vertical-offset="4011" max-vertical-offset="4665">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/sites/default/themes/hbc/sass/components/_hbc_responsive.scss">
+    <entry file="file://$PROJECT_DIR$/sites/default/themes/hbc/sass/components/_hbc_main.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="100" column="33" selection-start="1912" selection-end="1940" vertical-scroll-proportion="-3.8394496" vertical-offset="4011" max-vertical-offset="4665">
+        <state line="104" column="10" selection-start="1502" selection-end="1502" vertical-scroll-proportion="2.108108" vertical-offset="1716" max-vertical-offset="2475">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sites/default/modules/hbc_gmaps/hbc_gmaps.module">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="52" column="49" selection-start="975" selection-end="975" vertical-scroll-proportion="1.1079545" vertical-offset="0" max-vertical-offset="1020">
           <folding />
         </state>
       </provider>

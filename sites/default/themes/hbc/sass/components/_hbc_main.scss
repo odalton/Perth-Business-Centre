@@ -117,16 +117,17 @@ body.section-make-booking {
   margin-bottom: 50px;
   .node {
     @include span-columns(8);
-
-
   }
-  #block-webform-client-block-1 {
+
+  #block-webform-client-block-1,
+  #block-webform-client-block-20 {
     @include span-columns(4);
     background-color: lightgrey;
     padding:10px;
     border-radius: 10px;
     margin-top:5px;
   }
+
 }
 
 
