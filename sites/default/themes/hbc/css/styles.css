@@ -1530,8 +1530,10 @@ body.section-make-booking #main #block-webform-client-block-1 h2 {
   font-family: latoregular;
   color: #8f0069;
   margin: 10px 0px;
+  position: absolute;
+  left: -999px;
 }
-/* line 116, ../sass/components/_hbc_main.scss */
+/* line 118, ../sass/components/_hbc_main.scss */
 #content .node {
   float: left;
   display: block;
@@ -1542,26 +1544,30 @@ body.section-make-booking #main #block-webform-client-block-1 h2 {
 #content .node:last-child {
   margin-right: 0;
 }
-/* line 121, ../sass/components/_hbc_main.scss */
+/* line 123, ../sass/components/_hbc_main.scss */
 #content #block-webform-client-block-1 {
   float: left;
   display: block;
   margin-right: 2.35765%;
   width: 31.76157%;
+  background-color: lightgrey;
+  padding: 10px;
+  border-radius: 10px;
+  margin-top: 5px;
 }
 /* line 38, ../sass/neat/grid/_span-columns.scss */
 #content #block-webform-client-block-1:last-child {
   margin-right: 0;
 }
 
-/* line 128, ../sass/components/_hbc_main.scss */
+/* line 134, ../sass/components/_hbc_main.scss */
 #hbc-gallery-wrapper a {
   margin: 1px 2px;
   max-width: 230px;
   max-height: 230px;
 }
 
-/* line 136, ../sass/components/_hbc_main.scss */
+/* line 142, ../sass/components/_hbc_main.scss */
 #footer {
   overflow: hidden;
   *zoom: 1;
@@ -1574,7 +1580,7 @@ body.section-make-booking #main #block-webform-client-block-1 h2 {
   height: 100px;
   box-sizing: border-box;
 }
-/* line 143, ../sass/components/_hbc_main.scss */
+/* line 149, ../sass/components/_hbc_main.scss */
 #footer #block-hbc-footer-hbc-footer-logo {
   position: relative;
   box-sizing: border-box;
@@ -1900,9 +1906,9 @@ body.section-contact-us #block-webform-client-block-1 {
   font-size: 28px;
   line-height: 1.1em;
   font-family: latobold;
-  text-shadow: 1.1px 0.01px grey;
+  text-shadow: 1.1px 0.01px black;
   left: 85px;
-  top: 58px;
+  top: 70px;
   color: #ffffff;
   max-height: 215px;
   max-width: 400px;

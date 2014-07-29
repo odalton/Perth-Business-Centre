@@ -110,6 +110,8 @@ body.section-make-booking {
     font-family: $latoregular;
     color: $macro-purple;
     margin: 10px 0px;
+    position: absolute;
+    left:-999px;
   }
 
   margin-bottom: 50px;
@@ -120,6 +122,10 @@ body.section-make-booking {
   }
   #block-webform-client-block-1 {
     @include span-columns(4);
+    background-color: lightgrey;
+    padding:10px;
+    border-radius: 10px;
+    margin-top:5px;
   }
 }
 
