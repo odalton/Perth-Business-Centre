@@ -1592,6 +1592,10 @@ body.section-make-booking #main #block-webform-client-block-1 h2 {
   margin-bottom: 0px;
   color: #fff;
 }
+/* line 158, ../sass/components/_hbc_main.scss */
+#footer #block-hbc-footer-hbc-footer-logo a {
+  color: #fff;
+}
 
 /* line 1, ../sass/components/_hbc_desktop_menu.scss */
 #block-tb-megamenu-main-menu {

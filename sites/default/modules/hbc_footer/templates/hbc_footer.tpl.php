@@ -1,1 +1,1 @@
-<div class="hbc-copyright">Copyright &copy; <?php print date('Y'); ?> Hedland Business Centre T/A Pilbara Short Stay.</div>
+<div class="hbc-copyright">Copyright &copy; <?php print date('Y'); ?> Hedland Business Centre. <a href="http://www.hedlandbusinesscentre.com.au/sites/default/files/Hedland-Business-Centre-Privacy-Policy.pdf" target="_blank">Privacy Policy</a> </div>

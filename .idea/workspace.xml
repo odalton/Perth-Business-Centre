@@ -4,7 +4,7 @@
     <list default="true" id="c50db2ba-937c-4439-bfc1-687907beaba1" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/default/themes/hbc/.sass-cache/bb7104d03781a2dd15ede088e4dff32d45542889/_hbc_main.scssc" afterPath="$PROJECT_DIR$/sites/default/themes/hbc/.sass-cache/bb7104d03781a2dd15ede088e4dff32d45542889/_hbc_main.scssc" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/default/themes/hbc/sass/components/_hbc_main.scss" afterPath="$PROJECT_DIR$/sites/default/themes/hbc/sass/components/_hbc_main.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/default/modules/hbc_gmaps/hbc_gmaps.module" afterPath="$PROJECT_DIR$/sites/default/modules/hbc_gmaps/hbc_gmaps.module" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/default/modules/hbc_footer/templates/hbc_footer.tpl.php" afterPath="$PROJECT_DIR$/sites/default/modules/hbc_footer/templates/hbc_footer.tpl.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/default/themes/hbc/css/styles.css" afterPath="$PROJECT_DIR$/sites/default/themes/hbc/css/styles.css" />
     </list>
     <ignored path="hbc.iws" />
@@ -27,44 +27,7 @@
     <favorites_list name="hbc" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="_hbc_main.scss" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/sites/default/themes/hbc/sass/components/_hbc_main.scss">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="104" column="10" selection-start="1502" selection-end="1502" vertical-scroll-proportion="2.108108" vertical-offset="1716" max-vertical-offset="2475">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="hbc_gmaps.module" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/sites/default/modules/hbc_gmaps/hbc_gmaps.module">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="52" column="49" selection-start="975" selection-end="975" vertical-scroll-proportion="1.1079545" vertical-offset="0" max-vertical-offset="1020">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="_hbc_carousel.scss" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/sites/default/themes/hbc/sass/components/_hbc_carousel.scss">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="31" column="11" selection-start="606" selection-end="606" vertical-scroll-proportion="-9.489796" vertical-offset="0" max-vertical-offset="1455">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="_hbc_responsive.scss" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/sites/default/themes/hbc/sass/components/_hbc_responsive.scss">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="100" column="33" selection-start="1912" selection-end="1940" vertical-scroll-proportion="33.932434" vertical-offset="4011" max-vertical-offset="4665">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf />
   </component>
   <component name="FindManager">
     <FindUsagesManager>
@@ -82,8 +45,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/sites/default/modules/hbc_magnific/hbc_magnific.module" />
-        <option value="$PROJECT_DIR$/sites/default/themes/hbc/sass/components/_misc.scss" />
         <option value="$PROJECT_DIR$/sites/all/libraries/magnific/magnific-popup.css" />
         <option value="$PROJECT_DIR$/sites/default/themes/hbc/sass/_init.scss" />
         <option value="$PROJECT_DIR$/sites/default/modules/hbc_form/hbc_form.module" />
@@ -96,16 +57,19 @@
         <option value="$PROJECT_DIR$/sites/default/modules/hbc_hero_banner/js/hbc_hero_banner.js" />
         <option value="$PROJECT_DIR$/sites/default/modules/hbc_gmaps/js/hbc_gmaps.js" />
         <option value="$PROJECT_DIR$/sites/default/themes/hbc/sass/components/_hbc_carousel.scss" />
-        <option value="$PROJECT_DIR$/sites/default/themes/hbc/sass/components/_hbc_main.scss" />
         <option value="$PROJECT_DIR$/sites/default/modules/hbc_gmaps/hbc_gmaps.module" />
+        <option value="$PROJECT_DIR$/../hbc-email/index.php" />
+        <option value="$PROJECT_DIR$/sites/default/modules/hbc_footer/templates/hbc_footer.tpl.php" />
+        <option value="$PROJECT_DIR$/sites/default/themes/hbc/sass/components/_hbc_main.scss" />
       </list>
     </option>
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds">
-    <option name="y" value="22" />
-    <option name="width" value="1440" />
-    <option name="height" value="874" />
+    <option name="x" value="-1275" />
+    <option name="y" value="-123" />
+    <option name="width" value="1275" />
+    <option name="height" value="1021" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -325,32 +289,6 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="hbc" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="hbc" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="sites" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="default" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="modules" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="hbc_gmaps" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
         </subPane>
       </pane>
       <pane id="Scope" />
@@ -358,7 +296,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../macro" />
     <property name="FullScreen" value="false" />
   </component>
   <component name="RecentsManager">
@@ -400,15 +338,15 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="22" width="1440" height="874" extended-state="6" />
-    <editor active="true" />
+    <frame x="-1275" y="-123" width="1275" height="1021" extended-state="6" />
+    <editor active="false" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2682927" sideWeight="0.6719577" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.37184703" sideWeight="0.6719577" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -435,18 +373,6 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/sites/default/modules/hbc_hero_banner/templates/hbc_hero_banner.tpl.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="6" selection-start="498" selection-end="498" vertical-scroll-proportion="0.0" vertical-offset="195" max-vertical-offset="570" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sites/default/themes/hbc/sass/_mixins.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="40" column="14" selection-start="1018" selection-end="1018" vertical-scroll-proportion="0.0" vertical-offset="523" max-vertical-offset="1905">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/sites/default/modules/hbc_header/hbc_header.module">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1155">
@@ -537,30 +463,57 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/sites/default/themes/hbc/sass/components/_hbc_carousel.scss">
+    <entry file="file://$PROJECT_DIR$/../hbc-email/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="31" column="11" selection-start="606" selection-end="606" vertical-scroll-proportion="-9.489796" vertical-offset="0" max-vertical-offset="1455">
-          <folding />
+        <state line="40" column="52" selection-start="2567" selection-end="2567" vertical-scroll-proportion="0.7643312" vertical-offset="0" max-vertical-offset="795">
+          <folding>
+            <element signature="n#style#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#a#0;n#td#0;n#tr#0;n#table#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#td#1;n#tr#0;n#table#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#div#0;n#td#1;n#tr#0;n#table#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#td#1;n#tr#0;n#table#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#div#1;n#td#1;n#tr#0;n#table#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#2;n#td#1;n#tr#0;n#table#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#div#2;n#td#1;n#tr#0;n#table#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#3;n#td#1;n#tr#0;n#table#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#div#3;n#td#1;n#tr#0;n#table#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#1;n#div#3;n#td#1;n#tr#0;n#table#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#2;n#div#3;n#td#1;n#tr#0;n#table#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/sites/default/themes/hbc/sass/components/_hbc_responsive.scss">
+    <entry file="file://$PROJECT_DIR$/sites/default/modules/hbc_footer/templates/hbc_footer.tpl.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="100" column="33" selection-start="1912" selection-end="1940" vertical-scroll-proportion="33.932434" vertical-offset="4011" max-vertical-offset="4665">
+        <state line="0" column="206" selection-start="206" selection-end="206" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="836">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/sites/default/themes/hbc/sass/components/_hbc_main.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="104" column="10" selection-start="1502" selection-end="1502" vertical-scroll-proportion="2.108108" vertical-offset="1716" max-vertical-offset="2475">
+        <state line="143" column="27" selection-start="2133" selection-end="2133" vertical-scroll-proportion="0.58698374" vertical-offset="1676" max-vertical-offset="2520">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/sites/default/modules/hbc_gmaps/hbc_gmaps.module">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="52" column="49" selection-start="975" selection-end="975" vertical-scroll-proportion="1.1079545" vertical-offset="0" max-vertical-offset="1020">
+        <state line="48" column="0" selection-start="879" selection-end="879" vertical-scroll-proportion="0.6566986" vertical-offset="171" max-vertical-offset="1020">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sites/default/themes/hbc/sass/components/_hbc_carousel.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="31" column="11" selection-start="606" selection-end="606" vertical-scroll-proportion="0.5643204" vertical-offset="0" max-vertical-offset="1455">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sites/default/themes/hbc/sass/components/_hbc_responsive.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="100" column="33" selection-start="1912" selection-end="1940" vertical-scroll-proportion="-2.9612014" vertical-offset="3866" max-vertical-offset="4665">
           <folding />
         </state>
       </provider>
