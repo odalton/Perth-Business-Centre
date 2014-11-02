@@ -19,11 +19,11 @@
       var owl = $('#hero-banner-carousel', context);
 
       owl.owlCarousel({
-        slideSpeed : 300,
-        paginationSpeed : 400,
+        slideSpeed : 800,
+        paginationSpeed : 800,
         singleItem:true,
         autoPlay:true,
-        stopOnHover:false
+        stopOnHover:true
 
       });
       // Hero banner previous button.
